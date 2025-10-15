@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prueba capturador_ua</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
+    button { padding: 10px 14px; margin-right: 8px; }
+    .row { margin: 10px 0; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+  </style>
+  <script>
+    function sendBeacon() {
+      // Envío mediante imagen (GET) hacia el servidor local
+      const img = new Image();
+      const url = `http://127.0.0.1:${window.port || 8765}/beacon?_=${Date.now()}`;
+      img.src = url;
+      img.onload = () => log(`GET beacon enviado a ${url}`);
+      img.onerror = () => log(`Error enviando beacon a ${url}`);
+    }
+
+    async function sendPost() {
+      // Envío POST con fetch hacia el servidor local
+      const url = `http://127.0.0.1:${window.port || 8765}/post`;
+      try {
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ demo: true, ts: Date.now() })
+        });
+        log(`POST enviado a ${url} (status ${res.status})`);
+      } catch (e) {
+        log(`Error POST a ${url}: ${e}`);
+      }
+    }
+
+    function setPort() {
+      const p = Number(document.getElementById('port').value || '8765');
+      if (p > 0 && p < 65536) {
+        window.port = p;
+        log(`Puerto establecido a ${p}`);
+      } else {
+        alert('Puerto inválido');
+      }
+    }
+
+    function log(msg) {
+      const el = document.getElementById('log');
+      const line = document.createElement('div');
+      line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+      el.prepend(line);
+    }
+  </script>
+  </head>
+<body>
+  <h1>Demo capturador_ua</h1>
+  <p>
+    Asegúrate de haber arrancado el servidor local:
+    <code>python capturador_ua.py serve --port 8765 --out ua_capturas.jsonl --format jsonl --verbose</code>
+  </p>
+
+  <div class="row">
+    <label>Puerto del servidor local:</label>
+    <input id="port" type="number" min="1" max="65535" value="8765" />
+    <button onclick="setPort()">Usar puerto</button>
+  </div>
+
+  <div class="row">
+    <button onclick="sendBeacon()">Enviar beacon (GET)</button>
+    <button onclick="sendPost()">Enviar POST (fetch)</button>
+  </div>
+
+  <h3>Log</h3>
+  <div id="log"></div>
+</body>
+</html>
+
+

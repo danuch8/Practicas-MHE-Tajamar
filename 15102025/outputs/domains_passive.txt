@@ -1,0 +1,7 @@
+ai.megacorpone.com
+mail.megacorpone.com
+siem.megacorpone.com
+support.megacorpone.com
+vpn.megacorpone.com
+www.megacorpone.com
+www2.megacorpone.com

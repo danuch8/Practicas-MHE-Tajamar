@@ -1,0 +1,33 @@
+Servidor:  UnKnown
+Address:  192.168.15.1
+
+megacorpone.com	internet address = 149.56.244.87
+megacorpone.com	nameserver = ns2.megacorpone.com
+megacorpone.com	nameserver = ns1.megacorpone.com
+megacorpone.com	nameserver = ns3.megacorpone.com
+megacorpone.com
+	primary name server = ns1.megacorpone.com
+	responsible mail addr = admin.megacorpone.com
+	serial  = 202508051
+	refresh = 28800 (8 hours)
+	retry   = 7200 (2 hours)
+	expire  = 2419200 (28 days)
+	default TTL = 300 (5 mins)
+megacorpone.com	MX preference = 20, mail exchanger = spool.mail.gandi.net
+megacorpone.com	MX preference = 50, mail exchanger = mail.megacorpone.com
+megacorpone.com	MX preference = 60, mail exchanger = mail2.megacorpone.com
+megacorpone.com	MX preference = 10, mail exchanger = fb.mail.gandi.net
+megacorpone.com	text =
+
+	"Try Harder"
+megacorpone.com	text =
+
+	"google-site-verification=U7B_b0HNeBtY4qYGQZNsEYXfCJ32hMNV3GtC0wWq5pA"
+
+ns2.megacorpone.com	internet address = 51.222.39.63
+ns1.megacorpone.com	internet address = 51.79.37.18
+ns3.megacorpone.com	internet address = 66.70.207.180
+spool.mail.gandi.net	internet address = 217.70.178.1
+spool.mail.gandi.net	AAAA IPv6 address = 2001:4b98:e00::1
+mail.megacorpone.com	internet address = 167.114.21.68
+mail2.megacorpone.com	internet address = 167.114.21.69

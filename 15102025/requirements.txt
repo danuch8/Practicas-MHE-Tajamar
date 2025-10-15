@@ -1,0 +1,6 @@
+requests>=2.31.0
+
+# Optional extras (install if you want these features)
+# webtech==2.4.3   # for Wappalyzer-like technology detection via `webtech`
+# sublist3r==1.0   # for Sublist3r module
+# dnsdumpster==0.6 # for DNSDumpster API wrapper

@@ -1,0 +1,6 @@
+https://www.google.com/search?q=site%3A%2A.megacorpone.com
+https://www.google.com/search?q=site%3A%2A.megacorpone.com%20-www.megacorpone.com
+https://www.google.com/search?q=site%3Amegacorpone.com
+https://www.google.com/search?q=site%3Amegacorpone.com%20ext%3Abak%7Cold%7Csql%7Cenv%7Cini%7Ccfg%7Cconf
+https://www.google.com/search?q=site%3Amegacorpone.com%20intitle%3Aindex%20of
+https://www.google.com/search?q=site%3Amegacorpone.com%20inurl%3Alogin%7Cadmin%7Cconsole

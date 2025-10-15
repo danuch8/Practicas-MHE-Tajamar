@@ -1,0 +1,12 @@
+Objetivo: megacorpone.com
+Subdominios pasivos: 0
+Subdominios activos: 7
+Todos los subdominios únicos: 7
+Duración: 1.4s
+
+Outputs:
+ - C:\Users\CursosTardes\Documents\15102025\outputs\domains_passive.txt
+ - C:\Users\CursosTardes\Documents\15102025\outputs\domains_active.txt
+ - C:\Users\CursosTardes\Documents\15102025\outputs\domains_all.txt
+ - C:\Users\CursosTardes\Documents\15102025\outputs\google_dorks.txt
+ - C:\Users\CursosTardes\Documents\15102025\outputs\raw
