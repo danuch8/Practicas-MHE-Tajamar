@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSINT Orchestrator</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>OSINT Orchestrator</h1>
+    <form id="osint-form">
+      <div class="grid">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="e.g. John Doe" />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="e.g. user@example.com" />
+        </label>
+        <label>
+          <span>Username</span>
+          <input type="text" name="username" placeholder="e.g. johndoe" />
+        </label>
+        <label>
+          <span>Domain</span>
+          <input type="text" name="domain" placeholder="e.g. example.com" />
+        </label>
+        <label>
+          <span>Output basename</span>
+          <input type="text" name="output" value="report" />
+        </label>
+      </div>
+
+      <button type="submit" id="submit-btn">Run</button>
+      <span id="status" class="status"></span>
+    </form>
+
+    <div id="results" class="results hidden"></div>
+  </div>
+
+  <script>
+    const form = document.getElementById('osint-form');
+    const resultsDiv = document.getElementById('results');
+    const statusSpan = document.getElementById('status');
+    const submitBtn = document.getElementById('submit-btn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      resultsDiv.classList.add('hidden');
+      resultsDiv.innerHTML = '';
+      statusSpan.textContent = 'Running...';
+      submitBtn.disabled = true;
+
+      const formData = new FormData(form);
+      try {
+        const res = await fetch('/run', { method: 'POST', body: formData });
+        const data = await res.json();
+        statusSpan.textContent = 'Done';
+
+        const { results, json, html, graph } = data;
+        const files = [];
+        if (json) files.push(`<a href="/files/${json}" target="_blank">${json}</a>`);
+        if (html) files.push(`<a href="/files/${html}" target="_blank">${html}</a>`);
+        if (graph) files.push(`<a href="/files/${graph}" target="_blank">${graph}</a>`);
+
+        resultsDiv.innerHTML = `
+          <h2>Results</h2>
+          <div class="files">${files.join(' | ')}</div>
+          <pre>${JSON.stringify(results, null, 2)}</pre>
+          ${graph ? `<img src="/files/${graph}" alt="Graph" class="graph"/>` : ''}
+        `;
+        resultsDiv.classList.remove('hidden');
+      } catch (err) {
+        console.error(err);
+        statusSpan.textContent = 'Error';
+        resultsDiv.classList.remove('hidden');
+        resultsDiv.innerHTML = `<p class="error">${err}</p>`;
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
+
+
