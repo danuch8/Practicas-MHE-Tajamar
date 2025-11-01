@@ -1,0 +1,1164 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                    REPORTE DE VULNERABILIDADES                ║
+║                    Fecha: Fri Oct 31 09:09:21 PM EDT 2025                            ║
+╚═══════════════════════════════════════════════════════════════╝
+
+OBJETIVO: 172.168.30.9
+TIMESTAMP: 20251031_210305
+
+═══════════════════════════════════════════════════════════════
+SERVICIOS DESCUBIERTOS
+═══════════════════════════════════════════════════════════════
+Puerto: 35173
+  Servicio: java-rmi
+  Versión: Desconocida
+
+Puerto: 8009
+  Servicio: ajp13
+  Versión: Desconocida
+
+Puerto: 80
+  Servicio: http
+  Versión: 2.2.8
+
+Puerto: 111
+  Servicio: rpcbind
+  Versión: 2
+
+Puerto: 6667
+  Servicio: irc
+  Versión: Desconocida
+
+Puerto: 6000
+  Servicio: X11
+  Versión: Desconocida
+
+Puerto: 514
+  Servicio: tcpwrapped
+  Versión: Desconocida
+
+Puerto: 513
+  Servicio: login
+  Versión: Desconocida
+
+Puerto: 512
+  Servicio: exec
+  Versión: Desconocida
+
+Puerto: 59292
+  Servicio: mountd
+  Versión: 1-3
+
+Puerto: 139
+  Servicio: netbios-ssn
+  Versión: 3.X - 4.X
+
+Puerto: 6697
+  Servicio: irc
+  Versión: Desconocida
+
+Puerto: 53
+  Servicio: domain
+  Versión: 9.4.2
+
+Puerto: 2121
+  Servicio: ftp
+  Versión: 1.3.1
+
+Puerto: 3632
+  Servicio: distccd
+  Versión: v1
+
+Puerto: 25
+  Servicio: smtp
+  Versión: Desconocida
+
+Puerto: 23
+  Servicio: telnet
+  Versión: Desconocida
+
+Puerto: 5432
+  Servicio: postgresql
+  Versión: 8.3.0 - 8.3.7
+
+Puerto: 22
+  Servicio: ssh
+  Versión: 4.7p1 Debian 8ubuntu1
+
+Puerto: 21
+  Servicio: ftp
+  Versión: 2.3.4
+
+Puerto: 5900
+  Servicio: vnc
+  Versión: Desconocida
+
+Puerto: 2049
+  Servicio: nfs
+  Versión: 2-4
+
+Puerto: 8180
+  Servicio: http
+  Versión: 1.1
+
+Puerto: 1524
+  Servicio: bindshell
+  Versión: Desconocida
+
+Puerto: 40988
+  Servicio: nlockmgr
+  Versión: 1-4
+
+Puerto: 8787
+  Servicio: drb
+  Versión: Desconocida
+
+Puerto: 445
+  Servicio: netbios-ssn
+  Versión: 3.0.20-Debian
+
+Puerto: 1099
+  Servicio: java-rmi
+  Versión: Desconocida
+
+Puerto: 3306
+  Servicio: mysql
+  Versión: 5.0.51a-3ubuntu5
+
+Puerto: 32922
+  Servicio: status
+  Versión: 1
+
+═══════════════════════════════════════════════════════════════
+EXPLOITS Y CVEs ENCONTRADOS
+═══════════════════════════════════════════════════════════════
+Servicio: telnet
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+3Com SuperStack II PS Hub 40 - [01;31m[KTelnet[m[KD Weak Password | hardware/remote/21011.pl
+602Pro LAN SUITE 2002 - [01;31m[KTelnet[m[K Proxy localhost Denia | windows/dos/21694.pl
+Absolute[01;31m[KTelnet[m[K 10.16 - 'License name' Denial of Serv | windows/dos/46874.py
+Absolute[01;31m[KTelnet[m[K 11.12 - 'license name' Denial of Serv | windows/dos/48006.py
+Absolute[01;31m[KTelnet[m[K 11.12 - 'SSH1/username' Denial of Ser | windows/dos/48305.py
+Absolute[01;31m[KTelnet[m[K 11.12 - 'SSH2/username' Denial of Ser | windows/dos/48010.py
+Absolute[01;31m[KTelnet[m[K 11.12 - _license name_ Denial of Serv | windows/dos/48005.py
+Absolute[01;31m[KTelnet[m[K 11.21 - 'Username' Denial of Service  | windows/dos/48493.py
+Absolute[01;31m[KTelnet[m[K 11.24 - 'Phone' Denial of Service (Po | windows/dos/50511.py
+Absolute[01;31m[KTelnet[m[K 11.24 - 'Username' Denial of Service  | windows/dos/50510.py
+Accu-Time Systems MAXIMUS 1.0 - [01;31m[KTelnet[m[K Remote Buffer | hardware/remote/50620.py
+APC WEB/SNMP Management Card (9606) Firmware 3.0 - T | hardware/dos/20654.pl
+Apple Mac OSX 10.2 - Terminal.APP [01;31m[KTelnet[m[K Link Comman | osx/local/21815.txt
+Arescom NetDSL-1000 - '[01;31m[KTelnet[m[KD' Remote Denial of Ser | hardware/dos/1464.c
+Beck IPC GmbH IPC@CHIP - [01;31m[KTelnet[m[KD Login Account Brute | multiple/remote/20881.txt
+BSD - '[01;31m[KTelnet[m[KD' Remote Command Execution (1)         | bsd/remote/409.c
+BSD - '[01;31m[KTelnet[m[KD' Remote Command Execution (2)         | bsd/remote/19520.txt
+Byte Fusion BF[01;31m[KTelnet[m[K 1.1 - Long Username Denial of S | windows/dos/19596.txt
+CCProxy 6.2 - [01;31m[KTelnet[m[K Proxy Ping Overflow (Metasploit | windows/remote/4360.rb
+Celestial Software Absolute[01;31m[KTelnet[m[K 2.0/2.11 - Title B | windows/remote/22229.pl
+CHIYU IoT Devices - '[01;31m[KTelnet[m[K' Authentication Bypass   | hardware/remote/49936.py
+Cypress Solutions CTM-200/CTM-ONE - Hard-coded Crede | hardware/remote/50407.py
+D-Link Devices - UPnP SOAP [01;31m[KTelnet[m[KD Command Execution | unix/remote/28333.rb
+Denver Smart Wifi Camera SHC-150 - '[01;31m[KTelnet[m[K' Remote C | hardware/remote/50160.txt
+FreeBSD - [01;31m[KTelnet[m[K Service Encryption Key ID Buffer Ov | bsd/remote/18369.rb
+FreeBSD 7.0-RELEASE - [01;31m[KTelnet[m[K Daemon Privilege Escala | freebsd/local/8055.txt
+GNU inetutils < 1.9.4 - '[01;31m[Ktelnet[m[K.c' Multiple Overflow | linux/dos/45982.txt
+GoodTech [01;31m[KTelnet[m[K Server 4.0 - Remote Denial of Servic | windows/dos/23506.txt
+GoodTech [01;31m[KTelnet[m[K Server 5.0.6 - Remote Buffer Overflo | windows/remote/16817.rb
+GoodTech [01;31m[KTelnet[m[K Server < 5.0.7 - Buffer Overflow Cra | windows/dos/882.cpp
+GoodTech [01;31m[KTelnet[m[K Server < 5.0.7 - Remote Buffer Overf | windows/remote/883.c
+GoodTech [01;31m[KTelnet[m[K Server NT 2.2.1 - Denial of Service  | windows/dos/19666.txt
+Herospeed - '[01;31m[KTelnet[m[KSwitch' Remote Stack Overflow / O | hardware/remote/43997.py
+Hilgraeve HyperTerminal 6.0 - [01;31m[KTelnet[m[K Buffer Overflow | windows/dos/20307.txt
+IRIX 5.2/5.3/6.x - [01;31m[KTelnet[m[KD Environment Variable Form | irix/remote/20149.c
+Jordan Windows [01;31m[KTelnet[m[K Server 1.0/1.2 - 'Username' St | windows/remote/23491.pl
+Jordan Windows [01;31m[KTelnet[m[K Server 1.0/1.2 - 'Username' St | windows/remote/23492.c
+Jordan Windows [01;31m[KTelnet[m[K Server 1.0/1.2 - 'Username' St | windows/remote/23493.txt
+Kroum Grigorov KpyM [01;31m[KTelnet[m[K Server 1.0 - Remote Denia | windows/dos/23530.c
+Linux BSD-derived [01;31m[KTelnet[m[K Service Encryption Key ID - | linux/remote/18368.rb
+Microsoft Internet Explorer 5.0.1/5.5/6.0 - [01;31m[KTelnet[m[K C | windows/remote/20680.html
+Microsoft Windows 95/98 Internet Explorer 5/[01;31m[KTelnet[m[K - | windows/local/19462.c
+Microsoft Windows NT 3.5.1 SP2/3.5.1 SP3/3.5.1 SP4/3 | windows/remote/19113.txt
+Microsoft Windows Server 2000 - '[01;31m[Ktelnet[m[K.exe' NTLM Au | windows/remote/20222.cpp
+Microsoft Windows Server 2000 - [01;31m[KTelnet[m[K 'Username' De | windows/dos/20907.sh
+Microsoft Windows Server 2000 - [01;31m[KTelnet[m[K Server Denial | windows/dos/20047.txt
+Mocha [01;31m[KTelnet[m[K Lite for iOS 4.2 - 'User' Denial of Ser | windows/dos/48728.py
+
+Servicio: drb
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+Belchior Foundry vCard Pro 3.1 - 'Ad[01;31m[Kdrb[m[Kook.php' SQL  | php/webapps/26446.txt
+[01;31m[KDRB[m[KGuestbook 1.1.13 - 'index.php' Cross-Site Scripti | php/webapps/30632.txt
+Wireshark 1.2.5 - 'LWRES getad[01;31m[Kdrb[m[Kyname' Stack Buffer | multiple/dos/11288.py
+Wireshark 1.2.5 - LWRES getad[01;31m[Kdrb[m[Kyname Buffer Overflo | windows/remote/11453.py
+----------------------------------------------------- ---------------------------------
+Shellcodes: No Results
+--- Web Exploits ---
+Belchior Foundry vCard Pro 3.1 - 'Ad[01;31m[Kdrb[m[Koo | https://www.exploit-db.com/exploits/26446
+[01;31m[KDRB[m[KGuestbook 1.1.13 - 'index.php' Cross-S | https://www.exploit-db.com/exploits/30632
+Wireshark 1.2.5 - 'LWRES getad[01;31m[Kdrb[m[Kyname' S | https://www.exploit-db.com/exploits/11288
+Wireshark 1.2.5 - LWRES getad[01;31m[Kdrb[m[Kyname Buf | https://www.exploit-db.com/exploits/11453
+
+Servicio: netbios-ssn
+Exploits: No Results
+Shellcodes: No Results
+
+Servicio: exec
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+(shellcode) Linux-x64 - create a shell with [01;31m[Kexec[m[Kve() | linux/local/51834.c
+.NET Remoting Services - Remote Command [01;31m[KExec[m[Kution    | windows/remote/35280.txt
+1024 CMS 1.4.4 - Remote Command [01;31m[KExec[m[Kution / Remote F | php/webapps/8003.pl
+15 TOTOLINK Router Models - Multiple Remote Code Exe | hardware/webapps/37623.txt
+1Book Guestbook Script 1.0.1 - Code [01;31m[KExec[m[Kution        | php/webapps/5736.txt
+1CLICK DVD Converter 2.1.7.1 - Multiple DLL Loading  | windows/remote/34848.c
+2532/Gigs 1.2.2 Stable - Remote Command [01;31m[KExec[m[Kution    | php/webapps/7512.php
+2X Client for RDP 10.1.1204 - ClientSystem Class Act | windows/remote/18624.txt
+3Com OfficeConnect - Code [01;31m[KExec[m[Kution                  | hardware/remote/9862.txt
+3proxy 0.5.3g - [01;31m[Kexec[m[K-shield 'proxy.c logurl()' Remot | linux/remote/3829.c
+3R Soft MailStudio 2000 2.0 - 'userreg.cgi' Arbitrar | cgi/remote/20007.c
+4Images 1.7.1 - Local File Inclusion / Remote Code E | php/webapps/1533.php
+4Images 1.7.7 - 'image_utils.php' Remote Command Exe | php/webapps/12585.txt
+4images 1.9 - Remote Command [01;31m[KExec[m[Kution (RCE)         | php/webapps/51147.txt
+8 TOTOLINK Router Models - Backdoor Access / Remote  | hardware/webapps/37626.txt
+@lex Guestbook 4.0.2 - Remote Command [01;31m[KExec[m[Kution      | php/webapps/3103.php
+A2billing 2.x - Backup File Download / Remote Code E | php/webapps/42616.txt
+aaPanel 6.6.6 - Privilege Escalation & Remote Code E | python/webapps/48886.txt
+Abantecart v1.3.2 - Authenticated Remote Code [01;31m[KExec[m[Kut | php/webapps/51058.txt
+ABB Cylon Aspect 3.08.01 - Remote Code [01;31m[KExec[m[Kution (RC | multiple/webapps/52107.NA
+ABB Cylon Aspect 3.08.02 (bbmdUpdate.php) - Remote C | multiple/hardware/52217.txt
+ABB Cylon Aspect 3.08.02 (deployStart.php) - Unauthe | php/hardware/52251.txt
+ABB Cylon Aspect 3.08.02 (uploadDb.php) - Remote Cod | multiple/hardware/52216.txt
+ABB Cylon Aspect 3.08.04 DeploySource - Remote Code  | multiple/remote/52317.txt
+ABB Cylon Aspect 4.00.00 (factorySetSerialNum.php) - | php/hardware/52232.txt
+ABB Cylon FLXeon 9.3.4 - Remote Code [01;31m[KExec[m[Kution (Auth | multiple/hardware/52188.txt
+ABB Cylon FLXeon 9.3.4 - Remote Code [01;31m[KExec[m[Kution (RCE) | multiple/hardware/52186.txt
+ABB MicroSCADA - 'wserver.exe' Remote Code [01;31m[KExec[m[Kution | windows/remote/30009.rb
+Aborior Encore Web Forum - Arbitrary Command [01;31m[KExec[m[Kuti | cgi/webapps/23907.pl
+Accellion File Transfer Appliance MPIPE2 - Command E | unix/remote/16964.rb
+Accellion FTA - getStatus verify_oauth_token Command | hardware/remote/37597.rb
+Ace Video Workshop 1.2.0.0 - 'ir50_lcs.dll' DLL Load | windows/remote/35166.c
+Acer LunchApp.APlunch - ActiveX Control Command [01;31m[KExec[m[K | windows/remote/2866.html
+Achievo 0.7/0.8/0.9 - Remote File Inclusion / Comman | php/webapps/21745.txt
+ACL Analytics 11.X - 13.0.0.579 - Arbitrary Code Exe | windows/webapps/44281.txt
+ACTi ASOC 2200 Web Configurator 2.6 - Remote Command | hardware/remote/16993.pl
+Active Classifieds 1.0 - Arbitrary Code [01;31m[KExec[m[Kution    | cgi/remote/20982.pl
+ActualAnalyzer - 'ant' Cookie Command [01;31m[KExec[m[Kution (Met | unix/remote/35549.rb
+ActualAnalyzer Lite 2.81 - Command [01;31m[KExec[m[Kution         | php/webapps/34450.py
+Acuity CMS 2.6.2 - '/admin/file_manager/file_upload_ | asp/webapps/37222.txt
+Acunetix 9.5 - OLE Automation Array Remote Code [01;31m[KExec[m[K | windows/remote/36516.py
+Acunetix Web Vulnerability Scanner - DLL Loading Arb | windows/webapps/34527.c
+Acunetix WVS 10 - Remote Command [01;31m[KExec[m[Kution           | windows/remote/39755.py
+AD Manager Plus 7122 - Remote Code [01;31m[KExec[m[Kution (RCE)   | java/remote/51183.txt
+Adapt Authoring Tool 0.11.3 - Remote Command [01;31m[KExec[m[Kuti | multiple/webapps/52208.py
+AddressSanitizer (ASan) - SUID [01;31m[KExec[m[Kutable Privilege  | linux/local/46241.rb
+ADM 3.1.2RHG1 - Remote Code [01;31m[KExec[m[Kution                | hardware/webapps/45212.py
+
+Servicio: postgresql
+Exploits: No Results
+Shellcodes: No Results
+--- Web Exploits ---
+PnPSCADA v2.x - Unauthenticated PostgreSQ | https://www.exploit-db.com/exploits/51448
+[01;31m[KPostgreSQL[m[K - 'bitsubstr' Buffer Overflow  | https://www.exploit-db.com/exploits/33571
+[01;31m[KPostgreSQL[m[K 6.3.2/6.5.3 - Cleartext Passwo | https://www.exploit-db.com/exploits/19875
+[01;31m[KPostgreSQL[m[K 7.x - Multiple Vulnerabilities | https://www.exploit-db.com/exploits/25076
+[01;31m[KPostgreSQL[m[K 8.01 - Remote Reboot (Denial o | https://www.exploit-db.com/exploits/946
+[01;31m[KPostgreSQL[m[K 8.2/8.3/8.4 - UDF for Command  | https://www.exploit-db.com/exploits/7855
+[01;31m[KPostgreSQL[m[K 8.3.6 - Conversion Encoding Re | https://www.exploit-db.com/exploits/32849
+[01;31m[KPostgreSQL[m[K 8.3.6 - Low Cost Function Info | https://www.exploit-db.com/exploits/32847
+[01;31m[KPostgreSQL[m[K 8.4.1 - JOIN Hashtable Size In | https://www.exploit-db.com/exploits/33729
+[01;31m[KPostgreSQL[m[K 9.3 - COPY FROM PROGRAM Comman | https://www.exploit-db.com/exploits/46813
+[01;31m[KPostgreSQL[m[K 9.3-11.7 - Remote Code Executi | https://www.exploit-db.com/exploits/50847
+[01;31m[KPostgreSQL[m[K 9.4-0.5.3 - Privilege Escalati | https://www.exploit-db.com/exploits/45184
+[01;31m[KPostgreSQL[m[K 9.6.1 - Remote Code Execution  | https://www.exploit-db.com/exploits/51247
+
+Servicio: bindshell
+Exploits: No Results
+Shellcodes: No Results
+
+Servicio: rpcbind
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+'customhs_js_content' - 'customhs_js_content' Cross- | php/webapps/4971[01;31m[K2[m[K.html
+(Bitcoin / Dogecoin) PHP Cloud Mining Script - Authe | php/webapps/4[01;31m[K2[m[K531.txt
+(Gabriel's FTP Server) Open & Compact FTP Server 1.[01;31m[K2[m[K | windows/dos/1[01;31m[K2[m[K698.py
+(Gabriel's FTP Server) Open & Compact FTP Server 1.[01;31m[K2[m[K | windows/dos/1[01;31m[K2[m[K741.py
+(Gabriel's FTP Server) Open & Compact FTP Server 1.[01;31m[K2[m[K | windows/remote/1393[01;31m[K2[m[K.py
+(Gabriel's FTP Server) Open & Compact FTP Server 1.[01;31m[K2[m[K | windows/remote/[01;31m[K2[m[K7401.py
+(Gabriel's FTP Server) Open & Compact FTPd 1.[01;31m[K2[m[K - Buf | windows/remote/1174[01;31m[K2[m[K.rb
+(Gabriel's FTP Server) Open & Compact FTPd 1.[01;31m[K2[m[K - Cra | windows/dos/11391.py
+(Gabriel's FTP Server) Open & Compact FTPd 1.[01;31m[K2[m[K - Rem | windows/remote/114[01;31m[K2[m[K0.py
+(SSH.com Communications) SSH Tectia (SSH < [01;31m[K2[m[K.0-6.1.9 | linux/remote/[01;31m[K2[m[K308[01;31m[K2[m[K.txt
+(SSH.com Communications) SSH Tectia - USERAUTH Chang | unix/remote/[01;31m[K2[m[K3156.rb
+(Tod Miller's) Sudo/SudoEdit 1.6.9p[01;31m[K2[m[K1/1.7.[01;31m[K2[m[Kp4 - Loca | multiple/local/11651.sh
+.ELF Binaries - Local Privilege Escalation           | linux/local/[01;31m[K2[m[K49[01;31m[K2[m[K.s
+.NET Remoting Services - Remote Command Execution    | windows/remote/35[01;31m[K2[m[K80.txt
+.netCART Settings.XML - Information Disclosure       | asp/webapps/[01;31m[K2[m[K[01;31m[K2[m[K9[01;31m[K2[m[K1.txt
+010 Editor 3.0.4 - File Parsing Multiple Buffer Over | multiple/remote/3[01;31m[K2[m[K945.txt
+04webserver 1.4[01;31m[K2[m[K - Multiple Vulnerabilities          | multiple/remote/[01;31m[K2[m[K4730.txt
+0DayDB [01;31m[K2[m[K.3 - 'id' Remote Authentication Bypass       | php/webapps/4896.pl
+0irc-client 1345 build[01;31m[K2[m[K00608[01;31m[K2[m[K3 - Denial of Service   | windows/dos/3547.c
+0verkill 0.16 - Game Client Multiple Local Buffer Ov | linux/local/[01;31m[K2[m[K3634.c
+1 Click Audio Converter [01;31m[K2[m[K.3.6 - Activex Local Buffer | windows/local/37[01;31m[K2[m[K11.html
+1 Click Extract Audio [01;31m[K2[m[K.3.6 - Activex Buffer Overflo | windows/local/37[01;31m[K2[m[K1[01;31m[K2[m[K.html
+1-[01;31m[K2[m[K-3 Music Store 1.0 - 'Process.php' SQL Injection  | php/webapps/[01;31m[K2[m[K6561.txt
+1-Script 1-Search 1.8 - '1search.CGI' Cross-Site Scr | cgi/webapps/[01;31m[K2[m[K67[01;31m[K2[m[K1.txt
+10-Strike Network File Search Pro [01;31m[K2[m[K.3 - Local Buffer | windows/local/40903.py
+10-Strike Network Inventory Explorer - 'srvInventory | windows/local/48[01;31m[K2[m[K51.txt
+10-Strike Network Inventory Explorer 8.54 - 'Add' Lo | windows/local/48[01;31m[K2[m[K53.py
+10-Strike Network Inventory Explorer 8.54 - Local Bu | windows/local/46[01;31m[K2[m[K83.py
+10-Strike Network Inventory Explorer 9.03 - 'Read fr | windows/local/48[01;31m[K2[m[K64.py
+10-Strike Network Inventory Explorer Pro 9.05 - Buff | windows/local/493[01;31m[K2[m[K[01;31m[K2[m[K.py
+10-Strike Network Inventory Explorer Pro 9.31 - Buff | windows/local/5047[01;31m[K2[m[K.py
+10[01;31m[K2[m[K4 CMS 0.7 - 'download.php' Remote File Disclosure | php/webapps/383[01;31m[K2[m[K.txt
+10[01;31m[K2[m[K4 CMS 1.1.0 Beta - 'force_download.php' Local Fil | php/webapps/18000.txt
+10[01;31m[K2[m[K4 CMS 1.1.0 Beta - Multiple Input Validation Vuln | php/webapps/35598.txt
+10[01;31m[K2[m[K4 CMS 1.3.1 - Local File Inclusion / SQL Injectio | php/webapps/4765.txt
+10[01;31m[K2[m[K4 CMS 1.4.[01;31m[K2[m[K - Local File Inclusion / Blind SQL In | php/webapps/5434.pl
+10[01;31m[K2[m[K4 CMS 1.4.4 - Multiple Local/Remote File Inclusio | php/webapps/6001.txt
+10[01;31m[K2[m[K4 CMS 1.4.4 - Remote Command Execution / Remote F | php/webapps/8003.pl
+10[01;31m[K2[m[K4 CMS [01;31m[K2[m[K.1.1 - 'p' SQL Injection                   | php/webapps/37650.txt
+10[01;31m[K2[m[K4 CMS [01;31m[K2[m[K.1.1 - Blind SQL Injection                 | php/webapps/1494[01;31m[K2[m[K.txt
+10Strike LANState 9.3[01;31m[K2[m[K - 'Force Check' Buffer Overfl | windows/local/48[01;31m[K2[m[K77.py
+11in1 CMS 1.[01;31m[K2[m[K.1 - '/admin/index.php?class' Traversal | php/webapps/36785.txt
+11in1 CMS 1.[01;31m[K2[m[K.1 - 'admin/comments?topicID' SQL Injec | php/webapps/36911.txt
+11in1 CMS 1.[01;31m[K2[m[K.1 - 'admin/tps?id' SQL Injection       | php/webapps/3691[01;31m[K2[m[K.txt
+11in1 CMS 1.[01;31m[K2[m[K.1 - 'index.php?class' Traversal Local  | php/webapps/36784.txt
+11in1 CMS 1.[01;31m[K2[m[K.1 - Cross-Site Request Forgery (Admin  | php/webapps/36786.txt
+1[01;31m[K2[m[K3 Flash Chat 5.0 - Remote Code Injection           | php/webapps/[01;31m[K2[m[K71[01;31m[K2[m[K1.txt
+
+Servicio: nfs
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+EmbedThis Appweb 3.0B.[01;31m[K2-4[m[K - Multiple Remote Buffer O | windows/dos/9429.py
+Embedthis Appweb 3.0b.[01;31m[K2-4[m[K - Remote Buffer Overflow ( | windows/dos/9411.cpp
+FreeBSD 2.[01;31m[K2-4[m[K.2 / NetBSD 1.[01;31m[K2-4[m[K.5 / OpenBSD 2.x - FTP | bsd/remote/20731.c
+TerraMaster F[01;31m[K2-4[m[K20 NAS TOS 3.0.30 - Root Remote Code | php/webapps/42093.py
+----------------------------------------------------- ---------------------------------
+Shellcodes: No Results
+--- Web Exploits ---
+Apple Mac OSX (Lion) Kernel xnu-1699.32.7 | https://www.exploit-db.com/exploits/32813
+EMC Celerra NAS Appliance - Unauthorized  | https://www.exploit-db.com/exploits/14536
+FreeBSD - 'mount[01;31m[Knfs[m[K()' Denial of Service  | https://www.exploit-db.com/exploits/14003
+FreeBSD 6.0 - '[01;31m[Knfs[m[Kd' Remote Kernel Panic  | https://www.exploit-db.com/exploits/1540
+FreeBSD 8.0/7.3/7.2 - '[01;31m[Knfs[m[K_mount()' Local | https://www.exploit-db.com/exploits/14002
+LabF [01;31m[Knfs[m[KAxe 3.7 - Privilege Escalation    | https://www.exploit-db.com/exploits/44342
+LabF [01;31m[Knfs[m[KAxe 3.7 FTP Client - Remote Buffe | https://www.exploit-db.com/exploits/42011
+LabF [01;31m[Knfs[m[KAxe 3.7 FTP Client - Stack Buffer | https://www.exploit-db.com/exploits/43518
+LabF [01;31m[Knfs[m[KAxe 3.7 Ping Client - 'Host IP' B | https://www.exploit-db.com/exploits/46737
+LabF [01;31m[Knfs[m[KAxe 3.7 TFTP Client - Local Buffe | https://www.exploit-db.com/exploits/43930
+LabF [01;31m[Knfs[m[KAxe FTP Client 3.7 - Remote Buffe | https://www.exploit-db.com/exploits/43236
+Linux Kernel 2.6.17.7 - [01;31m[KNFS[m[K and EXT3 Comb | https://www.exploit-db.com/exploits/28358
+Linux Kernel < 2.6.31-rc4 - '[01;31m[Knfs[m[K4_proc_lo | https://www.exploit-db.com/exploits/10202
+[01;31m[KNfS[m[Ken < 1.3.7 / AlienVault OSSIM 4.3.1 -  | https://www.exploit-db.com/exploits/42314
+[01;31m[KNfS[m[Ken < 1.3.7 / AlienVault OSSIM 5.3.4 -  | https://www.exploit-db.com/exploits/42306
+[01;31m[KNfS[m[Ken < 1.3.7 / AlienVault OSSIM < 5.3.6  | https://www.exploit-db.com/exploits/42305
+Novell Netware - RPC X[01;31m[KNFS[m[K xdrDecodeString | https://www.exploit-db.com/exploits/16234
+Novell Netware - X[01;31m[KNFS[m[K caller_name xdrDeco | https://www.exploit-db.com/exploits/18351
+Novell Netware - X[01;31m[KNFS[m[K.NLM [01;31m[KNFS[m[K Rename Remo | https://www.exploit-db.com/exploits/18327
+Novell Netware - X[01;31m[KNFS[m[K.NLM STAT Notify Rem | https://www.exploit-db.com/exploits/18328
+
+Servicio: mountd
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+Applicure dotDefender 4.0[01;31m[K1-3[m[K - Persistent Cross-Site | multiple/webapps/14103.txt
+Axis Network Camera 2.x And Video Server [01;31m[K1-3[m[K - 'virt | cgi/webapps/24400.txt
+Axis Network Camera 2.x And Video Server [01;31m[K1-3[m[K - Direc | cgi/webapps/24401.txt
+Axis Network Camera 2.x And Video Server [01;31m[K1-3[m[K - HTTP  | cgi/webapps/24402.php
+MinIO < 2024-0[01;31m[K1-3[m[K1T20-20-33Z - Privilege Escalation  | go/remote/51976.txt
+openMAINT openMAINT 2.[01;31m[K1-3[m[K.3-b - 'Multiple' Persisten | multiple/webapps/49649.txt
+PHPizabi 0.848b C1 HFP[01;31m[K1-3[m[K - Arbitrary File Upload    | php/webapps/8287.php
+PHPizabi 0.848b C1 HFP[01;31m[K1-3[m[K - Remote Command Execution | php/webapps/8268.php
+----------------------------------------------------- ---------------------------------
+----------------------------------------------------- ---------------------------------
+ Shellcode Title                                     |  Path
+----------------------------------------------------- ---------------------------------
+Linux/x64 - Reverse (10.1.1.4/TCP) Shell + Continuou | linux_x86-64/40079.c
+----------------------------------------------------- ---------------------------------
+--- Web Exploits ---
+RedHat Linux 5.1 / Caldera OpenLinux Stan | https://www.exploit-db.com/exploits/19096
+
+Servicio: domain
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+BIND 9.4.1 < [01;31m[K9.4.2[m[K - Remote DNS Cache Poisoning (Met | multiple/remote/6122.rb
+Larson Network Print Server [01;31m[K9.4.2[m[K build 105 (LstNPS) | windows/dos/31138.txt
+Larson Network Print Server [01;31m[K9.4.2[m[K build 105 - 'LstNP | windows/dos/31139.txt
+----------------------------------------------------- ---------------------------------
+Shellcodes: No Results
+--- Web Exploits ---
+Adobe Flash Player - [01;31m[Kdomain[m[KMemory ByteArr | https://www.exploit-db.com/exploits/36956
+Adobe Flash Player 7.0.x/8.0.x/9.0.x - Ac | https://www.exploit-db.com/exploits/30907
+Alabanza Control Panel 3.0 - [01;31m[KDomain[m[K Modif | https://www.exploit-db.com/exploits/20238
+Apple macOS/iOS Kernel - Use-After-Free D | https://www.exploit-db.com/exploits/42054
+Apple Safari 2.0.4 - Cross-[01;31m[KDomain[m[K Browser | https://www.exploit-db.com/exploits/30078
+BlackBoard Academic Suite 6.2.3.23 - Fram | https://www.exploit-db.com/exploits/26778
+Cacheflow CacheOS 3.1.x/4.0.x/4.1 - Unres | https://www.exploit-db.com/exploits/21649
+Cachelogic Expired [01;31m[KDomain[m[Ks Script 1.0 - M | https://www.exploit-db.com/exploits/17428
+C[01;31m[Kdomain[m[KFree 2.4 - Remote Command Executio | https://www.exploit-db.com/exploits/19242
+CentOS Web Panel 0.9.8.12 - 'row_id' / 'd | https://www.exploit-db.com/exploits/43855
+CentOS Web Panel 0.9.8.793 (Free) / v0.9. | https://www.exploit-db.com/exploits/46784
+Core FTP/SFTP Server 1.2 Build 589.42 - ' | https://www.exploit-db.com/exploits/46371
+cPanel - (Authenticated) 'lastvisit.html  | https://www.exploit-db.com/exploits/9039
+cPanel WebHost Manager 3.1 - 'domts2?doma | https://www.exploit-db.com/exploits/29185
+cPanel WebHost Manager 3.1 - 'editzone?do | https://www.exploit-db.com/exploits/29186
+cPanel WebHost Manager 3.1 - 'park?ndomai | https://www.exploit-db.com/exploits/29188
+Cyberoam Transparent Authentication Suite | https://www.exploit-db.com/exploits/46925
+D-Link DCS Series Cameras - Insecure Cros | https://www.exploit-db.com/exploits/42074
+Digi[01;31m[KDomain[m[K 2.2 - 'lookup_result.asp?domai | https://www.exploit-db.com/exploits/31546
+Digi[01;31m[KDomain[m[K 2.2 - 'suggest_result.asp' Mul | https://www.exploit-db.com/exploits/31547
+
+Servicio: nlockmgr
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+Beetel TC[01;31m[K1-4[m[K50 Airtel Wireless Router - Multiple Cro | hardware/webapps/30361.txt
+TildeSlash Monit [01;31m[K1-4[m[K - Authentication Handling Buffe | multiple/remote/24224.c
+X.Org xorg-server 1.1.[01;31m[K1-4[m[K8.13 - Probe for Files (PoC | multiple/dos/5152.sh
+----------------------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+Servicio: irc
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+0[01;31m[Kirc[m[K-client 1345 build20060823 - Denial of Service   | windows/dos/3547.c
+Adobe SVG Viewer 3.0 - C[01;31m[Kirc[m[Kle Transform Remote Code  | windows/dos/34151.txt
+A[01;31m[KirC[m[Kontrol 1.4.2 - PreAuth Remote Code Execution     | hardware/webapps/48541.py
+A[01;31m[Kirc[m[Krack-NG 0.7 - 'Specially Crafted 802.11 Packets' | linux/remote/3724.c
+A[01;31m[Kirc[m[Krack-NG Tools svn r1675 - Remote Heap Buffer Ove | multiple/dos/12217.py
+Anope [01;31m[KIRC[m[K Services With bs_fantasy_ext 1.2.0-RC1 - m | windows/remote/7706.mrc
+Ayman Akt [01;31m[KIRC[m[KIT 0.3.1 - Invite Message Remote Buffer | linux/dos/21537.c
+BitchX [01;31m[KIRC[m[K Client 1.0 c17 - DNS Buffer Overflow      | unix/remote/20490.c
+BitchX [01;31m[KIRC[m[K Client 75p1/75p3/1.0 c16 - '/INVITE' Form | linux/remote/20060.c
+BNC 2.2.4/2.4.6/2.4.8 - [01;31m[KIRC[m[K Proxy Buffer Overflow (1 | unix/remote/20394.c
+BNC 2.2.4/2.4.6/2.4.8 - [01;31m[KIRC[m[K Proxy Buffer Overflow (2 | unix/remote/20395.c
+C[01;31m[KirC[m[KarLife SCADA 4.3.0 - Credential Disclosure       | hardware/webapps/45384.py
+Crackalaka [01;31m[KIRC[m[K Server 1.0.8 - Remote Denial of Servi | linux/dos/23943.txt
+DALnet Bahamut [01;31m[KIRC[m[Kd 4.6.5 - 'SUMMON' Remote Buffer O | linux/remote/20043.c
+Dana [01;31m[KIRC[m[K 1.3 - Remote Buffer Overflow (PoC)          | windows/dos/5817.pl
+Dana [01;31m[KIRC[m[K 1.4a - Remote Buffer Overflow               | windows/remote/6302.pl
+eMule 0.42d - [01;31m[KIRC[m[K Remote Buffer Overflow             | windows/remote/175.pl
+Enthrallweb eClassifieds - 'd[01;31m[Kirc[m[Kat.asp?cid' SQL Inje | asp/webapps/29119.txt
+Finjan SurfinGate 7.0 - '.ASCII' File Extension File | linux/remote/25820.txt
+FiSH-irssi 0.99 - Evil [01;31m[Kirc[m[Kd Buffer Overflow          | linux/remote/17181.pl
+Gamespy 3d 2.62/2.63 - [01;31m[KIRC[m[K Client Remote Buffer Over | linux/dos/23200.txt
+Great C[01;31m[Kirc[m[Kle Associates Majordomo 1.94.4 - Local res | linux/local/19698.txt
+Hexchat [01;31m[KIRC[m[K Client 2.11.0 - CAP LS Handling Buffer O | multiple/dos/39657.py
+Hexchat [01;31m[KIRC[m[K Client 2.11.0 - Directory Traversal      | multiple/local/39656.py
+Hybrid [01;31m[KIrc[m[Kd 5.0.3 p7 - Remote Buffer Overflow        | multiple/remote/19459.txt
+Hydra[01;31m[KIrc[m[K 0.3.164 - Remote Denial of Service          | windows/dos/6201.html
+[01;31m[Kirc[m[Kd-hybrid 7.0.1 / [01;31m[Kirc[m[Kd-ratbox 1.5.1/2.0 - Socket D | linux/dos/24222.c
+[01;31m[Kirc[m[Kd-hybrid 8.0.5 - Denial of Service                | linux/dos/24951.pl
+[01;31m[KIrc[m[KDelphi Daemon Server - Denial of Service          | windows/dos/14266.pl
+[01;31m[KIRC[m[Knet [01;31m[KIRC[m[KD 2.10 - Local Buffer Overflow             | linux/dos/23239.c
+Jinais [01;31m[KIRC[m[K Server 0.1.8 - Null Pointer (PoC)         | multiple/dos/11855.c
+Joomla! Component [01;31m[KIRC[m[Km Basic - SQL Injection         | php/webapps/9812.txt
+konversation [01;31m[Kirc[m[K client 0.15 - Multiple Vulnerabilit | linux/remote/25054.txt
+Ks[01;31m[KIRC[m[K 1.3.12 - 'PRIVMSG' Remote Buffer Overflow (PoC | linux/dos/3023.c
+KV[01;31m[KIrc[m[K 3.4.0 - Virgo Remote Format String (PoC)       | windows/dos/6832.html
+KV[01;31m[KIrc[m[K 3.4.2 Shiny - URI handler Remote Command Execu | windows/remote/7181.html
+KV[01;31m[KIrc[m[K 4.0 - '' Carriage Return in DCC Handshake R | linux/remote/34385.txt
+Legend Perl [01;31m[KIRC[m[K Bot - Remote Code Execution          | multiple/remote/36836.py
+Legend Perl [01;31m[KIRC[m[K Bot - Remote Code Execution (Metaspl | multiple/remote/38973.rb
+libvirt - 'v[01;31m[KirC[m[KonnectListAllInterfaces' Method Denia | linux/dos/38622.txt
+methane [01;31m[KIRC[m[Kd 0.1.1 - Remote Format String            | linux/dos/22839.c
+Michael Sandrof [01;31m[KIrc[m[KII 4.4-7 - Remote Buffer Overflow | linux/remote/19801.c
+Microsoft Internet Explorer 6 - URI Handler Restrict | windows/remote/21803.txt
+m[01;31m[KIRC[m[K - 'projects.php' Cross-Site Scripting           | php/webapps/37633.txt
+m[01;31m[KIRC[m[K - [01;31m[KIRC[m[K URL Buffer Overflow (Metasploit)          | windows/remote/16530.rb
+M[01;31m[KIRC[m[K 2.x/3.x/4.x/5.x - Nick Buffer Overflow          | windows/remote/21274.c
+m[01;31m[KIRC[m[K 6.0 - Scripting ASCTime Buffer Overflow         | windows/remote/21759.txt
+
+Servicio: java-rmi
+Exploits: No Results
+Shellcodes: No Results
+
+Servicio: X11
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+ASUS DSL-[01;31m[KX11[m[K ADSL Router - DNS Change                | cgi/webapps/40373.sh
+BSD/OS 2.1 / DG/UX 7.0 / Debian 1.3 / HP-UX 10.34 /  | unix/local/19173.c
+Eterm 0.8.10 / rxvt 2.6.1 / PuTTY 0.48 / [01;31m[KX11[m[KR6 3.3.3 | multiple/dos/19984.c
+Gnome 1.0/1.1 / Group X 11.0 / XFree86 [01;31m[KX11[m[KR6 3.3.x/4 | linux/dos/20023.c
+SCO Open Server 5.0.5 / IRIX 6.2 ib[01;31m[KX11[m[K/[01;31m[KX11[m[K Toolkit/A | multiple/local/19684.c
+Slackware Linux 3.1 - '/usr/[01;31m[KX11[m[K/bin/SuperProbe' Loca | linux/local/19283.c
+Solaris 5.5.1 [01;31m[KX11[m[KR6.3 - xterm '-xrm' Local Privilege | solaris/local/338.c
+Tor (Linux) - [01;31m[KX11[m[K Linux Sandbox Breakout             | linux/local/42626.c
+X 11.0/3.3.3/3.3.4/3.3.5/3.3.6/4.0 - lib[01;31m[KX11[m[K '_XAsync | linux/local/20045.c
+X.Org [01;31m[KX11[m[K ([01;31m[KX11[m[KR6.9.0/[01;31m[KX11[m[KR7.0) - Local Privilege Esca | linux/local/1596.txt
+X.Org xorg-[01;31m[Kx11[m[K-xfs 1.0.2-3.1 - Local Race Condition  | linux/local/5167.sh
+[01;31m[KX11[m[KR6 3.3.3 - Symlink                                | linux/local/19257.c
+[01;31m[KX11[m[KR6 < 6.4 XKEYBOARD (sco x86) - Local Buffer Overf | sco/local/2332.c
+[01;31m[KX11[m[KR6 < 6.4 XKEYBOARD (solaris x86) - Local Buffer O | solaris/local/2331.c
+[01;31m[KX11[m[KR6 < 6.4 XKEYBOARD (Solaris/SPARC) - Local Buffer | solaris/local/2330.c
+[01;31m[KX11[m[KR6 < 6.4 XKEYBOARD (Solaris/SPARC) - Local Buffer | solaris/local/2360.c
+XFree86 [01;31m[KX11[m[KR6 3.3 XDM - Session Cookie Guessing      | unix/remote/20993.c
+XFree86 [01;31m[KX11[m[KR6 3.3.2 XMan - ManPath Environment Varia | linux/local/21010.sh
+XFree86 [01;31m[KX11[m[KR6 3.3.5/3.3.6/4.0 Xserver - Denial of Se | linux/dos/19950.c
+XFree86 [01;31m[KX11[m[KR6 3.3.x - Font Server Remote Buffer Over | unix/remote/22036.pl
+Xorg [01;31m[KX11[m[K Server (AIX) - Local Privilege Escalation   | aix/local/45938.pl
+Xorg [01;31m[KX11[m[K Server - Local Privilege Escalation (Metasp | unix/local/47701.rb
+Xorg [01;31m[KX11[m[K Server - SUID privilege escalation (Metaspl | multiple/local/45908.rb
+xorg-[01;31m[Kx11[m[K-server 1.20.3 - Privilege Escalation        | openbsd/local/45742.sh
+xorg-[01;31m[Kx11[m[K-server < 1.20.1 - Local Privilege Escalatio | linux/local/45832.py
+xorg-[01;31m[Kx11[m[K-server < 1.20.3 (Solaris 11) - 'inittab Loc | solaris/local/46142.sh
+xorg-[01;31m[Kx11[m[K-server < 1.20.3 - 'modulepath' Local Privil | multiple/local/45922.sh
+xorg-[01;31m[Kx11[m[K-server < 1.20.3 - Local Privilege Escalatio | multiple/local/45697.txt
+----------------------------------------------------- ---------------------------------
+----------------------------------------------------- ---------------------------------
+ Shellcode Title                                     |  Path
+----------------------------------------------------- ---------------------------------
+OSX/PPC - execve(/usr/[01;31m[KX11[m[KR6/bin/xterm) Shellcode (14 | osx_ppc/13487.c
+----------------------------------------------------- ---------------------------------
+--- Web Exploits ---
+ASUS DSL-[01;31m[KX11[m[K ADSL Router - DNS Change     | https://www.exploit-db.com/exploits/40373
+BSD/OS 2.1 / DG/UX 7.0 / Debian 1.3 / HP- | https://www.exploit-db.com/exploits/19173
+Eterm 0.8.10 / rxvt 2.6.1 / PuTTY 0.48 /  | https://www.exploit-db.com/exploits/19984
+Gnome 1.0/1.1 / Group X 11.0 / XFree86 X1 | https://www.exploit-db.com/exploits/20023
+SCO Open Server 5.0.5 / IRIX 6.2 ib[01;31m[KX11[m[K/X1 | https://www.exploit-db.com/exploits/19684
+Slackware Linux 3.1 - '/usr/[01;31m[KX11[m[K/bin/Super | https://www.exploit-db.com/exploits/19283
+Solaris 5.5.1 [01;31m[KX11[m[KR6.3 - xterm '-xrm' Loca | https://www.exploit-db.com/exploits/338
+Tor (Linux) - [01;31m[KX11[m[K Linux Sandbox Breakout  | https://www.exploit-db.com/exploits/42626
+X 11.0/3.3.3/3.3.4/3.3.5/3.3.6/4.0 - libX | https://www.exploit-db.com/exploits/20045
+X.Org [01;31m[KX11[m[K ([01;31m[KX11[m[KR6.9.0/[01;31m[KX11[m[KR7.0) - Local Pri | https://www.exploit-db.com/exploits/1596
+X.Org xorg-[01;31m[Kx11[m[K-xfs 1.0.2-3.1 - Local Race | https://www.exploit-db.com/exploits/5167
+[01;31m[KX11[m[KR6 3.3.3 - Symlink                     | https://www.exploit-db.com/exploits/19257
+
+Servicio: ssh
+Exploits: No Results
+Shellcodes: No Results
+--- Web Exploits ---
+([01;31m[KSSH[m[K.com Communications) [01;31m[KSSH[m[K Tectia ([01;31m[KSSH[m[K  | https://www.exploit-db.com/exploits/23082
+([01;31m[KSSH[m[K.com Communications) [01;31m[KSSH[m[K Tectia - USE | https://www.exploit-db.com/exploits/23156
+AbsoluteTelnet 11.12 - '[01;31m[KSSH[m[K1/username' De | https://www.exploit-db.com/exploits/48305
+AbsoluteTelnet 11.12 - '[01;31m[KSSH[m[K2/username' De | https://www.exploit-db.com/exploits/48010
+ABUS Security Camera TVIP 20000-21150 - L | https://www.exploit-db.com/exploits/51294
+Axe[01;31m[Kssh[m[K 4.2 - 'Log file name' Denial of Se | https://www.exploit-db.com/exploits/46858
+Axe[01;31m[Kssh[m[K 4.2 - 'Log file name' Local Stack- | https://www.exploit-db.com/exploits/46922
+Axe[01;31m[Kssh[m[K 4.2 - Denial of Service            | https://www.exploit-db.com/exploits/40699
+Ceragon FibeAir IP-10 - [01;31m[KSSH[m[K Private Key E | https://www.exploit-db.com/exploits/41679
+Cisco Catalyst 4000/5000/6000 6.1 - [01;31m[KSSH[m[K P | https://www.exploit-db.com/exploits/20509
+Core FTP LE 2.2 - '[01;31m[KSSH[m[K/SFTP' Remote Buffe | https://www.exploit-db.com/exploits/40828
+Cypress Solutions CTM-200/CTM-ONE - Hard- | https://www.exploit-db.com/exploits/50407
+Debian Open[01;31m[KSSH[m[K - (Authenticated) Remote S | https://www.exploit-db.com/exploits/6094
+Dropbear / Open[01;31m[KSSH[m[K Server - 'MAX_UNAUTH_C | https://www.exploit-db.com/exploits/1572
+Dropbear [01;31m[KSSH[m[K 0.34 - Remote Code Execution | https://www.exploit-db.com/exploits/387
+DropBear[01;31m[KSSH[m[KD 2015.71 - Command Injection  | https://www.exploit-db.com/exploits/40119
+Eaton Xpert Meter 13.4.0.10 - [01;31m[KSSH[m[K Private | https://www.exploit-db.com/exploits/45283
+ECOA Building Automation System - Hard-co | https://www.exploit-db.com/exploits/50282
+ExaGrid - Known [01;31m[KSSH[m[K Key and Default Passw | https://www.exploit-db.com/exploits/41680
+F5 BIG-IP - [01;31m[KSSH[m[K Private Key Exposure (Met | https://www.exploit-db.com/exploits/19099
+
+Servicio: vnc
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+AMX Corp. [01;31m[KVNC[m[K ActiveX Control - 'Amx[01;31m[KVnc[m[K.dll 1.0.13.0 | windows/remote/4123.html
+Chicken of the [01;31m[KVNC[m[K 2.0 - 'NULL-pointer' Remote Denia | osx/dos/3257.php
+Echo[01;31m[KVNC[m[K Viewer - Remote Denial of Service            | windows/dos/27292.py
+QEMU 0.9 / KVM 36/79 - [01;31m[KVNC[m[K Server Remote Denial of S | linux/dos/32675.py
+Real[01;31m[KVNC[m[K - Authentication Bypass (Metasploit)         | windows/remote/17719.rb
+Real[01;31m[KVNC[m[K 3.3.7 - Client Buffer Overflow (Metasploit)  | windows/remote/16489.rb
+Real[01;31m[KVNC[m[K 4.1.0 < 4.1.1 - [01;31m[KVNC[m[K Null Authentication Bypa | multiple/remote/1791.patch
+Real[01;31m[KVNC[m[K 4.1.0 < 4.1.1 - [01;31m[KVNC[m[K Null Authentication Bypa | multiple/remote/1794.pm
+Real[01;31m[KVNC[m[K 4.1.0 < 4.1.1 - [01;31m[KVNC[m[K Null Authentication Scan | multiple/remote/1799.txt
+Real[01;31m[KVNC[m[K 4.1.0/4.1.1 - Authentication Bypass          | windows/remote/36932.py
+Real[01;31m[KVNC[m[K 4.1.2 - '[01;31m[Kvnc[m[Kviewer.exe' RFB Protocol Remote  | windows/dos/7943.py
+Real[01;31m[KVNC[m[K 4.1.3 - 'ClientCutText' Message Remote Denia | windows/dos/33924.py
+Real[01;31m[KVNC[m[K Server 4.0 - Remote Denial of Service        | windows/dos/24412.c
+Real[01;31m[KVNC[m[K Windows Client 4.1.2 - Remote Denial of Serv | windows/dos/6181.php
+SmartCode ServerX [01;31m[KVNC[m[K Server ActiveX 1.1.5.0 - 'scvn | windows/dos/14634.txt
+SmartCode [01;31m[KVNC[m[K Manager 3.6 - 'sc[01;31m[Kvnc[m[Kctrl.dll' Denial o | windows/dos/3873.html
+Sun SunPCi II [01;31m[KVNC[m[K Software 2.3 - Password Disclosure | unix/local/21592.c
+Thin[01;31m[KVNC[m[K 1.0b1 - Authentication Bypass                | windows/remote/47519.py
+Tight[01;31m[KVNC[m[K - Authentication Failure Integer Overflow ( | windows/dos/8024.py
+Tight[01;31m[KVNC[m[K 2.8.83 - Control Pipe Manipulation          | multiple/local/52322.c
+Ultr@[01;31m[KVNC[m[K 1.0.1 - 'client Log::ReallyPrint' Buffer Ov | windows/dos/1643.c
+Ultr@[01;31m[KVNC[m[K 1.0.1 - 'client Log::ReallyPrint' Remote Bu | windows/remote/1664.py
+Ultr@[01;31m[KVNC[m[K 1.0.1 - [01;31m[KVNC[m[KLog::ReallyPrint Remote Buffer O | windows/dos/1642.c
+Ultra[01;31m[KVNC[m[K 1.0.1 - Client Buffer Overflow (Metasploit) | windows/remote/16490.rb
+Ultra[01;31m[KVNC[m[K 1.0.1 - Multiple Remote Error Logging Buffe | windows/remote/27568.py
+Ultra[01;31m[KVNC[m[K 1.0.1 - Multiple Remote Error Logging Buffe | windows/remote/27569.txt
+Ultra[01;31m[KVNC[m[K 1.0.2 Client - '[01;31m[Kvnc[m[Kviewer.exe' Remote Buffe | windows/remote/18666.rb
+Ultra[01;31m[KVNC[m[K 1.0.8.2 - DLL Loading Arbitrary Code Execut | windows/remote/34542.c
+Ultra[01;31m[KVNC[m[K Launcher 1.2.2.4 - 'Path' Denial of Service | windows/dos/46703.py
+Ultra[01;31m[KVNC[m[K Launcher 1.2.4.0 - 'Password' Denial of Ser | windows/dos/48290.py
+Ultra[01;31m[KVNC[m[K Launcher 1.2.4.0 - 'RepeaterHost' Denial of | windows/dos/48288.py
+Ultra[01;31m[KVNC[m[K Viewer 1.2.2.4 - '[01;31m[KVNC[m[K Server' Denial of Ser | windows/dos/46702.py
+Ultra[01;31m[KVNC[m[K Viewer 1.2.4.0 - '[01;31m[KVNC[m[KServer' Denial of Serv | windows/dos/48291.py
+Ultra[01;31m[KVNC[m[K/Tight[01;31m[KVNC[m[K (Multiple [01;31m[KVNC[m[K Clients) - Multiple  | windows/dos/7990.py
+Vino [01;31m[KVNC[m[K Server 3.7.3 - Persistent Denial of Service | linux/dos/28338.txt
+[01;31m[KVNC[m[K Keyboard - Remote Code Execution (Metasploit)    | multiple/remote/37598.rb
+Win[01;31m[KVNC[m[K Web Server 3.3.3r7 - GET Overflow (Metasploit | windows/remote/16491.rb
+----------------------------------------------------- ---------------------------------
+Shellcodes: No Results
+--- Web Exploits ---
+AMX Corp. [01;31m[KVNC[m[K ActiveX Control - 'Amx[01;31m[KVnc[m[K.d | https://www.exploit-db.com/exploits/4123
+Chicken of the [01;31m[KVNC[m[K 2.0 - 'NULL-pointer' R | https://www.exploit-db.com/exploits/3257
+Echo[01;31m[KVNC[m[K Viewer - Remote Denial of Service | https://www.exploit-db.com/exploits/27292
+QEMU 0.9 / KVM 36/79 - [01;31m[KVNC[m[K Server Remote  | https://www.exploit-db.com/exploits/32675
+Real[01;31m[KVNC[m[K - Authentication Bypass (Metasplo | https://www.exploit-db.com/exploits/17719
+Real[01;31m[KVNC[m[K 3.3.7 - Client Buffer Overflow (M | https://www.exploit-db.com/exploits/16489
+Real[01;31m[KVNC[m[K 4.1.0 < 4.1.1 - [01;31m[KVNC[m[K Null Authenti | https://www.exploit-db.com/exploits/1791
+
+Servicio: ajp13
+Exploits: No Results
+Shellcodes: No Results
+
+Servicio: login
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+(GREEZLE) Global Real Estate Agent [01;31m[KLogin[m[K - Multiple  | multiple/webapps/34111.txt
+4x CMS - '[01;31m[Klogin[m[K.php' Multiple SQL Injections         | php/webapps/33914.txt
+68 Classifieds 4.1 - '[01;31m[Klogin[m[K.php' Cross-Site Scriptin | php/webapps/33198.txt
+Absolute Form Processor XE 1.5 - '[01;31m[Klogin[m[K.asp' SQL Inj | asp/webapps/32898.txt
+AckerTodo 4.2 - '[01;31m[Klogin[m[K.php' Multiple SQL Injections  | php/webapps/28767.txt
+Active News Manager - '[01;31m[Klogin[m[K.asp' SQL Injection      | solaris/local/25703.txt
+Activedition - '/activedition/ae[01;31m[Klogin[m[K.asp' Multiple  | asp/webapps/34397.txt
+AdMentor - Admin [01;31m[KLogin[m[K SQL Injection                 | asp/webapps/29533.html
+AdminLog 0.5 - 'valid_[01;31m[Klogin[m[K' Authentication Bypass   | php/webapps/9075.txt
+Adobe ColdFusion Server 8.0.1 - '/wizards/common/_lo | cfm/webapps/33169.txt
+Advanced [01;31m[KLogin[m[K 0.7 - 'root' Remote File Inclusion    | php/webapps/3608.txt
+AfterLogic MailBee WebMail Pro 3.x - '[01;31m[Klogin[m[K.php?mode | php/webapps/30641.txt
+AIOCP 1.3.x - 'cp_[01;31m[Klogin[m[K.php' SQL Injection           | php/webapps/28931.txt
+Airties - [01;31m[Klogin[m[K-cgi Buffer Overflow (Metasploit)     | hardware/remote/37170.rb
+Alisveristr E-Commerce [01;31m[KLogin[m[K - Multiple SQL Injectio | php/webapps/26707.txt
+allocPSA 1.7.4 - '/[01;31m[Klogin[m[K/[01;31m[Klogin[m[K.php' Cross-Site Scrip | php/webapps/35754.txt
+AlphAdmin CMS 1.0.5_03 - 'aa_[01;31m[Klogin[m[K' Cookie Authentic | php/webapps/32102.txt
+Ampache 3.4.3 - '[01;31m[Klogin[m[K.php' Multiple SQL Injections  | php/webapps/33421.txt
+Ampache 3.5.4 - '[01;31m[Klogin[m[K.php' Cross-Site Scripting     | php/webapps/35716.html
+aoblogger 2.3 - '[01;31m[Klogin[m[K.php?Username' SQL Injection   | php/webapps/27105.txt
+APBook 1.3 - Admin [01;31m[KLogin[m[K Multiple SQL Injections     | php/webapps/34705.txt
+AppIntellect SpotLight CRM - '[01;31m[Klogin[m[K.asp' SQL Injecti | asp/webapps/29271.txt
+AppleFileServer (OSX) - [01;31m[KLogin[m[KExt PathName Overflow ( | osx/remote/16863.rb
+AppleFileServer 10.3.3 (OSX) - [01;31m[KLogin[m[KEXT PathName Ove | osx/remote/9931.rb
+ARISg 5.0 - 'wf[01;31m[Klogin[m[K.jsp' Cross-Site Scripting       | jsp/webapps/33678.txt
+Article Dashboard - '/admin/[01;31m[Klogin[m[K.php' Multiple SQL  | php/webapps/31028.txt
+Article Directory - '[01;31m[Klogin[m[K.php' SQL Injection        | php/webapps/33409.txt
+ASPired2Protect [01;31m[KLogin[m[K Page - SQL Injection           | asp/webapps/31070.txt
+ASPThai Forums 8.0 - '[01;31m[Klogin[m[K.asp' SQL Injection       | asp/webapps/27142.txt
+ATutor 1.5.1 - '[01;31m[Klogin[m[K.php?course' Cross-Site Scripti | php/webapps/26170.txt
+Automatic-Systems SOC FL9600 FastLine - The device c | php/webapps/51824.txt
+BandSite CMS 1.1 - '[01;31m[Klogin[m[K_header.php' Cross-Site Scr | php/webapps/28622.txt
+Bandwebsite 1.5 - '[01;31m[KLOGIN[m[K' Remote Add Admin           | php/webapps/2938.html
+Banking@Home 2.1 - '[01;31m[Klogin[m[K.asp' Multiple SQL Injectio | asp/webapps/32797.txt
+Battleaxe Software BTTLXE Forum - '[01;31m[Klogin[m[K.asp' SQL In | asp/webapps/22529.txt
+bbPress 0.8.1 - 'BB-[01;31m[Klogin[m[K.php' Cross-Site Scripting  | php/webapps/30175.txt
+BEA WebLogic 7.0/8.1 - Administration Console [01;31m[KLogin[m[KF | jsp/webapps/25738.txt
+Beck IPC GmbH IPC@CHIP - TelnetD [01;31m[KLogin[m[K Account Brute | multiple/remote/20881.txt
+Belkin N750 - 'jump?[01;31m[Klogin[m[K' Remote Buffer Overflow    | hardware/remote/35184.py
+BestWebApp Dating Site - '[01;31m[Klogin[m[K_form.asp?msg' Cross- | asp/webapps/29081.txt
+BestWebApp Dating Site [01;31m[KLogin[m[K Component - Multiple Fi | asp/webapps/29080.txt
+BibORB 1.3.2 [01;31m[KLogin[m[K Module - Multiple SQL Injections  | php/webapps/25121.txt
+B[01;31m[Klogin[m[Kator 1a - Cookie Bypass / SQL Injection        | php/webapps/8243.txt
+B[01;31m[Klogin[m[Kator 1a - SQL Injection / Command Injection (v | php/webapps/8244.txt
+Boutique SudBox 1.2 - Cross-Site Request Forgery (Ch | php/webapps/12419.txt
+BrowserCRM 5.100.1 - '[01;31m[Klogin[m[K[]' Cross-Site Scripting  | php/webapps/36454.txt
+BSD/OS 2.1 / DG/UX 4.0 / Debian 0.93 / Digital UNIX  | unix/local/19203.c
+
+Servicio: ftp
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+AMember Pro [01;31m[K2.3.4[m[K - Remote File Inclusion            | php/webapps/26237.txt
+ChillyCMS [01;31m[K2.3.4[m[K.3 - Arbitrary File Upload            | php/webapps/34641.py
+CMScout IBrowser TinyMCE Plugin [01;31m[K2.3.4[m[K.3 - Local File | php/webapps/34639.txt
+Digital Music Pad 8.[01;31m[K2.3.4[m[K.8 - '.pls' Local Overflow  | windows/local/15855.py
+Eventum [01;31m[K2.3.4[m[K - 'hostname' Remote Code Execution     | php/webapps/39066.txt
+Front Accounting [01;31m[K2.3.4[m[K - Cross-Site Request Forgery  | php/webapps/17238.html
+In-link [01;31m[K2.3.4[m[K - 'ADODB_DIR' Remote File Inclusion    | php/webapps/2295.txt
+In-link [01;31m[K2.3.4[m[K/5.1.3 RC1 - 'cat' SQL Injection        | php/webapps/36123.txt
+In-portal In-Link [01;31m[K2.3.4[m[K - 'ADODB_DIR.php' Remote Fil | php/webapps/28486.txt
+Lavasoft [01;31m[K2.3.4[m[K.7 - 'LavasoftTcpService' Unquoted Ser | windows/local/47504.txt
+MusicBox [01;31m[K2.3.4[m[K - 'page' SQL Injection                | php/webapps/28262.txt
+Open Handset Alliance Android [01;31m[K2.3.4[m[K/3.1 - Browser Sa | multiple/remote/36006.java
+OpenLDAP [01;31m[K2.3.4[m[K1 - BER Decoding Remote Denial of Serv | linux/dos/32000.txt
+osCommerce [01;31m[K2.3.4[m[K - Multiple Vulnerabilities          | php/webapps/34582.txt
+osCommerce [01;31m[K2.3.4[m[K.1 - 'currency' SQL Injection        | php/webapps/46328.txt
+osCommerce [01;31m[K2.3.4[m[K.1 - 'products_id' SQL Injection     | php/webapps/46329.txt
+osCommerce [01;31m[K2.3.4[m[K.1 - 'reviews_id' SQL Injection      | php/webapps/46330.txt
+osCommerce [01;31m[K2.3.4[m[K.1 - 'title' Persistent Cross-Site S | php/webapps/49103.txt
+osCommerce [01;31m[K2.3.4[m[K.1 - Arbitrary File Upload           | php/webapps/43191.py
+osCommerce [01;31m[K2.3.4[m[K.1 - Remote Code Execution           | php/webapps/44374.py
+osCommerce [01;31m[K2.3.4[m[K.1 - Remote Code Execution (2)       | php/webapps/50128.py
+Pfsense [01;31m[K2.3.4[m[K / 2.4.4-p3 - Remote Code Injection     | php/webapps/47413.py
+PHPOpenChat [01;31m[K2.3.4[m[K/3.0.1 - 'ENGLISH_poc.php' Remote F | php/webapps/25229.txt
+PHPOpenChat [01;31m[K2.3.4[m[K/3.0.1 - 'poc.php' Remote File Incl | php/webapps/25228.txt
+PHPOpenChat [01;31m[K2.3.4[m[K/3.0.1 - 'poc_loginform.php?phpbb_r | php/webapps/25227.txt
+PTPublisher v[01;31m[K2.3.4[m[K - Unquoted Service Path           | windows/local/50885.txt
+SineCMS [01;31m[K2.3.4[m[K - Calendar SQL Injection               | php/webapps/4693.txt
+Softros Network Time System Server [01;31m[K2.3.4[m[K - Denial of | windows/dos/44255.txt
+vsftpd [01;31m[K2.3.4[m[K - Backdoor Command Execution            | unix/remote/49757.py
+vsftpd [01;31m[K2.3.4[m[K - Backdoor Command Execution (Metasploi | unix/remote/17491.rb
+Woltlab Burning Board [01;31m[K2.3.4[m[K - 'Class_DB_MySQL.php' C | php/webapps/27444.txt
+Woltlab Burning Board [01;31m[K2.3.4[m[K - 'misc.php' Cross-Site  | php/webapps/27355.txt
+Woltlab Burning Board [01;31m[K2.3.4[m[K - File Disclosure        | php/webapps/15500.txt
+WSN Links Script [01;31m[K2.3.4[m[K - SQL Injection               | php/webapps/18297.txt
+----------------------------------------------------- ---------------------------------
+Shellcodes: No Results
+--- Web Exploits ---
+(Gabriel's [01;31m[KFTP[m[K Server) Open & Compact [01;31m[KFTP[m[K | https://www.exploit-db.com/exploits/11391
+(Gabriel's [01;31m[KFTP[m[K Server) Open & Compact [01;31m[KFTP[m[K | https://www.exploit-db.com/exploits/11420
+(Gabriel's [01;31m[KFTP[m[K Server) Open & Compact [01;31m[KFTP[m[K | https://www.exploit-db.com/exploits/11742
+(Gabriel's [01;31m[KFTP[m[K Server) Open & Compact [01;31m[KFTP[m[K | https://www.exploit-db.com/exploits/12698
+(Gabriel's [01;31m[KFTP[m[K Server) Open & Compact [01;31m[KFTP[m[K | https://www.exploit-db.com/exploits/12741
+(Gabriel's [01;31m[KFTP[m[K Server) Open & Compact [01;31m[KFTP[m[K | https://www.exploit-db.com/exploits/13932
+(Gabriel's [01;31m[KFTP[m[K Server) Open & Compact [01;31m[KFTP[m[K | https://www.exploit-db.com/exploits/27401
+2X ThinClientServer 5.0 sp1-r3497 T[01;31m[KFTP[m[K Se | https://www.exploit-db.com/exploits/31562
+32bit [01;31m[KFTP[m[K (09.04.24) - 'Banner' Remote Bu | https://www.exploit-db.com/exploits/8611
+32bit [01;31m[KFTP[m[K (09.04.24) - 'Banner' Remote Bu | https://www.exploit-db.com/exploits/8614
+
+Servicio: distccd
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+202CMS [01;31m[Kv1[m[K0beta - Multiple SQL Injection              | php/webapps/46579.txt
+4images [01;31m[Kv1[m[K.7.11 - 'Profile Image' Stored Cross-Site  | php/webapps/49339.txt
+7 Sticky Notes [01;31m[Kv1[m[K.9 - OS Command Injection           | windows/local/51748.TXT
+Abantecart [01;31m[Kv1[m[K.3.2 - Authenticated Remote Code Execut | php/webapps/51058.txt
+AC Repair and Services System [01;31m[Kv1[m[K.0 - Multiple SQL In | php/remote/51844.txt
+Advanced Host Monitor [01;31m[Kv1[m[K2.56 - Unquoted Service Path | windows/local/51412.txt
+AEGON LIFE [01;31m[Kv1[m[K.0 Life Insurance Management System - S | php/webapps/52042.txt
+AEGON LIFE [01;31m[Kv1[m[K.0 Life Insurance Management System - S | php/webapps/52046.txt
+AIMP 2.51 build 330 - ID3[01;31m[Kv1[m[K/ID3v2 Tag Remote Stack B | windows/dos/8837.txt
+Air Cargo Management System [01;31m[Kv1[m[K.0 - SQLi              | php/webapps/50779.txt
+Art Gallery Management System Project [01;31m[Kv1[m[K.0 - Reflect | php/webapps/51214.txt
+Art Gallery Management System Project [01;31m[Kv1[m[K.0 - SQL Inj | php/webapps/51215.txt
+Art Gallery Management System Project [01;31m[Kv1[m[K.0 - SQL Inj | php/webapps/51216.txt
+Asus GameSDK [01;31m[Kv1[m[K.0.0.4 - 'GameSDK.exe' Unquoted Servi | windows/local/50985.txt
+Attendance and Payroll System [01;31m[Kv1[m[K.0 - Remote Code Exe | php/webapps/50801.py
+Attendance and Payroll System [01;31m[Kv1[m[K.0 - SQLi Authentica | php/webapps/50802.py
+Auto Dealer Management System [01;31m[Kv1[m[K.0 - SQL Injection   | php/webapps/51282.txt
+Auto Dealer Management System [01;31m[Kv1[m[K.0 - SQL Injection i | php/webapps/51283.txt
+Auto Dealer Management System [01;31m[Kv1[m[K.0 - SQL Injection o | php/webapps/51284.txt
+Availability Booking Calendar [01;31m[Kv1[m[K.0 - Multiple Cross- | php/webapps/51626.txt
+Backdrop Cms [01;31m[Kv1[m[K.25.1 - Stored Cross-Site Scripting ( | php/webapps/51597.txt
+Bang Resto [01;31m[Kv1[m[K.0 - 'Multiple' SQL Injection           | php/webapps/51378.txt
+Bang Resto [01;31m[Kv1[m[K.0 - Stored Cross-Site Scripting (XSS)  | php/webapps/51377.txt
+Beauty Salon Management System [01;31m[Kv1[m[K.0 - SQLi           | php/webapps/51568.txt
+Beauty-salon [01;31m[Kv1[m[K.0 - Remote Code Execution (RCE)      | php/webapps/51098.txt
+Beetel Connection Manager PCW_BTLIND[01;31m[KV1[m[K.0.0B04 - Loca | windows/local/28969.py
+Belkin F9K1122[01;31m[Kv1[m[K 1.00.30 - Buffer Overflow (via Cros | hardware/webapps/40332.py
+Belkin N150 Wireless Router F9K1009 [01;31m[Kv1[m[K - Multiple Vu | hardware/webapps/38840.txt
+Best pos Management System [01;31m[Kv1[m[K.0 - Remote Code Execut | php/webapps/51280.txt
+Best pos Management System [01;31m[Kv1[m[K.0 - SQL Injection      | php/webapps/51279.txt
+Best POS Management System [01;31m[Kv1[m[K.0 - Unauthenticated Re | php/webapps/51462.py
+Best Student Result Management System [01;31m[Kv1[m[K.0 - Multipl | php/webapps/51972.txt
+Blackcat Cms [01;31m[Kv1[m[K.4 - Remote Code Execution (RCE)      | php/webapps/51605.txt
+Blackcat Cms [01;31m[Kv1[m[K.4 - Stored XSS                       | php/webapps/51604.txt
+Blood Bank [01;31m[Kv1[m[K.0 - Multiple SQL Injection             | php/webapps/51833.txt
+Blood Bank [01;31m[Kv1[m[K.0 - Stored Cross Site Scripting (XSS)  | php/webapps/51955.txt
+Blood Donor Management System [01;31m[Kv1[m[K.0 - Stored XSS      | php/webapps/51697.txt
+BrainyCP [01;31m[KV1[m[K.0 - Remote Code Execution                | php/webapps/51357.py
+BTCPay Server [01;31m[Kv1[m[K.7.4 - HTML Injection                | multiple/webapps/51254.txt
+Cacti [01;31m[Kv1[m[K.2.22 - Remote Command Execution (RCE)       | php/webapps/51166.py
+Cacti [01;31m[Kv1[m[K.2.8 - Unauthenticated Remote Code Execution | php/webapps/48159.rb
+Canteen-Management [01;31m[Kv1[m[K.0 - SQL Injection              | php/webapps/51063.txt
+Canteen-Management [01;31m[Kv1[m[K.0 - XSS-Reflected              | php/webapps/51062.txt
+Casdoor < [01;31m[Kv1[m[K.331.0 - '/api/set-password' CSRF        | go/webapps/51961.txt
+CE Phoenix [01;31m[Kv1[m[K.0.8.20 - Remote Code Execution         | php/webapps/51957.py
+ChiKoi [01;31m[Kv1[m[K.0 - SQL Injection                          | php/webapps/51202.txt
+Chitor-CMS [01;31m[Kv1[m[K.1.2 - Pre-Auth SQL Injection           | php/webapps/51383.py
+
+Servicio: smtp
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+AA [01;31m[KSMTP[m[K Server 1.1 - Crash (PoC)                     | windows/dos/14990.txt
+Alt-N MDaemon 6.5.1 - IMAP/[01;31m[KSMTP[m[K Remote Buffer Overfl | windows/remote/473.c
+Alt-N MDaemon 6.5.1 [01;31m[KSMTP[m[K Server - Multiple Command R | windows/remote/24624.c
+Alt-N MDaemon Server 2.71 SP1 - [01;31m[KSMTP[m[K HELO Argument B | windows/dos/23146.c
+Apache James Server 2.2 - [01;31m[KSMTP[m[K Denial of Service     | multiple/dos/27915.pl
+BaSoMail 1.24 - [01;31m[KSMTP[m[K Server Command Buffer Overflow  | windows/dos/22668.txt
+BaSoMail Server 1.24 - POP3/[01;31m[KSMTP[m[K Remote Denial of Se | windows/dos/594.pl
+BL4 [01;31m[KSMTP[m[K Server < 0.1.5 - Remote Buffer Overflow (Po | windows/dos/1721.pl
+Blat 2.7.6 [01;31m[KSMTP[m[K / NNTP Mailer - Local Buffer Overflo | windows/local/38472.py
+BulletProof FTP Server 2019.0.0.50 - '[01;31m[KSMTP[m[K Server' D | windows/dos/46422.py
+Cisco PIX Firewall 4.x/5.x - [01;31m[KSMTP[m[K Content Filtering  | hardware/remote/20231.txt
+Citadel [01;31m[KSMTP[m[K 7.10 - Remote Overflow                  | windows/remote/4949.txt
+Cobalt Raq3 PopRelayD - Arbitrary [01;31m[KSMTP[m[K Relay         | linux/remote/20994.txt
+CodeBlue 5.1 - [01;31m[KSMTP[m[K Response Buffer Overflow         | windows/remote/21643.c
+CommuniCrypt Mail 1.16 - 'AN[01;31m[KSMTP[m[K.dll/AO[01;31m[KSMTP[m[K.dll' Act | windows/remote/12663.html
+CommuniCrypt Mail 1.16 - [01;31m[KSMTP[m[K ActiveX Stack Buffer O | windows/remote/16566.rb
+Computalynx CMail 2.3 SP2/2.4 - [01;31m[KSMTP[m[K Buffer Overflow | windows/remote/19495.c
+DeepOfix [01;31m[KSMTP[m[K Server 3.3 - Authentication Bypass     | linux/remote/29706.txt
+d[01;31m[KSMTP[m[K Mail Server 3.1b (Linux) - Format String       | linux/remote/981.c
+EasyMail Objects 'EM[01;31m[KSMTP[m[K.DLL 6.0.1' - ActiveX Contro | windows/remote/10007.html
+EType EServ 2.9x - [01;31m[KSMTP[m[K Remote Denial of Service     | windows/dos/22123.pl
+Eudora 7.1 - [01;31m[KSMTP[m[K ResponseRemote Remote Buffer Overf | windows/remote/3934.py
+Exim E[01;31m[KSMTP[m[K 4.80 - glibc gethostbyname Denial of Serv | linux/dos/35951.py
+FloosieTek FTGate PRO 1.22 - [01;31m[KSMTP[m[K MAIL FROM Buffer O | windows/dos/22568.pl
+FloosieTek FTGate PRO 1.22 - [01;31m[KSMTP[m[K RCPT TO Buffer Ove | windows/dos/22569.pl
+Free [01;31m[KSMTP[m[K Server 2.2 - Spam Filter                   | windows/remote/1193.pl
+Free [01;31m[KSMTP[m[K Server 2.5 - Denial of Service (PoC)       | windows/dos/46937.py
+GetSimple CMS My [01;31m[KSMTP[m[K Contact Plugin 1.1.1 - Cross-S | php/webapps/49774.py
+GetSimple CMS My [01;31m[KSMTP[m[K Contact Plugin 1.1.2 - Persist | php/webapps/49798.py
+GoodTech [01;31m[KSMTP[m[K Server 5.14 - Denial of Service        | windows/dos/1162.pl
+Hastymail 1.x - IMAP [01;31m[KSMTP[m[K Command Injection          | php/webapps/28777.txt
+i.Scribe [01;31m[KSMTP[m[K Client 2.00b - 'wscanf' Remote Format  | windows/dos/7249.php
+Inetserv 3.23 - [01;31m[KSMTP[m[K Denial of Service               | windows/dos/16035.py
+Inframail Advantage Server Edition 6.0 < 6.37 - 'SMT | windows/dos/1165.pl
+Ipswitch Imail Server 5.0 - [01;31m[KSMTP[m[K HELO Argument Buffe | windows/dos/23145.c
+iScripts AutoHoster - 'main_[01;31m[Ksmtp[m[K.php' Traversal      | php/webapps/38889.txt
+Jack De Winter Win[01;31m[KSMTP[m[K 1.6 f/2.0 - Buffer Overflow   | windows/dos/20221.pl
+LeadTools Imaging LEAD[01;31m[KSmtp[m[K - ActiveX Control 'SaveMe | windows/remote/35880.html
+Lotus Domino 4.6.1/4.6.4 Notes - [01;31m[KSMTP[m[KA MTA Mail Rela | multiple/dos/19368.sh
+Lotus Domino [01;31m[KSMTP[m[K Router & Email Server and Client - | multiple/dos/17549.txt
+MailEnable 1.x - [01;31m[KSMTP[m[K 'HELO' Remote Denial of Servic | windows/dos/28103.pl
+MailEnable 2.x - [01;31m[KSMTP[m[K NTLM Multiple Authentication V | windows/dos/28735.pl
+MailEnable 3.13 [01;31m[KSMTP[m[K Service - 'VRFY/EXPN' Denial of | windows/dos/5235.py
+MailEnable Enterprise 1.x - [01;31m[KSMTP[m[K Remote Denial of Se | windows/dos/916.pl
+MAILsweeper [01;31m[KSMTP[m[K 4.2.1 + F-Secure Anti-Virus 5.0.2/5 | windows/dos/21006.txt
+Mailtraq 2.1.0.1302 - Remote Format String [01;31m[KSMTP[m[K Reso | windows/dos/22780.txt
+Majordomo2 - '[01;31m[KSMTP[m[K/HTTP' Directory Traversal         | multiple/remote/16103.txt
+
+Servicio: mysql
+Exploits: No Results
+Shellcodes: No Results
+--- Web Exploits ---
+Active Calendar 1.2 - '/data/[01;31m[Kmysql[m[Kevents. | https://www.exploit-db.com/exploits/29653
+Advanced Poll 2.0 - '[01;31m[Kmysql[m[K_host' Cross-Si | https://www.exploit-db.com/exploits/33972
+Agora 1.4 RC1 - '[01;31m[KMysql[m[KfinderAdmin.php' Re | https://www.exploit-db.com/exploits/2726
+Asterisk 'asterisk-addons' 1.2.7/1.4.3 -  | https://www.exploit-db.com/exploits/30677
+Banex PHP [01;31m[KMySQL[m[K Banner Exchange 2.21 - 'a | https://www.exploit-db.com/exploits/28307
+Banex PHP [01;31m[KMySQL[m[K Banner Exchange 2.21 - 'm | https://www.exploit-db.com/exploits/28308
+Banex PHP [01;31m[KMySQL[m[K Banner Exchange 2.21 - 's | https://www.exploit-db.com/exploits/28306
+Cholod [01;31m[KMySQL[m[K Based Message Board - 'Mb.cg | https://www.exploit-db.com/exploits/27464
+Cisco Firepower Threat Management Console | https://www.exploit-db.com/exploits/40465
+CMSQLite / C[01;31m[KMySQL[m[Kite 1.3 - Cross-Site Req | https://www.exploit-db.com/exploits/14096
+CMSQLite 1.2 / C[01;31m[KMySQL[m[Kite 1.3.1 - Remote C | https://www.exploit-db.com/exploits/14654
+cPanel 10.8.x - 'cpwrap' via [01;31m[KMySQL[m[KAdmin P | https://www.exploit-db.com/exploits/2554
+cPanel 10.8.x - cpwrap via [01;31m[KMySQL[m[KAdmin Pri | https://www.exploit-db.com/exploits/2466
+cPanel 11 - PassWD[01;31m[KMySQL[m[K Cross-Site Script | https://www.exploit-db.com/exploits/29572
+CSP [01;31m[KMySQL[m[K User Manager 2.3.1 - Authentica | https://www.exploit-db.com/exploits/44589
+Froxlor Server Management Panel 0.9.33.1  | https://www.exploit-db.com/exploits/37725
+GEDCOM_TO_[01;31m[KMYSQL[m[K - '/PHP/index.php?nom_bra | https://www.exploit-db.com/exploits/31731
+GEDCOM_TO_[01;31m[KMYSQL[m[K - '/PHP/info.php' Multipl | https://www.exploit-db.com/exploits/31732
+GEDCOM_TO_[01;31m[KMYSQL[m[K - '/PHP/prenom.php' Multi | https://www.exploit-db.com/exploits/31730
+Insurance Management System PHP and [01;31m[KMySQL[m[K | https://www.exploit-db.com/exploits/51920
+
+Servicio: tcpwrapped
+Exploits: No Results
+Shellcodes: No Results
+
+Servicio: status
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+'customhs_js_content' - 'customhs_js_content' Cross- | php/webapps/497[01;31m[K1[m[K2.html
+(Bitcoin / Dogecoin) PHP Cloud Mining Script - Authe | php/webapps/4253[01;31m[K1[m[K.txt
+(Gabriel's FTP Server) Open & Compact FTP Server [01;31m[K1[m[K.2 | windows/dos/[01;31m[K1[m[K2698.py
+(Gabriel's FTP Server) Open & Compact FTP Server [01;31m[K1[m[K.2 | windows/dos/[01;31m[K1[m[K274[01;31m[K1[m[K.py
+(Gabriel's FTP Server) Open & Compact FTP Server [01;31m[K1[m[K.2 | windows/remote/[01;31m[K1[m[K3932.py
+(Gabriel's FTP Server) Open & Compact FTP Server [01;31m[K1[m[K.2 | windows/remote/2740[01;31m[K1[m[K.py
+(Gabriel's FTP Server) Open & Compact FTPd [01;31m[K1[m[K.2 - Buf | windows/remote/[01;31m[K1[m[K[01;31m[K1[m[K742.rb
+(Gabriel's FTP Server) Open & Compact FTPd [01;31m[K1[m[K.2 - Cra | windows/dos/[01;31m[K1[m[K[01;31m[K1[m[K39[01;31m[K1[m[K.py
+(Gabriel's FTP Server) Open & Compact FTPd [01;31m[K1[m[K.2 - Rem | windows/remote/[01;31m[K1[m[K[01;31m[K1[m[K420.py
+(GREEZLE) Global Real Estate Agent Login - Multiple  | multiple/webapps/34[01;31m[K1[m[K[01;31m[K1[m[K[01;31m[K1[m[K.txt
+(shellcode) Linux-x64 - create a shell with execve() | linux/local/5[01;31m[K1[m[K834.c
+(SSH.com Communications) SSH Tectia (SSH < 2.0-6.[01;31m[K1[m[K.9 | linux/remote/23082.txt
+(SSH.com Communications) SSH Tectia - USERAUTH Chang | unix/remote/23[01;31m[K1[m[K56.rb
+(Tod Miller's) Sudo/SudoEdit [01;31m[K1[m[K.6.9p2[01;31m[K1[m[K/[01;31m[K1[m[K.7.2p4 - Loca | multiple/local/[01;31m[K1[m[K[01;31m[K1[m[K65[01;31m[K1[m[K.sh
+.NET Framework - Tilde Character Denial of Service   | windows/dos/[01;31m[K1[m[K9575.txt
+.NET Runtime Optimization Service - Local Privilege  | windows/local/[01;31m[K1[m[K6940.c
+.netCART Settings.XML - Information Disclosure       | asp/webapps/2292[01;31m[K1[m[K.txt
+0[01;31m[K1[m[K0 Editor 3.0.4 - File Parsing Multiple Buffer Over | multiple/remote/32945.txt
+04webserver [01;31m[K1[m[K.42 - Multiple Vulnerabilities          | multiple/remote/24730.txt
+0irc-client [01;31m[K1[m[K345 build20060823 - Denial of Service   | windows/dos/3547.c
+0verkill 0.[01;31m[K1[m[K6 - ASCII-ART Game Remote Integer Overfl | linux/dos/[01;31m[K1[m[K894.py
+0verkill 0.[01;31m[K1[m[K6 - Game Client Multiple Local Buffer Ov | linux/local/23634.c
+[01;31m[K1[m[K Click Audio Converter 2.3.6 - Activex Local Buffer | windows/local/372[01;31m[K1[m[K[01;31m[K1[m[K.html
+[01;31m[K1[m[K Click Extract Audio 2.3.6 - Activex Buffer Overflo | windows/local/372[01;31m[K1[m[K2.html
+[01;31m[K1[m[K-2-3 Music Store [01;31m[K1[m[K.0 - 'Process.php' SQL Injection  | php/webapps/2656[01;31m[K1[m[K.txt
+[01;31m[K1[m[K-Script [01;31m[K1[m[K-Search [01;31m[K1[m[K.8 - '[01;31m[K1[m[Ksearch.CGI' Cross-Site Scr | cgi/webapps/2672[01;31m[K1[m[K.txt
+[01;31m[K1[m[K0-Strike Bandwidth Monitor 3.7 - Local Buffer Overf | windows/local/45085.py
+[01;31m[K1[m[K0-Strike Bandwidth Monitor 3.9 - Buffer Overflow (S | windows/local/48570.py
+[01;31m[K1[m[K0-Strike LANState 8.8 - Local Buffer Overflow (SEH) | windows/local/45086.py
+[01;31m[K1[m[K0-Strike Network File Search Pro 2.3 - Local Buffer | windows/local/40903.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer - 'srvInventory | windows/local/4825[01;31m[K1[m[K.txt
+[01;31m[K1[m[K0-Strike Network Inventory Explorer 8.54 - 'Add' Lo | windows/local/48253.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer 8.54 - 'Registr | windows_x86/local/44840.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer 8.54 - Local Bu | windows/local/46283.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer 8.54 - Local Bu | windows_x86/local/44838.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer 8.65 - Buffer O | windows/local/49[01;31m[K1[m[K34.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer 9.03 - 'Read fr | windows/local/48264.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer Pro 9.05 - Buff | windows/local/49322.py
+[01;31m[K1[m[K0-Strike Network Inventory Explorer Pro 9.3[01;31m[K1[m[K - 'srv | windows/local/50494.txt
+[01;31m[K1[m[K0-Strike Network Inventory Explorer Pro 9.3[01;31m[K1[m[K - Buff | windows/local/50472.py
+[01;31m[K1[m[K0-Strike Network Scanner 3.0 - Local Buffer Overflo | windows_x86/local/4484[01;31m[K1[m[K.py
+[01;31m[K1[m[K0[01;31m[K1[m[K News [01;31m[K1[m[K.0 - Multiple-SQLi                         | php/webapps/5[01;31m[K1[m[K759.txt
+[01;31m[K1[m[K024 CMS 0.7 - 'download.php' Remote File Disclosure | php/webapps/3832.txt
+[01;31m[K1[m[K024 CMS [01;31m[K1[m[K.[01;31m[K1[m[K.0 Beta - 'force_download.php' Local Fil | php/webapps/[01;31m[K1[m[K8000.txt
+[01;31m[K1[m[K024 CMS [01;31m[K1[m[K.[01;31m[K1[m[K.0 Beta - Multiple Input Validation Vuln | php/webapps/35598.txt
+[01;31m[K1[m[K024 CMS [01;31m[K1[m[K.3.[01;31m[K1[m[K - Local File Inclusion / SQL Injectio | php/webapps/4765.txt
+[01;31m[K1[m[K024 CMS [01;31m[K1[m[K.4.2 - Local File Inclusion / Blind SQL In | php/webapps/5434.pl
+
+Servicio: http
+----------------------------------------------------- ---------------------------------
+ Exploit Title                                       |  Path
+----------------------------------------------------- ---------------------------------
+1024 CMS [01;31m[K1.1[m[K.0 Beta - 'force_download.php' Local Fil | php/webapps/18000.txt
+1024 CMS [01;31m[K1.1[m[K.0 Beta - Multiple Input Validation Vuln | php/webapps/35598.txt
+1024 CMS 2.[01;31m[K1.1[m[K - 'p' SQL Injection                   | php/webapps/37650.txt
+1024 CMS 2.[01;31m[K1.1[m[K - Blind SQL Injection                 | php/webapps/14942.txt
+2X Client for RDP 10.[01;31m[K1.1[m[K204 - ClientSystem Class Act | windows/remote/18624.txt
+3Com DSL Router 812 [01;31m[K1.1[m[K.7/[01;31m[K1.1[m[K.9/2.0 - Administrative | hardware/dos/22947.c
+3Com OfficeConnect DSL Router 812 [01;31m[K1.1[m[K.7/840 [01;31m[K1.1[m[K.7 -  | hardware/dos/20847.c
+3CServer [01;31m[K1.1[m[K (FTP Server) - Remote Overflow          | windows/remote/794.c
+3ware Disk Managment [01;31m[K1.1[m[K0 - HTTP Request Denial of S | multiple/dos/22207.txt
+4digits [01;31m[K1.1[m[K.4 - Local Buffer Overflow (PoC)          | linux/dos/39842.txt
+7Shop [01;31m[K1.1[m[K - Arbitrary File Upload                    | php/webapps/6866.pl
+@CMS 2.[01;31m[K1.1[m[K - SQL Injection                           | php/webapps/5881.txt
+A-PDF All to MP3 Converter [01;31m[K1.1[m[K.0 - Universal Local ( | windows/local/15033.py
+AA SMTP Server [01;31m[K1.1[m[K - Crash (PoC)                     | windows/dos/14990.txt
+ABB [01;31m[K1.1[m[K - Forum Remote Database Disclosure           | asp/webapps/11096.txt
+Ability Mail Server 2013 3.[01;31m[K1.1[m[K - Web UI Persistent C | windows/remote/30373.py
+AbsoluteTelnet 1[01;31m[K1.1[m[K2 - 'license name' Denial of Serv | windows/dos/48006.py
+AbsoluteTelnet 1[01;31m[K1.1[m[K2 - 'SSH1/username' Denial of Ser | windows/dos/48305.py
+AbsoluteTelnet 1[01;31m[K1.1[m[K2 - 'SSH2/username' Denial of Ser | windows/dos/48010.py
+AbsoluteTelnet 1[01;31m[K1.1[m[K2 - _license name_ Denial of Serv | windows/dos/48005.py
+Abyss Web Server 1.0/[01;31m[K1.1[m[K - Authentication Bypass     | windows/remote/23419.txt
+Abyss Web Server [01;31m[K1.1[m[K.2 - Incomplete HTTP Request Den | windows/dos/22460.txt
+Abyss Web Server X1 2.1[01;31m[K1.1[m[K - Unquoted Service Path P | windows/local/40460.txt
+Acc PHP eMail [01;31m[K1.1[m[K - Cross-Site Request Forgery       | php/webapps/10412.txt
+Acc PHP eMail [01;31m[K1.1[m[K - Insecure Cookie Handling         | php/webapps/6966.txt
+Acc Statistics [01;31m[K1.1[m[K - Insecure Cookie Handling        | php/webapps/6965.txt
+Accela Civic Platform 2[01;31m[K1.1[m[K - 'contactSeqNumber' Inse | multiple/webapps/49991.txt
+Accela Civic Platform 2[01;31m[K1.1[m[K - 'servProvCode' Cross-Si | multiple/webapps/49980.txt
+Accela Civic Platform 2[01;31m[K1.1[m[K - 'successURL' Cross-Site | multiple/webapps/49990.txt
+AccStatistics [01;31m[K1.1[m[K - Cross-Site Request Forgery (Chan | php/webapps/10406.txt
+Achievo [01;31m[K1.1[m[K.0 - 'config_atkroot' Remote File Inclusi | php/webapps/3928.txt
+Acidcat CMS 2.[01;31m[K1.1[m[K3 - 'acidcat.mdb' Remote Informatio | asp/webapps/26874.txt
+Acidcat CMS 2.[01;31m[K1.1[m[K3 - 'ID' SQL Injection              | asp/webapps/26873.txt
+acontent [01;31m[K1.1[m[K - Multiple Vulnerabilities              | php/webapps/17629.txt
+Acoustica Audio Converter Pro [01;31m[K1.1[m[K (build 25) - '.mp3 | windows/local/15069.py
+Acpid 1:2.0.10-1ubuntu2 (Ubuntu 11.04/1[01;31m[K1.1[m[K0) - Bound | linux/local/18228.sh
+ACS Blog 0.8/0.9/1.0/[01;31m[K1.1[m[K - 'Name' HTML Injection     | asp/webapps/25313.txt
+ACS Blog 0.8/0.9/1.0/[01;31m[K1.1[m[K - 'search.asp' Cross-Site S | asp/webapps/25233.txt
+Actionpoll [01;31m[K1.1[m[K - 'Actionpoll.php' Remote File Inclus | php/webapps/29863.txt
+Actionpoll [01;31m[K1.1[m[K.1 - '/db/DataReaderWriter.php?CONFIG_ | php/webapps/28871.txt
+Actionpoll [01;31m[K1.1[m[K.1 - '/db/PollDB.php?CONFIG_DATAREADER | php/webapps/28872.txt
+Active Bulletin Board [01;31m[K1.1[m[Kb2 - Remote User Pass Chang | asp/webapps/2592.html
+Active PHP BookMarks [01;31m[K1.1[m[K.02 - SQL Injection          | php/webapps/6277.txt
+Active PHP BookMarks [01;31m[K1.1[m[K.2 - Multiple Remote File In | php/webapps/29173.txt
+Activity MOD Plus [01;31m[K1.1[m[K.0 - 'phpBB Mod' File Inclusion | php/webapps/1844.txt
+ACWeb [01;31m[K1.1[m[K4/1.8 - Cross-Site Scripting                | linux/remote/21858.txt
+Adaptive Website Framework [01;31m[K1.1[m[K1 - Remote File Inclus | php/webapps/28008.txt
+
+CVEs para telnet:
+3Com SuperStack II PS Hub 40 - TelnetD Weak Password Protection - remote - null
+602Pro LAN SUITE 2002 - Telnet Proxy localhost Denial of Service - dos - null
+AbsoluteTelnet 10.16 - 'License name' Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.12 - 'license name' Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.12 - 'SSH1/username' Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.12 - 'SSH2/username' Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.12 - _license name_ Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.21 - 'Username' Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.24 - 'Phone' Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.24 - 'Username' Denial of Service (PoC) - dos - null
+
+CVEs para drb:
+Belchior Foundry vCard Pro 3.1 - 'Addrbook.php' SQL Injection - webapps - null
+DBGuestbook 1.1 - 'dbs_base_path' Remote File Inclusion - webapps - null
+DBImageGallery 1.2.2 - 'donsimg_base_path' Remote File Inclusion - webapps - null
+DRBGuestbook 1.1.13 - 'index.php' Cross-Site Scripting - webapps - null
+Wireshark 1.2.5 - 'LWRES getaddrbyname' Stack Buffer Overflow (PoC) - dos - null
+Wireshark 1.2.5 - LWRES getaddrbyname Buffer Overflow - remote - null
+
+CVEs para exec:
+(shellcode) Linux-x64 - create a shell with execve() sending argument using XOR (/bin//sh) [55 bytes] - local - null
+.NET Remoting Services - Remote Command Execution - remote - null
+1024 CMS 1.4.4 - Remote Command Execution / Remote File Inclusion - webapps - null
+15 TOTOLINK Router Models - Multiple Remote Code Execution Vulnerabilities - webapps - null
+1Book Guestbook Script 1.0.1 - Code Execution - webapps - null
+1CLICK DVD Converter 2.1.7.1 - Multiple DLL Loading Arbitrary Code Execution Vulnerabilities - remote - null
+2532/Gigs 1.2.2 Stable - Remote Command Execution - webapps - null
+2X Client for RDP 10.1.1204 - ClientSystem Class ActiveX Control Download and Execute - remote - null
+3Com OfficeConnect - Code Execution - remote - null
+3proxy 0.5.3g - exec-shield 'proxy.c logurl()' Remote Overflow - remote - null
+
+CVEs para postgresql:
+PnPSCADA v2.x - Unauthenticated PostgreSQL Injection - webapps - null
+PostgreSQL - 'bitsubstr' Buffer Overflow - dos - null
+PostgreSQL 6.3.2/6.5.3 - Cleartext Passwords - local - null
+PostgreSQL 7.x - Multiple Vulnerabilities - dos - null
+PostgreSQL 8.01 - Remote Reboot (Denial of Service) - dos - null
+PostgreSQL 8.2/8.3/8.4 - UDF for Command Execution - local - null
+PostgreSQL 8.3.6 - Conversion Encoding Remote Denial of Service - dos - null
+PostgreSQL 8.3.6 - Low Cost Function Information Disclosure - local - null
+PostgreSQL 8.4.1 - JOIN Hashtable Size Integer Overflow Denial of Service - dos - null
+PostgreSQL 9.3 - COPY FROM PROGRAM Command Execution (Metasploit) - remote - null
+
+CVEs para rpcbind:
+rpcbind - CALLIT procedure UDP Crash (PoC) - dos - null
+RPCBind / libtirpc - Denial of Service - dos - null
+Wietse Venema Rpcbind Replacement 2.1 - Denial of Service - dos - null
+
+CVEs para nfs:
+Apple Mac OSX (Lion) Kernel xnu-1699.32.7 except xnu-1699.24.8 NFS Mount - Local Privilege Escalation - local - null
+EMC Celerra NAS Appliance - Unauthorized Access to Root NFS Export - remote - null
+FreeBSD - 'mountnfs()' Denial of Service - dos - null
+FreeBSD 6.0 - 'nfsd' Remote Kernel Panic (Denial of Service) - dos - null
+FreeBSD 8.0/7.3/7.2 - 'nfs_mount()' Local Privilege Escalation - local - null
+LabF nfsAxe 3.7 - Privilege Escalation - local - null
+LabF nfsAxe 3.7 FTP Client - Remote Buffer Overflow (SEH) - remote - null
+LabF nfsAxe 3.7 FTP Client - Stack Buffer Overflow (Metasploit) - remote - null
+LabF nfsAxe 3.7 Ping Client - 'Host IP' Buffer Overflow (Direct Ret) - local - null
+LabF nfsAxe 3.7 Ping Client - 'Host IP' Buffer Overflow (Direct Ret) - local - null
+
+CVEs para mountd:
+RedHat Linux 5.1 / Caldera OpenLinux Standard 1.2 - Mountd - remote - null
+
+CVEs para domain:
+Adobe Flash Player - domainMemory ByteArray Use-After-Free (Metasploit) - remote - null
+Adobe Flash Player 7.0.x/8.0.x/9.0.x - ActiveX Control 'navigateToURL' API Cross Domain Scripting - remote - null
+Alabanza Control Panel 3.0 - Domain Modification - remote - null
+Apple macOS/iOS Kernel - Use-After-Free Due to Bad Locking in Unix Domain Socket File Descriptor Externalization - dos - null
+Apple Safari 2.0.4 - Cross-Domain Browser Location Information Disclosure - remote - null
+BlackBoard Academic Suite 6.2.3.23 - Frameset.jsp Cross-Domain Frameset Loading - webapps - null
+Cacheflow CacheOS 3.1.x/4.0.x/4.1 - Unresolved Domain Cross-Site Scripting - remote - null
+Cachelogic Expired Domains Script 1.0 - Multiple Vulnerabilities - webapps - null
+CdomainFree 2.4 - Remote Command Execution - remote - null
+CentOS Web Panel 0.9.8.12 - 'row_id' / 'domain' SQL Injection - webapps - null
+
+CVEs para irc:
+0irc-client 1345 build20060823 - Denial of Service - dos - null
+Adobe SVG Viewer 3.0 - Circle Transform Remote Code Execution - dos - null
+AirControl 1.4.2 - PreAuth Remote Code Execution - webapps - null
+Aircrack-NG 0.7 - 'Specially Crafted 802.11 Packets' Remote Buffer Overflow - remote - null
+Aircrack-NG Tools svn r1675 - Remote Heap Buffer Overflow (PoC) - dos - null
+Aireplay-ng 1.2 beta3 - 'tcp_test' Length Stack Overflow - remote - null
+Anope IRC Services With bs_fantasy_ext 1.2.0-RC1 - mIRC script - remote - null
+Ayman Akt IRCIT 0.3.1 - Invite Message Remote Buffer Overflow - dos - null
+BitchX IRC Client 1.0 c17 - DNS Buffer Overflow - remote - null
+BitchX IRC Client 75p1/75p3/1.0 c16 - '/INVITE' Format String - remote - null
+
+CVEs para X11:
+ASUS DSL-X11 ADSL Router - DNS Change - webapps - null
+BSD/OS 2.1 / DG/UX 7.0 / Debian 1.3 / HP-UX 10.34 / IBM AIX 4.2 / SGI IRIX 6.4 / Solaris 2.5.1 - '/usr/bin/X11/xlock' Local Privilege Escalation (2) - local - null
+Eterm 0.8.10 / rxvt 2.6.1 / PuTTY 0.48 / X11R6 3.3.3/4.0 - Denial of Service - dos - null
+Gnome 1.0/1.1 / Group X 11.0 / XFree86 X11R6 3.3.x/4.0 - Denial of Service - dos - null
+SCO Open Server 5.0.5 / IRIX 6.2 ibX11/X11 Toolkit/Athena Widget Library - Local Buffer Overflow - local - null
+Slackware Linux 3.1 - '/usr/X11/bin/SuperProbe' Local Buffer Overflow - local - null
+Solaris 5.5.1 X11R6.3 - xterm '-xrm' Local Privilege Escalation - local - null
+Symphony CMS 2.1.2 - Blind SQL Injection - webapps - null
+Tor (Linux) - X11 Linux Sandbox Breakout - local - null
+X 11.0/3.3.3/3.3.4/3.3.5/3.3.6/4.0 - libX11 '_XAsyncReply()' Stack Corruption - local - null
+
+CVEs para ssh:
+(SSH.com Communications) SSH Tectia (SSH < 2.0-6.1.9.95 / Tectia 6.1.9.95) - Remote Authentication Bypass - remote - null
+(SSH.com Communications) SSH Tectia - USERAUTH Change Request Password Reset (Metasploit) - remote - null
+AbsoluteTelnet 11.12 - 'SSH1/username' Denial of Service (PoC) - dos - null
+AbsoluteTelnet 11.12 - 'SSH2/username' Denial of Service (PoC) - dos - null
+ABUS Security Camera TVIP 20000-21150 - LFI_ RCE and SSH Root Access - remote - null
+Axessh 4.2 - 'Log file name' Denial of Service (PoC) - dos - null
+Axessh 4.2 - 'Log file name' Denial of Service (PoC) - dos - null
+Axessh 4.2 - 'Log file name' Local Stack-based Buffer Overflow - local - null
+Axessh 4.2 - 'Log file name' Local Stack-based Buffer Overflow - local - null
+Axessh 4.2 - Denial of Service - dos - null
+
+CVEs para vnc:
+AMX Corp. VNC ActiveX Control - 'AmxVnc.dll 1.0.13.0' Remote Buffer Overflow - remote - null
+Chicken of the VNC 2.0 - 'NULL-pointer' Remote Denial of Service - dos - null
+EchoVNC Viewer - Remote Denial of Service - dos - null
+QEMU 0.9 / KVM 36/79 - VNC Server Remote Denial of Service - dos - null
+RealVNC - Authentication Bypass (Metasploit) - remote - null
+RealVNC 3.3.7 - Client Buffer Overflow (Metasploit) - remote - null
+RealVNC 4.1.0 < 4.1.1 - VNC Null Authentication Bypass (Metasploit) - remote - null
+RealVNC 4.1.0 < 4.1.1 - VNC Null Authentication Bypass - remote - null
+RealVNC 4.1.0 < 4.1.1 - VNC Null Authentication Scanner - remote - null
+RealVNC 4.1.0/4.1.1 - Authentication Bypass - remote - null
+
+CVEs para login:
+(GREEZLE) Global Real Estate Agent Login - Multiple SQL Injections - webapps - null
+4x CMS - 'login.php' Multiple SQL Injections - webapps - null
+68 Classifieds 4.1 - 'login.php' Cross-Site Scripting - webapps - null
+Absolute Form Processor XE 1.5 - 'login.asp' SQL Injection - webapps - null
+AckerTodo 4.2 - 'login.php' Multiple SQL Injections - webapps - null
+Active News Manager - 'login.asp' SQL Injection - local - null
+Activedition - '/activedition/aelogin.asp' Multiple Cross-Site Scripting Vulnerabilities - webapps - null
+AdMentor - Admin Login SQL Injection - webapps - null
+AdminLog 0.5 - 'valid_login' Authentication Bypass - webapps - null
+Adobe ColdFusion Server 8.0.1 - '/wizards/common/_logintowizard.cfm' Query String Cross-Site Scripting - webapps - null
+
+CVEs para ftp:
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - 'PORT' Remote Denial of Service - dos - null
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - Authentication Bypass / Directory Traversal SAM Retrieval - remote - null
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - Full System Access - remote - null
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - Universal Denial of Service - dos - null
+(Gabriel's FTP Server) Open & Compact FTPd 1.2 - Buffer Overflow (Metasploit) - remote - null
+(Gabriel's FTP Server) Open & Compact FTPd 1.2 - Crash (PoC) - dos - null
+(Gabriel's FTP Server) Open & Compact FTPd 1.2 - Remote Overflow - remote - null
+2X ThinClientServer 5.0 sp1-r3497 TFTP Service - Directory Traversal - remote - null
+32bit FTP (09.04.24) - 'Banner' Remote Buffer Overflow (PoC) - dos - null
+32bit FTP (09.04.24) - 'Banner' Remote Buffer Overflow - remote - null
+
+CVEs para smtp:
+AA SMTP Server 1.1 - Crash (PoC) - dos - null
+Alt-N MDaemon 6.5.1 - IMAP/SMTP Remote Buffer Overflow - remote - null
+Alt-N MDaemon 6.5.1 SMTP Server - Multiple Command Remote Overflows - remote - null
+Alt-N MDaemon Server 2.71 SP1 - SMTP HELO Argument Buffer Overflow - dos - null
+Apache James Server 2.2 - SMTP Denial of Service - dos - null
+Apache James Server 2.3.2 - Insecure User Creation Arbitrary File Write (Metasploit) - remote - null
+BaSoMail 1.24 - SMTP Server Command Buffer Overflow - dos - null
+BaSoMail Server 1.24 - POP3/SMTP Remote Denial of Service - dos - null
+BL4 SMTP Server < 0.1.5 - Remote Buffer Overflow (PoC) - dos - null
+Blat 2.7.6 SMTP / NNTP Mailer - Local Buffer Overflow - local - null
+
+CVEs para mysql:
+Active Calendar 1.2 - '/data/mysqlevents.php?css' Cross-Site Scripting - webapps - null
+Advanced Poll 2.0 - 'mysql_host' Cross-Site Scripting - webapps - null
+Agora 1.4 RC1 - 'MysqlfinderAdmin.php' Remote File Inclusion - webapps - null
+Asterisk 'asterisk-addons' 1.2.7/1.4.3 - CDR_ADDON_MYSQL Module SQL Injection - remote - null
+Banex PHP MySQL Banner Exchange 2.21 - 'admin.php' Multiple SQL Injections - webapps - null
+Banex PHP MySQL Banner Exchange 2.21 - 'members.php?cfg_root' Remote File Inclusion - webapps - null
+Banex PHP MySQL Banner Exchange 2.21 - 'signup.php?site_name' SQL Injection - webapps - null
+Cholod MySQL Based Message Board - 'Mb.cgi' SQL Injection - webapps - null
+Cisco Firepower Threat Management Console 6.0.1 - Hard-Coded MySQL Credentials - local - null
+CMSQLite / CMySQLite 1.3 - Cross-Site Request Forgery - webapps - null
+
+CVEs para status:
+Accellion FTA - getStatus verify_oauth_token Command Execution (Metasploit) - remote - null
+AdminBot 9.0.5 - 'live_status.lib.php' Remote File Inclusion - webapps - null
+Apache 2.4.7 mod_status - Scoreboard Handling Race Condition - dos - null
+Apache mod_perl - 'Apache::Status' / 'Apache2::Status' Cross-Site Scripting - remote - null
+Apple Safari 1.2 Web Browser - TABLE Status Bar URI Obfuscation - remote - null
+Apple Safari Web Browser 1.x - HTML Form Status Bar Misrepresentation - dos - null
+BIG-IP 15.0.0 < 15.1.0.3 / 14.1.0 < 14.1.2.5 / 13.1.0 < 13.1.3.3 / 12.1.0 < 12.1.5.1 / 11.6.1 < 11.6.5.1 - Traffic Management User Interface 'TMUI' Remote Code Execution (PoC) - webapps - null
+Centreo 19.10.8 - 'DisplayServiceStatus' Remote Code Execution - webapps - null
+Cisco VoIP Phone CP-7940 3.x - Spoofed SIP Status Message Handling - remote - null
+Dell SonicWALL Scrutinizer 9.0.1 - 'statusFilter.php?q' SQL Injection - webapps - null
+
+CVEs para http:
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - 'PORT' Remote Denial of Service - dos - null
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - Authentication Bypass / Directory Traversal SAM Retrieval - remote - null
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - Full System Access - remote - null
+(Gabriel's FTP Server) Open & Compact FTP Server 1.2 - Universal Denial of Service - dos - null
+(Gabriel's FTP Server) Open & Compact FTPd 1.2 - Buffer Overflow (Metasploit) - remote - null
+(Gabriel's FTP Server) Open & Compact FTPd 1.2 - Crash (PoC) - dos - null
+(Gabriel's FTP Server) Open & Compact FTPd 1.2 - Remote Overflow - remote - null
+(GREEZLE) Global Real Estate Agent Login - Multiple SQL Injections - webapps - null
+(Multiple Products) - 'banner.swf' Cross-Site Scripting - webapps - null
+.NET Remoting Services - Remote Command Execution - remote - null
+
+═══════════════════════════════════════════════════════════════
+INFORMACIÓN ADICIONAL DE SHODAN
+═══════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════
+NOTAS IMPORTANTES
+═══════════════════════════════════════════════════════════════
+- Este reporte fue generado en un entorno controlado local
+- Todos los exploits listados deben ser probados con precaución
+- Se recomienda validar las vulnerabilidades antes de explotar
+- Mantener registros apropiados de todas las actividades
+
