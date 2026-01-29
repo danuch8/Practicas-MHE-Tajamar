@@ -2,7 +2,7 @@
 
 ################################################################################
 # LinPEAS Parser - Script de Pentesting
-# USO EXCLUSIVO PARA HACKING ÉTICO CON PERMISOS EN ENTORNOS CONTROLADOS
+# Utilizar sólo en entornos controlados y autorizados. No me hago responsable del uso indebido de esta herramienta.
 # (Máquinas HTB, CTFs, auditorías autorizadas)
 ################################################################################
 
@@ -19,13 +19,13 @@ NC='\033[0m' # No Color
 echo -e "${CYAN}"
 echo "╔════════════════════════════════════════════════════════════════╗"
 echo "║             LinPEAS Output Parser & Analyzer                   ║"
-echo "║         Script de Pentesting para Escalada de Privilegios     ║"
+echo "║         Script de Pentesting para Escalada de Privilegios      ║"
 echo "║                                                                ║"
-echo "║   USO EXCLUSIVO EN ENTORNOS CONTROLADOS Y AUTORIZADOS         ║"
+echo "║    USO EXCLUSIVO EN ENTORNOS CONTROLADOS Y AUTORIZADOS         ║"
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo -e "${NC}\n"
 
-# Verificar que existe el archivo
+# Verificar que existe el archivo. Si existe, lo lee.
 LINPEAS_OUTPUT="outputLP.txt"
 
 if [ ! -f "$LINPEAS_OUTPUT" ]; then
@@ -289,7 +289,7 @@ echo -e "    2. Explora los archivos con permisos de escritura"
 echo -e "    3. Prueba los comandos sudo sugeridos (con cuidado)"
 echo -e "    4. Revisa las credenciales encontradas"
 echo -e "    5. Consulta GTFOBins para más técnicas: https://gtfobins.github.io/"
-echo -e "\n${GREEN}[+] ¡Buena suerte en tu pentesting ético!${NC}\n"
+echo -e "\n${GREEN}[+] Como decía Stan Lee: Un gran poder conlleva una gran responsabilidad. Utilizar sólo en entornos autorizados.${NC}\n"
 
 # Crear un archivo de resumen
 SUMMARY_FILE="linpeas_summary_$(date +%Y%m%d_%H%M%S).txt"
