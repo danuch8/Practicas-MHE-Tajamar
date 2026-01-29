@@ -25,12 +25,36 @@ echo "║    USO EXCLUSIVO EN ENTORNOS CONTROLADOS Y AUTORIZADOS         ║"
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo -e "${NC}\n"
 
-# Verificar que existe el archivo. Si existe, lo lee.
+# Verificar si se pasó el parámetro -l para ejecutar linpeas.sh
 LINPEAS_OUTPUT="outputLP.txt"
 
+if [ "$1" == "-l" ]; then
+    echo -e "${BLUE}[*] Parámetro -l detectado: ejecutando linpeas.sh...${NC}\n"
+    
+    # Verificar que linpeas.sh existe en el mismo directorio
+    if [ ! -f "linpeas.sh" ]; then
+        echo -e "${RED}[!] Error: No se encuentra 'linpeas.sh' en el directorio actual${NC}"
+        echo -e "${YELLOW}[i] Asegúrate de que linpeas.sh esté en la misma ubicación que este script${NC}"
+        exit 1
+    fi
+    
+    # Ejecutar linpeas.sh y guardar el output
+    echo -e "${YELLOW}[*] Ejecutando linpeas.sh... Esto puede tardar unos minutos.${NC}\n"
+    bash linpeas.sh > "$LINPEAS_OUTPUT" 2>&1
+    
+    if [ $? -eq 0 ]; then
+        echo -e "${GREEN}[+] LinPEAS ejecutado correctamente. Output guardado en $LINPEAS_OUTPUT${NC}\n"
+    else
+        echo -e "${RED}[!] Error al ejecutar linpeas.sh${NC}"
+        exit 1
+    fi
+fi
+
+# Verificar que existe el archivo. Si existe, lo lee.
 if [ ! -f "$LINPEAS_OUTPUT" ]; then
     echo -e "${RED}[!] Error: No se encuentra el archivo '$LINPEAS_OUTPUT' en el directorio actual${NC}"
     echo -e "${YELLOW}[i] Asegúrate de que el output de linpeas.sh esté guardado como 'outputLP.txt'${NC}"
+    echo -e "${YELLOW}[i] O ejecuta este script con el parámetro -l para ejecutar linpeas.sh automáticamente${NC}"
     exit 1
 fi
 
