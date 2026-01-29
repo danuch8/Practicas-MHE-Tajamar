@@ -1,0 +1,261 @@
+╔════════════════════════════════════════════════════════════════╗
+║             LinPEAS Output Parser & Analyzer                   ║
+║         Script de Pentesting para Escalada de Privilegios      ║
+║                                                                ║
+║    USO EXCLUSIVO EN ENTORNOS CONTROLADOS Y AUTORIZADOS         ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+[*] Parámetro -l detectado: ejecutando linpeas.sh...
+
+[*] Ejecutando linpeas.sh... Esto puede tardar unos minutos.
+
+[sudo] password for dwight: 
+[+] LinPEAS ejecutado correctamente. Output guardado en outputLP.txt
+
+[+] Archivo encontrado: outputLP.txt
+
+[*] Iniciando análisis...
+
+╔════════════════════════════════════════════════════════════════╗
+║                    CVEs POTENCIALES                            ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] CVEs encontrados:
+
+  → CVE-2002-1614
+
+  → CVE-2019-13272
+       Details: https://bugs.chromium.org/p/project-zero/issues/detail?id=1903
+       Tags: ubuntu=16.04{kernel:4.15.0-*},ubuntu=18.04{kernel:4.15.0-*},debian=9{kernel:4.9.0-*},debian=10{kernel:4.19.0-*},fedora=30{kernel:5.0.9-*}
+       Download URL: https://gitlab.com/exploit-database/exploitdb-bin-sploits/-/raw/main/bin-sploits/47133.zip
+
+  → CVE-2019-15666
+       Details: https://duasynt.com/blog/ubuntu-centos-redhat-privesc
+       Download URL: 
+
+  → CVE-2019-18634
+       Details: https://dylankatz.com/Analysis-of-CVE-2019-18634/
+       Tags: mint=19
+       Download URL: https://github.com/saleemrashid/sudo-cve-2019-18634/raw/master/exploit.c
+
+  → CVE-2021-22555
+       Details: https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html
+       Tags: ubuntu=20.04{kernel:5.8.0-*}
+       Download URL: https://raw.githubusercontent.com/google/security-research/master/pocs/linux/cve-2021-22555/exploit.c
+       Details: https://dylankatz.com/Analysis-of-CVE-2019-18634/
+
+  → CVE-2021-3156
+       Details: https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt
+       Tags: mint=19,ubuntu=18|20, debian=10
+       Download URL: https://codeload.github.com/blasty/CVE-2021-3156/zip/main
+       Details: https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt
+       Tags: centos=6|7|8,ubuntu=14|16|17|18|19|20, debian=9|10
+       Download URL: https://codeload.github.com/worawit/CVE-2021-3156/zip/main
+       Details: https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html
+
+  → CVE-2021-4034
+       Details: https://www.qualys.com/2022/01/25/cve-2021-4034/pwnkit.txt
+       Tags: ubuntu=10|11|12|13|14|15|16|17|18|19|20|21,debian=7|8|9|10|11,fedora,manjaro
+       Download URL: https://codeload.github.com/berdav/CVE-2021-4034/zip/main
+       Details: https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt
+
+  → CVE-2022-2586
+       Details: https://www.openwall.com/lists/oss-security/2022/08/29/5
+       Tags: ubuntu=(20.04){kernel:5.12.13}
+       Download URL: https://www.openwall.com/lists/oss-security/2022/08/29/5/1
+
+  → CVE-2022-32250
+       Details: https://research.nccgroup.com/2022/09/01/settlers-of-netlink-exploiting-a-limited-uaf-in-nf_tables-cve-2022-32250/
+       Tags: ubuntu=(22.04){kernel:5.15.0-27-generic}
+       Download URL: https://raw.githubusercontent.com/theori-io/CVE-2022-32250-exploit/main/exp.c
+       Details: https://www.openwall.com/lists/oss-security/2022/08/29/5
+
+  → CVE-2025-38352
+
+
+╔════════════════════════════════════════════════════════════════╗
+║          ARCHIVOS/DIRECTORIOS ESCRIBIBLES (NO ROOT)            ║
+╚════════════════════════════════════════════════════════════════╝
+
+[i] Usuario actual: 
+
+[+] Archivos y directorios escribibles (no propiedad de root):
+
+  → /run/user/1004
+  → /run/user/1004/containers
+  → /run/user/1004/dbus-1
+  → /run/user/1004/dbus-1/services
+  → /run/user/1004/gnupg
+  → /run/user/1004/gvfs
+  → /run/user/1004/libpod
+  → /run/user/1004/pulse
+  → /run/user/1004/pulse/pid
+  → /run/user/1004/systemd
+  → /tmp
+  → /tmp/.esd-1004
+  → /tmp/.font-unix
+  → /tmp/.ICE-unix
+  → /tmp/.Test-unix
+  → /tmp/tmux-1004
+  → /var/tmp
+  → /var/tmp/dnf-dwight-_m01mtfa
+  → /var/tmp/dnf-dwight-_m01mtfa/dnf.librepo.log
+  → /var/tmp/dnf-dwight-_m01mtfa/dnf.log
+  → /var/tmp/dnf-dwight-_m01mtfa/dnf.rpm.log
+  → /var/tmp/dnf-dwight-_m01mtfa/expired_repos.json
+  → /var/tmp/dnf-dwight-_m01mtfa/hawkey.log
+  → /var/tmp/dnf-dwight-_m01mtfa/locks/3dbf876d87fbd771da6e46fa3761d2a00edfe436
+  → /var/tmp/dnf-dwight-_m01mtfa/dnf.librepo.log
+  → /var/tmp/dnf-dwight-_m01mtfa/dnf.rpm.log
+  → /var/tmp/dnf-dwight-_m01mtfa/expired_repos.json
+  → /var/tmp/dnf-dwight-_m01mtfa/hawkey.log
+  → /usr/bin/amuFormat.sh
+  → /usr/bin/gettext.sh
+  → /usr/bin/setup-nsssysinit.sh
+  → /usr/bin/rescan-scsi-bus.sh
+  → /var/log/dnf.log
+  → /var/log/dnf.rpm.log
+  → /var/log/dnf.librepo.log
+  → /var/log/secure
+  → /var/log/messages
+  → /var/log/cron
+  → /var/cache/dnf/expired_repos.json
+  → /var/tmp/dnf-dwight-_m01mtfa/dnf.librepo.log
+  → /var/tmp/dnf-dwight-_m01mtfa/dnf.rpm.log
+  → /var/tmp/dnf-dwight-_m01mtfa/expired_repos.json
+  → /var/tmp/dnf-dwight-_m01mtfa/hawkey.log
+  → /usr/bin/amuFormat.sh
+  → /usr/bin/gettext.sh
+  → /usr/bin/setup-nsssysinit.sh
+  → /usr/bin/rescan-scsi-bus.sh
+  → /var/log/dnf.log
+  → /var/log/dnf.rpm.log
+  → /var/log/dnf.librepo.log
+  → /var/log/secure
+  → /var/log/messages
+  → /var/log/cron
+  → /var/cache/dnf/expired_repos.json
+
+╔════════════════════════════════════════════════════════════════╗
+║              PERMISOS EN DIRECTORIOS CRÍTICOS                  ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] Verificando permisos críticos:
+
+
+[+] Scripts .sh en directorios importantes:
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                    PERMISOS SUDO                               ║
+╚════════════════════════════════════════════════════════════════╝
+
+[!] No se encontraron permisos sudo explícitos (puede que se requiera contraseña)
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                  ARCHIVOS INTERESANTES                         ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] Scripts y archivos con permisos especiales:
+
+  → LESSOPEN=||/usr/bin/lesspipe.sh %s
+  → /usr/bin/amuFormat.sh
+  → LESSOPEN=||/usr/bin/lesspipe.sh %s
+
+╔════════════════════════════════════════════════════════════════╗
+║              PASSWORDS Y CREDENCIALES ENCONTRADAS              ║
+╚════════════════════════════════════════════════════════════════╝
+
+[!] POSIBLES CREDENCIALES ENCONTRADAS:
+
+  → gdm-password Not Found
+  → └─ /var/lib/sss/mc/passwd
+  → └─ /var/lib/sss/mc/passwd
+  → NEXT                         LEFT         LAST                         PASSED       UNIT                         ACTIVATES
+  → 65 loaded units listed. Pass --all to see loaded but inactive units, too.
+  → ══╣ Users with UID 0 in /etc/passwd
+  → ╔══════════╣ Do not forget to test 'su' as any other user with shell: without password and with their names as password (I don't do it in FAST mode...)
+  → ╔══════════╣ Do not forget to execute 'sudo -l' without password or with valid password (if you know it)!!
+  → Environment=MONGO_URL=mongodb://rocket:my$ecretPass@localhost:27017/rocketchat?replicaSet=rs01&authSource=rocketchat
+  → Environment=MONGO_OPLOG_URL=mongodb://rocket:my$ecretPass@localhost:27017/local?replicaSet=rs01&authSource=admin
+  → Environment=MONGO_URL=mongodb://rocket:my$ecretPass@localhost:27017/rocketchat?replicaSet=rs01&authSource=rocketchat
+  → Environment=MONGO_OPLOG_URL=mongodb://rocket:my$ecretPass@localhost:27017/local?replicaSet=rs01&authSource=admin
+  → auth       substack     password-auth
+  → account    include      password-auth
+  → password   include      password-auth
+  → session    include      password-auth
+  → export ROCKETCHAT_PASSWORD=Queenofblad3s!23
+  → ═╣ MySQL connection using root/NOPASS ................. No
+  → ╔══════════╣ Searching uncommon passwd files (splunk)
+  → passwd file: /etc/pam.d/passwd
+  → passwd file: /etc/passwd
+  → passwd file: /usr/share/bash-completion/completions/passwd
+  → passwd file: /var/lib/sss/mc/passwd
+  → -rw-r--r-- 1 rocketchat rocketchat 272 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/meteor-node-stubs/node_modules/parse-asn1/test/pass.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 654 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/meteor-node-stubs/node_modules/parse-asn1/test/pass2.dsa.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 654 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/meteor-node-stubs/node_modules/parse-asn1/test/pass.dsa.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 268 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/meteor-node-stubs/node_modules/parse-asn1/test/pass.rsa.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 447 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/meteor-node-stubs/node_modules/parse-asn1/test/pass.rsa.2028.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 272 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/meteor-node-stubs/node_modules/public-encrypt/test/pass.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 447 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/meteor-node-stubs/node_modules/public-encrypt/test/rsa.pass.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 272 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/parse-asn1/test/pass.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 654 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/parse-asn1/test/pass2.dsa.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 654 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/parse-asn1/test/pass.dsa.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 268 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/parse-asn1/test/pass.rsa.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 447 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/parse-asn1/test/pass.rsa.2028.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 272 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/public-encrypt/test/pass.1024.pub
+  → -rw-r--r-- 1 rocketchat rocketchat 447 Jul  1  2021 /opt/Rocket.Chat/programs/server/npm/node_modules/public-encrypt/test/rsa.pass.pub
+  → /opt/Rocket.Chat/programs/server/npm/node_modules/apn/test/credentials/support/certIssuerKeyPassphrase.p12
+  → -rwsr-xr-x 1 root root 83K Aug 18  2021 /usr/bin/gpasswd
+  → -rwsr-xr-x 1 root root 33K Apr  6  2020 /usr/bin/passwd  --->  Apple_Mac_OSX(03-2006)/Solaris_8/9(12-2004)/SPARC_8/9/Sun_Solaris_2.3_to_2.5.1(02-1997)
+  → ═╣ Hashes inside passwd file? ........... No
+  → ═╣ Writable passwd file? ................ No
+  → ═╣ Can I read opasswd file? ............. No
+  → ╔══════════╣ Searching passwords in history files
+  → ╔══════════╣ Searching *password* or *credential* files in home (limit 70)
+  → /etc/authselect/password-auth
+  → /etc/pam.d/gdm-password
+  → /etc/pam.d/password-auth
+  → /opt/Rocket.Chat/programs/server/npm/node_modules/apn/test/credentials/support/certIssuerKeyPassphrase.p12
+  → #)There are more creds/passwds files in the previous parent folder
+  → #)There are more creds/passwds files in the previous parent folder
+  → #)There are more creds/passwds files in the previous parent folder
+  → #)There are more creds/passwds files in the previous parent folder
+  → /opt/Rocket.Chat/programs/server/npm/node_modules/blockstack/docs/classes/passworderror.html
+  → /opt/Rocket.Chat/programs/server/npm/node_modules/caniuse-lite/data/features/passwordrules.js
+  → ╔══════════╣ Checking for TTY (sudo/su) passwords in audit logs
+  → ╔══════════╣ Checking for TTY (sudo/su) passwords in audit logs
+  → ╔══════════╣ Searching passwords inside logs (limit 70)
+  → ROCKETCHAT_PASSWORD=Queenofblad3s!23
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                   BINARIOS SUID/SGID                           ║
+╚════════════════════════════════════════════════════════════════╝
+
+[+] Binarios SUID/SGID interesantes:
+
+  → /usr/bin/newgidmap = cap_setgid+ep
+  → /usr/bin/newuidmap = cap_setuid+ep
+  → /usr/bin/ping = cap_net_admin,cap_net_raw+p
+  → /usr/bin/gnome-keyring-daemon = cap_ipc_lock+ep
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                  RESUMEN Y PRÓXIMOS PASOS                      ║
+╚════════════════════════════════════════════════════════════════╝
+
+[*] Análisis completado. Revisa los hallazgos anteriores.
+
+[i] Recomendaciones:
+    1. Verifica manualmente los CVEs encontrados
+    2. Explora los archivos con permisos de escritura
+    3. Prueba los comandos sudo sugeridos (con cuidado)
+    4. Revisa las credenciales encontradas
+    5. Consulta GTFOBins para más técnicas: https://gtfobins.github.io/
+
+[+] Como decía Stan Lee: Un gran poder conlleva una gran responsabilidad. Utilizar sólo en entornos autorizados.
+
+[*] Resumen guardado en: linpeas_summary_20260129_150809.txt
