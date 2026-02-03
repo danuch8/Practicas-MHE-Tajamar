@@ -1,0 +1,3 @@
+@echo off
+powershell -NoProfile -ExecutionPolicy Bypass -EncodedCommand TU_BASE64_AQUÍ
+exit /b
