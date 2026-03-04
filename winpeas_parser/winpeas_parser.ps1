@@ -469,17 +469,17 @@ $credHits = $credHits | Where-Object { $_ -ne "" } | Select-Object -Unique
 # Análisis 7: ficheros con 'password'
 Analyze-PasswordFilesFromDrives -Lines $lines
 
-Show-Section "RESUMEN Y PRÓXIMOS PASOS"
-Write-Color "[*] Análisis completado. Revisa los hallazgos anteriores." Cyan
+Show-Section "RESUMEN Y PROXIMOS PASOS"
+Write-Color "[*] Analisis completado. Revisa los hallazgos anteriores." Cyan
 Write-Host ""
 Write-Color "[i] Recomendaciones:" Yellow
-Write-Host "    1. Comprueba manualmente los parches faltantes (MSXX-XXX) y busca exploits públicos."
-Write-Host "    2. Céntrate en servicios/rutas de inicio y PATH escribibles por usuarios bajos."
-Write-Host "    3. Explota privilegios peligrosos (SeImpersonate, SeBackup, SeDebug, etc.) con técnicas conocidas."
-Write-Host "    4. Revisa a fondo las rutas donde puedan existir credenciales (unattend, SAM/SYSTEM, GPP, Cloud...)."
-Write-Host "    5. Usa Mimikatz, Rubeus u otras herramientas según el contexto."
+Write-Host "    1. Comprueba manualmente los parches faltantes y busca exploits publicos."
+Write-Host "    2. Centrate en servicios y rutas de inicio escribibles por usuarios bajos."
+Write-Host "    3. Revisa tus privilegios peligrosos (Impersonate, Backup, Debug, etc.)."
+Write-Host "    4. Busca posibles ficheros o rutas con credenciales o secretos."
+Write-Host "    5. Usa herramientas de post-explotacion segun el contexto."
 Write-Host ""
-Write-Color "[+] Recuerda: Un gran poder conlleva una gran responsabilidad. Úsalo sólo en entornos autorizados." Green
+Write-Color "[+] Recuerda usar este script solo en entornos autorizados." Green
 Write-Host ""
 
 Write-SummaryFile -Path $InputFile -Lines $lines -MissingPatches $missingPatchLines -InterestingPrivs $interestingPrivs -CredHits $credHits
