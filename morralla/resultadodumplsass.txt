@@ -1,0 +1,392 @@
+FILE: ======== lsass.dmp =======
+== LogonSession ==
+authentication_id 22132139 (151b5ab)
+session_id 0
+username eric.wallows
+domainname SECURA
+logon_server DC01
+logon_time 2026-04-21T12:32:31.192634+00:00
+sid S-1-5-21-3453094141-4163309614-2941200192-4101
+luid 22132139
+
+== LogonSession ==
+authentication_id 21438220 (1471f0c)
+session_id 0
+username eric.wallows
+domainname SECURA
+logon_server DC01
+logon_time 2026-04-21T12:06:25.120116+00:00
+sid S-1-5-21-3453094141-4163309614-2941200192-4101
+luid 21438220
+	== Kerberos ==
+		Username: eric.wallows
+		Domain: secura.yzx
+
+== LogonSession ==
+authentication_id 340201 (530e9)
+session_id 1
+username Administrator
+domainname SECURE
+logon_server SECURE
+logon_time 2026-04-21T10:28:42.441817+00:00
+sid S-1-5-21-3197578891-1085383791-1901100223-500
+luid 340201
+	== MSV ==
+		Username: Administrator
+		Domain: SECURE
+		LM: NA
+		NT: a51493b0b06e5e35f855245e71af1d14
+		SHA1: 02fb73dd0516da435ac4681bda9cbed3c128e1aa
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [530e9]==
+		username Administrator
+		domainname SECURE
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: Administrator
+		Domain: SECURE
+	== WDIGEST [530e9]==
+		username Administrator
+		domainname SECURE
+		password None
+		password (hex)
+	== CREDMAN [530e9]==
+		luid 340201
+		username apache
+		domain era.secura.local
+		password New2Era4.!
+		password (hex)4e0065007700320045007200610034002e00210000000000
+	== DPAPI [530e9]==
+		luid 340201
+		key_guid faa08d94-2f37-4e7c-a973-0015139d0583
+		masterkey 8125062a8c480b174b2641a2a5d3f50b56d9ad906eb96cb855351bc15911b8266abad07fc7551be39f3da7066aab5e47b731fd95978b5150f2f49080e3845b2a
+		sha1_masterkey e62a4ffc18033b6ea792a73098d917131055ba1e
+	== DPAPI [530e9]==
+		luid 340201
+		key_guid 6f537aeb-c54e-4f75-978c-c61c13d9c692
+		masterkey 7b4d6e9292de000c33705c9ff4973725d31e63ed6d7d5ef8b8ec8860134ad84785ed4d55ffc0f2d09cdd6418389f4bcc4c06d49822893f4027b8e4116bdf123d
+		sha1_masterkey d40a098cbd7f4972bddc7deedc3c3da4948eac28
+	== DPAPI [530e9]==
+		luid 340201
+		key_guid 207ebc0f-278f-429d-817a-b57c57ef4cbb
+		masterkey 0559a5abd95dc120ae27c90fd8f0ce623fe8497065300c4f56a75b9b49fddcd0e9856f5dcc207caa9b075100b05d4dc23472cfa3578ce13da7883840e28da8ab
+		sha1_masterkey 97ea7491e0b72e9649ffb29cf7c9ef421d93aeaa
+	== DPAPI [530e9]==
+		luid 340201
+		key_guid 16956203-7552-449a-b608-6220800365e5
+		masterkey 27c9cc13d433d8c28f5155e97b326651580afa0d663e699efcb698b07e175c6d45d8d9a2cb7af3707d36f28a211718f33011d97fff5e15e7e1685707cd0b05fb
+		sha1_masterkey ddec2997852d20202967bee8d017aa13de9a0a40
+	== DPAPI [530e9]==
+		luid 340201
+		key_guid a407ca27-c4f3-4f48-89c9-f8d990cb9409
+		masterkey 5c757992d9219a382a9cadcf4d0b0b7c29194e37054ed3838d4782b6237eac6e27528a3390f505c8ea55391d76f231d5ea493c419708e18d6b71a1d6e8ee3d8a
+		sha1_masterkey 89af3a07c85d5554cd33ce27b116527ebe789e67
+	== DPAPI [530e9]==
+		luid 340201
+		key_guid d2841c54-8c4e-45d9-8ecb-224a0f7f2bc1
+		masterkey 46499f84900da43558c6a1dd997935ad5ed3f4b35bd0da1168ce85383999e788547a4c200bc56f740e2a81f0b08656607d3f4b1d4237db9564b875d139a53a68
+		sha1_masterkey 8c68388dca78bc98a54bcf66b0700ca67f747652
+	== DPAPI [530e9]==
+		luid 340201
+		key_guid 6b6926ed-991b-487b-a7b5-42dd51baa320
+		masterkey d88de4e3abbc66a514598eeea4ea46f0c23792ec61685347b9e918ac80149ef84022cf34ac48e2f0d43a839f2f7637c336b85c11a65851e6ef03347e850b4eb8
+		sha1_masterkey bee6725dab9d1b18b1b962b2d0f2255d9871cd00
+
+== LogonSession ==
+authentication_id 115567 (1c36f)
+session_id 0
+username cloudbase-init
+domainname SECURE
+logon_server SECURE
+logon_time 2026-04-21T10:28:31.455682+00:00
+sid S-1-5-21-3197578891-1085383791-1901100223-1002
+luid 115567
+	== MSV ==
+		Username: cloudbase-init
+		Domain: SECURE
+		LM: NA
+		NT: a0254897c187e079ac791bd3662973cf
+		SHA1: d033a13b55267f1cb20c339befc7acea3bbe1c28
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [1c36f]==
+		username cloudbase-init
+		domainname SECURE
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: cloudbase-init
+		Domain: SECURE
+	== WDIGEST [1c36f]==
+		username cloudbase-init
+		domainname SECURE
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 997 (3e5)
+session_id 0
+username LOCAL SERVICE
+domainname NT AUTHORITY
+logon_server 
+logon_time 2026-04-21T10:28:30.408991+00:00
+sid S-1-5-19
+luid 997
+	== Kerberos ==
+		Username: 
+		Domain: 
+
+== LogonSession ==
+authentication_id 67113 (10629)
+session_id 1
+username DWM-1
+domainname Window Manager
+logon_server 
+logon_time 2026-04-21T10:28:30.283629+00:00
+sid S-1-5-90-0-1
+luid 67113
+	== MSV ==
+		Username: SECURE$
+		Domain: SECURA
+		LM: NA
+		NT: 983e73c648db56f78e9dfb9698066734
+		SHA1: 8372b4560319480f2ea43971f77b4e4efc37497a
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [10629]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: SECURE$
+		Domain: secura.yzx
+		Password: 17e1ba59b74e941c089323a1bf918c8fa78af6189da5b184c99897f830243ce53a21968b5481b8569bde5319eaa34cb7eb4e03d4645b4aef252c4a176efdbcbcff2d9e8e2ae167f291978a92b7ad77315dbad880f78d8352b7e4f0cc3756bbf938c07acd048311a26990b1f806d12dd4e13ee11db153b2d57dcb48ef64f5f1330cc2c7e56d3f0ef4e56696059f614e12fe88847e6993853ac2dc560efd7eaf10575f7ff0384fbee33acbf7cdf56ed508e05714aefc3186d7e3ef804278adc24009eac0c51071678bc27ec2b3729b3b666e2c6676032b9d7adad920f52b1a9ed4e2532da153ac8186ed5afac46afe99fa
+		password (hex)17e1ba59b74e941c089323a1bf918c8fa78af6189da5b184c99897f830243ce53a21968b5481b8569bde5319eaa34cb7eb4e03d4645b4aef252c4a176efdbcbcff2d9e8e2ae167f291978a92b7ad77315dbad880f78d8352b7e4f0cc3756bbf938c07acd048311a26990b1f806d12dd4e13ee11db153b2d57dcb48ef64f5f1330cc2c7e56d3f0ef4e56696059f614e12fe88847e6993853ac2dc560efd7eaf10575f7ff0384fbee33acbf7cdf56ed508e05714aefc3186d7e3ef804278adc24009eac0c51071678bc27ec2b3729b3b666e2c6676032b9d7adad920f52b1a9ed4e2532da153ac8186ed5afac46afe99fa
+		AES128 Key: 983e73c648db56f78e9dfb9698066734
+		AES256 Key: 2993be24044b8d7cf4ef93e8d241d387934049fa90c00fb8eb34e78969a5399b
+	== WDIGEST [10629]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 67084 (1060c)
+session_id 1
+username DWM-1
+domainname Window Manager
+logon_server 
+logon_time 2026-04-21T10:28:30.283629+00:00
+sid S-1-5-90-0-1
+luid 67084
+	== MSV ==
+		Username: SECURE$
+		Domain: SECURA
+		LM: NA
+		NT: f5a11a0aab60004e05510c70e5bab36e
+		SHA1: e935a64c26f58e99efff64a37c1c373890b259e7
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [1060c]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: SECURE$
+		Domain: secura.yzx
+		Password: 348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		password (hex)348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		AES128 Key: f5a11a0aab60004e05510c70e5bab36e
+		AES256 Key: bdc1cec1520e4d803c11a9709e0638d748eb7ac51ed5332fd4cf6f7ae52e57c0
+	== WDIGEST [1060c]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 996 (3e4)
+session_id 0
+username SECURE$
+domainname SECURA
+logon_server 
+logon_time 2026-04-21T10:28:30.158635+00:00
+sid S-1-5-20
+luid 996
+	== MSV ==
+		Username: SECURE$
+		Domain: SECURA
+		LM: NA
+		NT: f5a11a0aab60004e05510c70e5bab36e
+		SHA1: e935a64c26f58e99efff64a37c1c373890b259e7
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [3e4]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: secure$
+		Domain: SECURA.YZX
+		Password: 348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		password (hex)348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		AES128 Key: f5a11a0aab60004e05510c70e5bab36e
+		AES256 Key: 1296c37c653704b63873b076dc18ccb52df3a267f884d79b3363cb501e390957
+	== WDIGEST [3e4]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 36601 (8ef9)
+session_id 1
+username UMFD-1
+domainname Font Driver Host
+logon_server 
+logon_time 2026-04-21T10:28:29.971235+00:00
+sid S-1-5-96-0-1
+luid 36601
+	== MSV ==
+		Username: SECURE$
+		Domain: SECURA
+		LM: NA
+		NT: f5a11a0aab60004e05510c70e5bab36e
+		SHA1: e935a64c26f58e99efff64a37c1c373890b259e7
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [8ef9]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: SECURE$
+		Domain: secura.yzx
+		Password: 348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		password (hex)348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		AES128 Key: f5a11a0aab60004e05510c70e5bab36e
+		AES256 Key: bdc1cec1520e4d803c11a9709e0638d748eb7ac51ed5332fd4cf6f7ae52e57c0
+	== WDIGEST [8ef9]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 36520 (8ea8)
+session_id 0
+username UMFD-0
+domainname Font Driver Host
+logon_server 
+logon_time 2026-04-21T10:28:29.971235+00:00
+sid S-1-5-96-0-0
+luid 36520
+	== MSV ==
+		Username: SECURE$
+		Domain: SECURA
+		LM: NA
+		NT: f5a11a0aab60004e05510c70e5bab36e
+		SHA1: e935a64c26f58e99efff64a37c1c373890b259e7
+		DPAPI: 0000000000000000000000000000000000000000
+	== WDIGEST [8ea8]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: SECURE$
+		Domain: secura.yzx
+		Password: 348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		password (hex)348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		AES128 Key: f5a11a0aab60004e05510c70e5bab36e
+		AES256 Key: bdc1cec1520e4d803c11a9709e0638d748eb7ac51ed5332fd4cf6f7ae52e57c0
+	== WDIGEST [8ea8]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 35462 (8a86)
+session_id 0
+username 
+domainname 
+logon_server 
+logon_time 2026-04-21T10:28:29.815209+00:00
+sid None
+luid 35462
+	== MSV ==
+		Username: SECURE$
+		Domain: SECURA
+		LM: NA
+		NT: f5a11a0aab60004e05510c70e5bab36e
+		SHA1: e935a64c26f58e99efff64a37c1c373890b259e7
+		DPAPI: 0000000000000000000000000000000000000000
+
+== LogonSession ==
+authentication_id 999 (3e7)
+session_id 0
+username SECURE$
+domainname SECURA
+logon_server 
+logon_time 2026-04-21T10:28:29.799490+00:00
+sid S-1-5-18
+luid 999
+	== WDIGEST [3e7]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: secure$
+		Domain: SECURA.YZX
+		Password: 348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		password (hex)348e903bbcec5d2cc71c9c6c98966b750a12ae4d7e0c209f5a1c6a3ec11a467a9d70c874e32fb43b1921daad79dbef2b4a103188e43f31801c17e4459d50f303a7597f640075e14e3388cb7366e29b6fdd04db461cbda96be92ccfe33f0e6bade483bb9bc9fd795ad2f057c6a477ca30be22d28031622d9f6967604be79740892204a15e3d9c1a9a3f7a70ad2f168facfaba08b978c45b0f053e59d76c909072b3bde8b6f31a150fccf6f2b77e246572afa8186c2127eb875311fbf5e8c2106da76f092ddc6e16bb7a9f3420a236bfa01cc27e0b6c5292b73f51f1a33ca7403b500b1398b45b4dcb9cac52f8aa153eec
+		AES128 Key: f5a11a0aab60004e05510c70e5bab36e
+		AES256 Key: 1296c37c653704b63873b076dc18ccb52df3a267f884d79b3363cb501e390957
+	== WDIGEST [3e7]==
+		username SECURE$
+		domainname SECURA
+		password None
+		password (hex)
+	== DPAPI [3e7]==
+		luid 999
+		key_guid d590c684-2090-4eeb-93ad-7aa6722cd3df
+		masterkey f012d130043682535ddc8f83c9bae578d463a26e8573db40eeb242306a7efab321b6ceb8c494cd3de38616584ab3fafc31ff7776657779cf142b3dfbb14e018d
+		sha1_masterkey cd35d54ffaf943d407f1fc02746b8bb7199526bb
+	== DPAPI [3e7]==
+		luid 999
+		key_guid 56ed19b1-0fcd-4891-a0db-f7c65fc1ee55
+		masterkey fe05e1d0e8a275cc59848cdea884b82ef7867342c2033d4bec98e1a5c92a12ada6ab7b7842a117cf50daf9c2e9756618a8a1e3f418ea617789960091f8a57e12
+		sha1_masterkey f90c0c5e377efe74d43e70375e007e4bf70dd2b8
+	== DPAPI [3e7]==
+		luid 999
+		key_guid c435f4f6-5763-413c-86f8-9a0856022a36
+		masterkey a68e851178fca4510adc29041159b052caef1d0e97b0403925551a53120b9035f2824699c84067c2140c82e38a78b80602ea7aa0829e79eb8d3bcbc45028c60c
+		sha1_masterkey e3e20f5412796ec8e8b900e759629ea515f2d3ce
+	== DPAPI [3e7]==
+		luid 999
+		key_guid 64495772-a074-4068-be66-d5db381eb0d4
+		masterkey 7b07b30a882fea95941f8eda37a23630aa9b917dd4b44d0eecfb1c1829fb755c0d76c0393d1cddf321905102bf3b63f9d2a861f7aeb3ad235c68a7fb77c2b247
+		sha1_masterkey 60ecec6aa6bfc2820770e4cf1144f03644aa0fc7
+	== DPAPI [3e7]==
+		luid 999
+		key_guid 2514ce0a-e02d-48bb-aa47-b0530cc3af73
+		masterkey a0085969e9d39e38265e4aa351641e53f59b352cfe7c55a0ecf27e713b7736f17cd0440c1d02a46e3efcad5a6dee7c0efe698fa0f17c986773aadffe7bf6110e
+		sha1_masterkey 98bb3bcde03acaf675d905e658310dd9dc6190a3
+	== DPAPI [3e7]==
+		luid 999
+		key_guid bdba25ce-60c3-4414-bd18-0b98d962eb85
+		masterkey b279a08ad01bf38093fb2c2f6abd5196b6ba72b59d9438d9e20fa70485d3ee562df3531e6bd31c7dd6f7d02f894008d12aa698fbb4db9b9ff69e66aff5be08a4
+		sha1_masterkey 9fbf4179ab2224ecc9d476594f9983bb7e5f4467
+	== DPAPI [3e7]==
+		luid 999
+		key_guid 8539ab17-3cf0-4d67-a62b-d96920f93b07
+		masterkey d7f2e16510ea0044dce429c5bca22e15b33b12a684cd0b4c9bea3416acadb6d667b33924adb6aaeb442c780424f661cebfca2c566893dd97f5efb17a7b0a370a
+		sha1_masterkey 5529411adcdb307765bc692d4cb5f83ea952af82
+	== DPAPI [3e7]==
+		luid 999
+		key_guid 3412ec94-eea5-4385-bbc7-424d1a51681f
+		masterkey 657114fd0947e4b02c637fce7af49ea0d541852e41d7b4bb756586a794619efed2519076a146534952dc78ba929153a18739152684447a0249090b8618f1a767
+		sha1_masterkey 6e1f69e0d18e95d022a1ef5f319e86e7d06fa2b4
+
