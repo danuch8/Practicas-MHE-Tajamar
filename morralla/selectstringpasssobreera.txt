@@ -1,0 +1,229 @@
+C:\Users\apache.ERA\Documents> Select-String -Path "C:\*\*" -Pattern "password","pass","cred" -ErrorAction SilentlyContinue
+
+C:\Windows\explorer.exe:16462:]*��L�F��x}�[X��$d�F�&���ҠPOУ�K1FH�4��\%�[<�����F��An�s▒AԯoXBEdD�6�(mpcshell\shell\explorer\taskband2\taskitemfilter.cppJumplistInvocationShowJumpViewDropDescription�+
+�
+ J�?[� C�����FWindows.Internal.Shell.JumpView.JumpViewParamsh�}��I��s�=Microsoft.Edge.pcshell\shell\explorer\taskb
+and2\iconloader.cppTaskbarGroupIconpcshell\shell\explorer\taskband2\pinnedwebsiteiconloader.cpppcshell\shell\explorer\taskband2\thumbnail.cppWpnTileNotificationActivityonecoreuap\internal\shell\inc\private\cowthre
+adusedetection.h0123456789pcshell\shell\explorer\tilebadgeprovider\lib\badgedata.cppSdbpGetBinaryRuntimePlatformAslEnvGetProcessWowInfo failed to determine processor info
+[%x]SdbGuestTargetPlatformFlagsToRuntimePlatformFlagsSdbGuestHostArchsToRuntimePlatformFlagBad index 0x%lxSdbpOpenLocalDatabaseExCannot resolve database, the path length is 0x%lxSdbpResolveInitSdbPath failed to resolve the sdb
+path [%x]Failed to allocate sdb contextUnable to open main database %SSdbGetPathSystemSdb failed to get file path for flags: 0x%xSdbGetPathSystemSdb failed to get file path for SDB_SYSTEMSdbpResolveInitSdbPathDatabase not
+specified with the database path flagCannot get standard database path for supplied flags: 0x%xDatabase "%ws" is not of the same type as the main EXEFailed to open database
+ 
+SdbQueryNameAslHardErrorModeDisable failed [%x]AslHardErrorModeRestore failed [%x]SdbpFindNextWildNamedTagSdbpSearchForLookupNo DATABASE tag foundFailed to read the GUID for tiExe
+0x%xSdbpResolveMatchingFileInvalid match file lengthFailed to retrieve process historySdbpInitializeSearchDBContextSdbpGetExeEntryFlagsFailed to read TAG_EXE_ID for tiExe 0x%xFailed to allocate process history
+bufferShimExceptionHandlerShim Exception %#x in module "%hs", line %d, at address %Ix. flags:%#x. !exr %#p !cxr %#pFailed to get TAG_REG_VALUE_DATA_DWORDFailed to read value dataFailed to get
+TAG_REG_VALUE_DATA_BINARYFailed to get TAG_REG_VALUE_DATA_QWORDFailed to read key pathSdbpGetRegistryMatchingAttributesFailed to get TAG_REG_VALUE_DATA_SZFailed to read value typeAslEnvExpandStrings2 failed to expand strings
+for %ws [%x]Out of memoryFailed to get key path tagAslPathClean failed [%x]AslEnvExpandStrings2 failed [%x]AslEnvGetProcessWowInfo failed [%x]Invalid buffer sizeInvalid path sizeFailed to read
+MATCHING_REG entryFailed to check MATCHING_WILDCARD_REGISTRY entryFailed to check MATCHING_REG entrySdbpCheckMatchingRegistryFailed to get processor architecture
+[%x]SdbpCheckMatchingRegistryEntrySdbpCheckMatchingWildcardRegistryFailed to read MATCHING_WILDCARD_REGISTRY entryUnknown registry value data typeFailed to read valueFailed to construct full key
+path\REGISTRY\MACHINE\%sdbRegistryDefaultNameUnknown registry value typeSdbpCheckMatchingRegistryValueFailed to allocate memoryFailed to allocate temp bufferFailed to map
+file [%x]Unknown file encodingOverflow doing pointer additionFailed to initialize SEARCHDBCONTEXTFailed to read encoding typeFailed to resolve matching text fileSdbpCheckMatchingTextEntryFailed to allocate memory for text
+blobFailed to get text to match blobFailed to read text encodingFailed to read matching text blobSdbpGetMatchingTextAttributesFailed to get MATCHING_TEXT file pathFailed to read text to matchFailed to read
+MATCHING_TEXT file pathSdbpCheckMatchingWildcardFilesFailed to resolve matching fileSdbpCheckRuntimePlatformImpl failed to check runtime platformAslPathWildcardFindFirst/Next failed to find a file [%x]Failed to resolve matching
+dirSdbpCheckMatchingDirFailed to check file attributes [%x]SdbpCheckMatchingFilesFailed to read HWID attributeSdbpCheckMatchingDeviceFailed to get the string from the databaseFailed to get
+HWIDSdbpCheckMatchingTextFailed to read MATCHING_TEXT entryNo device query callback specifiedFailed to check MATCHING_TEXT entrySdbpCheckPackageAttributesFailed to find Attribute to use for sdb
+tagSdbpCheckExeSdbCheckForChildRuntimePlatformThe number of matching EXEs exceeded the max allowedCannot allocate temporary buffer for parsing the name "%ws"One of lpBuffer or lpcbBufferSize should not be nullThe entry 0x%x
+contains bad valuetype information 0x%xThe entry 0x%x does not have valuetype informationSdbQueryDataExTagIDSdbQueryDataExThe entry 0x%x contains bad string value 0x%xThe entry 0x%x contains no valueFailed to convert
+tagref 0x%x to tagidThe entry 0x%x contains bad binary value 0x%xAttempt to release SDB handle that still has unreleased duplicates.SDB Handle count was decremented after zero.SdbGetDatabaseIDFailed to get root tagFailed to
+read database id 0x%lxFailed to get the database idCan't read database headerSdbpOpenDatabaseInMemoryMagic does not match a valid value: 0x%lxFailed to read database headerSdbpOpenCompressedDatabase failed to open
+compressed database.Failed to create file mapping [%x]Failed to allocate DB structureFailed to map SDB [%x]Failed to open SDB - File size too large or small.SdbpValidateAndApplyCompatFlagsMajorVersion mismatch, MajorVersion 0x%lx
+Expected 0x%lxFailed to get the database IDInvalid argumentFailed to allocate search path
+partsSdbpCreateSearchPathPartsFromPathDatabaseTypeDatabaseRuntimePlatformSdbpGetProcessHostGuestArchitecturesSdbpGetPathAppPatchAslPathCombine failed
+[%x]SdbpGetCustomSdbFileNameAslGuidToString failed [%x]RtlStringCchCatW failed [%x].sdb\Software\Microsoft\Windows
+NT\CurrentVersion\AppCompatFlagsSdbpGetPathAppraiser\appraiserSdbpGetSystemSdbFilePathSdbFileDetails missing array item for SdbFileType:
+%dCustomSdbpGetPathCustomSdbSdbpGetPathCustomSdbPreRS3Custom\Custom64SdbpGetPathSystemRtlStringCchCopyW failed to copy FileName [%x]\CustomSDBAslEnvGetSystem32DirPathBuf failed
+[%x]AppPatch64AslPathToSystemPathBuf failed [%x]SdbpGetPathAppPatchPreRS3SdbpGetProcessHostGuestArchitectures failed [%x]SdbpGetCustomSdbFileName failed [%x]AslStringDuplicate failed
+[%x]SdbGetPathCustomSdbGetPathFunction (for SdbFileType %d, IsLtRs3: %d) failed [%x]SdbFileDetails missing function pointer for path.SdbpGetSystemSdbFilePath failed [%x]SdbGetPathSystemSdb failed.Failed to convert guid to
+string [%x]SdbResolveDatabaseExSdbGetPathCustomSdb failed to get the database path.Failed to get runtime platform [%x]\Registry\Machine\Software\Microsoft\Windows
+NT\CurrentVersion\AppCompatFlags\InstalledSDBFailed to allocate %ld bytes for key pathFailed to get database type [%x]Failed to open Key "%ws" [%x]NULL pguidDB passed
+inSdbGetDatabaseGUIDBad PDBNULL pdb passed inSdbTagIDToTagRefLayer found but runtime platforms do not match.Failed to determine runtime platformCannot get tag ref from tag idLayer tag w/o a
+nameSdbpGetProcessHistoryCannot read the name of the layer tagSdbpGetNamedLayerFromExeUnable to allocate process history buffer__PROCESS_HISTORYFailed to close local databaseUnknown match mode
+0x%lxSdbpCleanupForExclusiveMatch!#$~^@                 Failed to add the layer: layer count exceeded, tiExe was 0x%lxFailed to add the exe: exe count exceeded, tiExe was 0x%lxSdbpAddMatchFailed to convert 0x%lx to
+layer refFailed to convert tiExe 0x%x to trExeSdbpFindMatchingNameThe tag 0x%x was not found under tag 0x%xCan't get the name string for tagid 0x%xSdbFindFirstNamedTagCan't get the name stringCan't get the name
+string tagid 0x%lxSdbpFindNextNamedTagTagID 0x%X, Tag 0x%X not of the expected typeSdbGetTagDataSizeError reading size dataSdbReadWORDTagSdbReadQWORDTagSdbReadDWORDTagInvalid pdbPDB was not supplied for
+InitOnceGetStringTableOffsetSdbGetStringTagPtrError getting StringRefSdbGetBinaryTagDataError reading bufferSdbReadBinaryTagTagID 0x%08X, Tag %04X not BINARY typeInitOnceGetStringTableOffset succeeded but failed
+to find string tableRtlRunOnceExecuteOnce failed for InitOnceGetStringTableOffset [%x]Pulled out a non-stringtable itemNo return context was supplied for
+InitOnceGetStringTableOffsetInitOnceGetStringTableOffsetSdbpGetStringTableItemFromStringRefNo stringtable in DBFailed to get pointer to the index data tagid x%lxSdbpGetNextIndexedRecordThe tag 0x%lx is not an index
+tagSdbFindFirstStringIndexedTagFailed to get the pointer to index data, index tagid 0x%lxSdbpGetFirstIndexedRecordIndex not found 0x%lx Key 0x%lxSdbGetIndexRtlRunOnceExecuteOnce failed for InitOnceScanIndexes
+[%x]Index missing TAG_INDEX_TAGToo many indexes in file: recompile and increase SDB_MAX_INDEXESIndex missing TAG_INDEX_BITSIndex missing TAG_INDEX_KEYNo return context was supplied for
+InitOnceScanIndexesInitOnceScanIndexesRoot child tag is not index tagid 0x%lxFailed to get the child index from rootPDB was not supplied for InitOnceScanIndexesSdbMakeIndexKeyFromStringExFailed to upcase unicode string
+"%ws"AslRegistryGetKey failed [%x]AslRegistryGetUInt32 failed for key: '%ws' [%x]SdbpQueryAppCompatFlagsByExeIDSdbGetEntryFlagsFailed to convert EXE id to string [%x]Failed to get attribute %d
+[%x]SdbpCheckAttributeSdbpCheckAttribute failed [%x]SdbpCheckAllAttributesAttribute size doesn't matchSdbpOpenCompressedDatabase failed to allocate expanded buffer - out of memoryExpand callback failed to expand SDBSDB file
+too small to be validSdbpOpenCompressedDatabaseSDB compression algorithm does not match callback algorithm.SDB is not compressedNo expand callback method set. Cannot expand ZDB file.#�FPartnerOpaqueIDR
+ootCertThumbPrintDiscoveryServiceFullURLSIDUPNStatusAADOpaqueIDAADTenantIDDMPCertThumbPrintIntermediateCertThumbP
+rintSSPHyperLinkAttemptCounterOrchestratorTypeRollbackContextActivityTypeNameActivityType▒2��ct�E�k��Eq~X
+AT_MDM_ENROLL_GETCERTIFICATEPOLICYAT_MDM_RENEWAL_DISCOVERYAT_MDM_UNENROLL_ENROLL_CERTSAT_MDM_UNENROLL_APP_MGMT
+AT_MDM_UNENROLL_DM_SESSION_ACTIONSAT_MDM_UNENROLL_NODE_CACHEAT_MDM_UNENROLL_RESOURCE_MANAGER_DEVICEAT_MDM_UNENROLL
+_SERVER_ALERT_USERAT_MDM_UNENROLL_DELETE_VIRTUAL_SMARTCARDAT_MDM_UNENROLL_RESOURCE_MANAGER_USERAT_MDM_UNENR
+OLL_ENTERPRISE_DATA_PROTECTION_DEVICEAT_MDM_UNENROLL_STARTAT_MDM_UNENROLL_QUEUE_USER_PHASEAT_MDM_UNENROLL_
+ENTERPRISE_DATA_PROTECTION_USERAT_MDM_ENROLL_APPLYPROVISIONINGAT_MDM_ENROLL_GETPROVISIONINGAT_MDM_ENROLL_ENDAT_MD
+M_ENROLL_PHONECOMPANYAPPDOWNLOADAT_UNDEFINEDAT_MDM_UNENROLL_GROUPPOLICY_USEROR_LOCALENROLLOR_MDMENROLLA
+T_MDM_UNENROLL_CODE_INTEGRITY_DEVICEAT_MDM_UNENROLL_ENDAT_MDM_UNENROLL_GROUPPOLICY_DEVICEAT_MDM_UNENROLL_BITLOC
+KER_DEVICEAT_MDM_UNENROLL_OMADM_SCHEDULESAT_MDM_UNENROLL_DMCLIENTAT_MDM_UNENROLL_OMADM_ACCOUNTAT_MDM_UNE
+NROLL_ENROLLMENT_DATASTOREAT_MDM_UNENROLL_POLICY_MANAGER_USERAT_MDM_UNENROLL_POLICY_MANAGER_DEVICEAT_MDM_UNENROLL
+_DECLARED_CONFIGURATION_USERAT_MDM_UNENROLL_DECLARED_CONFIGURATION_DEVICELastSoapErrorTraceIdOR_MMPCENROLLOR_
+ENDSCOPEUSEROR_ENDSCOPEOR_FORCEUNENROLLOR_AADENROLLOR_RENEWOR_BEGINSCOPEOR_UNENROLLUSEROR_UNENROLL%s\%s\%s
+Software\Microsoft\Enrollments\RegKey: %ws %wsonecoreuap\shell\contentdeliverymanager\utils\inc\ContentDeliveryManagerSettings.hRegKey: %ws{EnableV5Header32bppBGRA
+ChrominanceLuminance���sr-Latn-CSsr-Cyrl-CSsr-SP-Latnzh-Hanszh-CHTzh-CHSbs-Latn-BAbs-BA-Cyrlzh-Hantb
+s-BA-Latniu-Latn-CAsr-BA-Cyrlbs-Cyrl-BAiu-CA-Latnsr-Latn-BAsr-SP-Cyrlsr-Cyrl-BAsr-BA-Latn%s\%s.mui%s\%s
+\%s.mui.\%s.mui.\%s\%s.muidedaenelbgarcscarmptruronlkoplnoishujaitfieshe
+frltlvfatgbeuketsltrthidurskhrsvsqkaafhifovetnzuxhmkhsbtssthyvi
+euazgupataoruztkbnttkkmsswkysemtyigakokglsdmnikmcymylosamrbomnkn
+teasmlffbinibbhapsfydvfiltzmamnekssisyriuchrsolapapiitiomhawgnkllbkrig
+quzyobansogdprsar-SAkuqucsahworwocmigswcomoharnugbris-IShu-HUja-JPit-ITfi-FI
+es-ES_tradnlhe-ILfr-FRde-DEda-DKen-USel-GRca-ESbg-BGcs-CZzh-TWtr-TRth-THid-IDur-P
+Ksk-SKhr-HRsv-SEsq-ALrm-CHpt-BRru-RUro-ROnl-NLko-KRpl-PLnb-NOmk-MKhsb-DEts-ZAs
+t-ZAhy-AMvi-VNeu-ESaz-Latn-AZlt-LTlv-LVfa-IRtg-Cyrl-TJbe-BYuk-UAet-EEsl-SIky-KGkk-KZ
+tk-TMsw-KEse-NOmt-MTms-MYyi-001ka-GEaf-ZAhi-INfo-FOve-ZAtn-ZAzu-ZAxh-ZAmn-MNsa
+-INcy-GBbo-CNml-INkn-INmr-INas-INor-INgu-INte-INta-INtt-RUuz-Latn-UZpa-INbn-INks
+-Arabtzm-Arab-MAfy-NLne-NPchr-Cher-USsi-LKam-ETiu-Cans-CAmni-INkok-INsyr-SYsd-Deva-INlo-LAkm-KH
+gl-ESmy-MMig-NGkl-GLom-ETkr-Latn-NGnso-ZAquz-BOlb-LUba-RUha-Latn-NGff-Latn-NGyo-NGibb-NG
+fil-PHps-AFbin-NGdv-MVco-FRoc-FRsah-RUgsw-FRbr-FRmoh-CAmi-NZug-CNii-CNso-SOarn-CLpap-
+029gn-PYti-ETla-001haw-USes-MXen-GBit-CHfr-BEca-ES-valenciaar-IQde-CHzh-CNku-Arab-IQgd-G
+Bqps-plocaqps-plocrw-RWquc-Latn-GTprs-AFwo-SNuz-Cyrl-UZms-BNpa-Arab-PKbn-BDtn-BWdsb-DEga-IE
+se-SEsv-FIru-MDaz-Cyrl-AZur-INnn-NOnl-BEro-MDpt-PTde-ATzh-HKes-ESen-AUqps-Latn-x-sh
+ti-ERar-EGqps-plocmne-INks-Deva-INquz-ECff-Latn-SNmn-Mong-CNta-LKtzm-Latn-DZsd-Arab-PKtzm-Tfng-M
+Asmj-NOzh-MOar-DZes-GTen-CAhr-BAfr-CHar-LYquz-PEde-LUzh-SGse-FIfr-CAdz-BTmn-Mong-MN
+fr-029es-DOar-OMsma-SEsma-NOfr-MCen-ZAar-TNar-MAsmj-SEes-PAen-IEen-NZde-LIfr-LUes-
+CRfr-SNes-PEar-JOsr-Cyrl-RSsmn-FIsr-Latn-RSen-BZar-SYen-029ar-YEfr-CDes-COes-VEen-JM
+sms-FIfr-REar-AEfr-MLes-UYen-IDar-KWsr-Cyrl-MEes-CLen-PHen-ZWar-LBfr-CIes-ECes-AR
+en-TTsr-Latn-MEfr-CMes-NIen-AEes-USes-PRes-SVen-MYes-HNen-SGar-QAfr-HTes-BOen-IN
+ar-BHfr-MAes-PYen-HKsmaaz-Latnmn-Cyrluz-Cyrlzhsmsbsnnsr-Latnsr-Cyrlaz-Cyrlsmnes-CUes-419bs-La
+tnbs-Cyrltzm-Latniu-Latnha-Latnff-Latnmn-Mongpa-Arabchr-Chersd-Arabdsbtg-Cyrluz-Latnsmjtzm-Tfngiu-Ca
+nssrnbku-Arabquc-Latn|5�]�~�K7pzuBS_��kYeyL�+�"��l�"��e�D)�P�{��c�Q�[����Q��9�MD�#d�@f�:lE�T�`�N{�
+q�Zv    �r�|gO�[w;�F��Um�����a$�,�(�f��2
+C:\Windows\explorer.exe:16496:V���GetVersionFromCollectionId new %wsGetVersionFromCollectionId %ws%s-%s%c0StringCchPrintf candidateFQCid%s-%s%cStringCchPrintf
+fQCidFilterGetRemoteRoamingCollectionIdsGetRemoteBackupCollectionIdsGetAt %uStringCchLength %uStringCchLength %u len %uIsFQCidHigherVersion %u fQCid %wsStringCchCopy %u fQCid
+%wsGetHintForRoamingDataExistsCoAllocString %wsChars %ws Length %uonecoreuap\base\appmodel\statemanager\helpers\stateversion.cppStrRChr %wsStringCchLength %wsStringCchLength %ws len %uDecodeInteger
+%wsPackage %ws %u201ef99a-7fa0-444c-9399-19ba84f12a1aWinsta0\DefaultAppInfoncalrpcAltTabThumbnailWndNonRudeHWND<unknown>
+systemrootAslEnvVarQuery failed [%x]AslEnvExpandStringsAslpEnvResolveVars failed to fail properly for null bufferAslEnvExpandStrings2AslpEnvResolveVars failed [%x]AslEnvExpandStrings failed
+[%x]%system32%%systemroot%\system32%sysnative%%systemroot%%programfilesnative%%systemdrive%\Program
+FilesAslEnvGetSystem32DirPathBuf\SysNativeAslEnvGetSysNativeDirPathForGuestBufRtlGetNativeSystemInformation failed [%x]AslEnvGetProcessWowInfoZwQuerySystemInformation failed [%x]RtlStringCchCopyW failed
+[%x]AslpEnvResolveVarsInvalid combination of Host/Current processor architectures passed to AslpEnvResolveVars Host: %x4 Current: %x4\System32\SysWOW64\SysARM32An RtlString API failed
+[%x]AslPathCombineFailed to get system root directory [%x]AslPathToSystemPathBufFailed to cat string [%x]AslpPathGetFormatInfo failed [%x]AslPathCleanUstrAslPathCleanUstr failed with source pointer behind
+destination pointer.Failed to compute the path length [%x]RtlEnsureUnicodeStringBufferSizeBytes failed [%x]RtlAssignUnicodeStringBuffer failed [%x]RtlAppendUnicodeStringBuffer failed [%x]RtlNtPathNameToDosPathName failed
+[%x]AslpPathWildcardAllocMatchNodeRtlUnicodeStringCopy failed [%x]RtlUnicodeStringCatString failed [%x]RtlUnicodeStringCbCatStringN failed [%x]Failed to open dir [%x]AslpPathWildcardMakeLeavesFailed to convert dos path
+to nt path [%x]AslPathWildcardFindFirstAslPathCleanUstr failed [%x]RtlUShortAdd failed [%x]RtlStringCbCopyNW failed [%x]Failed to split the wildcard pathAslpPathWildcardInitStack failed
+[%x]AslpPathWildcardAllocMatchNode failed to create root of path [%x]AslpPathWildcardPushNode failed [%x]AslPathWildcardFindNextNode on the stack with invalid handle.NtQueryDirectoryFile failed to query next file
+[%x]FilePath: '%ws'  Pattern: '%ws'AslpPathWildcardAllocMatchNode failed [%x]RtlInitUnicodeStringEx failed [%x]AslRegistryGetUInt32\Registry\MachineFailed to allocate %d bytes for user key
+bufferAslRegistryBuildMachinePathRtlFormatCurrentUserKeyPath failed [%x]AslRegistryBuildUserPathAslRegistryBuildMachinePath failed for %ws [%x]AslRegistryGetKeyAslRegistryBuildUserPath failed for %ws
+[%x]RtlDosPathNameToNtPathName_U_WithStatus failed for %S [%x]AslDoesDirectoryExistNtPathAslRegistryOpenSubKey passed bad Path [%x]AslRegistryOpenSubKeyFailed to query key value [%x]AslRegistryGetUInt32_UStrInvalid
+value typeNtSetInformationProcess failed [%x]AslpHardErrorModeSet failed [%x]AslHardErrorModeDisableAslHardErrorModeRestoreVS_VERSION_INFONtOpenKey failed for %ws [%x]NtQueryInformationFile failed
+[%x]ZwCreateSection failed [%x]NtQueryInformationProcess failed [%x]AslpHardErrorModeSet\SystemRoot\�0w,a�Q    ��m��jp5�c飕d�2�����y����җ+L�   �|�~-����d��
+�jHq���A��}��▒���mQ���ǅӃV�l��kdz�b���e�O\�lcc=��
+C:\Windows\HelpPane.exe:2134:���`p���`��&''�H�HI J�J�N�u�u�w x�ypz0}�~���
+�0�p�����0�`�����0�����0�P�p�����з��0��������0�P�p�����к��0�P�p�����л��0�P�p����� �@�`��������
+�`��������0�"�@�H� "�@�p� string too longinvalid string positionInvalid parameter passed to C runtime function.
+C:\Windows\mib.bin:37:tcpMaxConntcpActiveOpenstcpPassiveOpenstcpAttemptFailtcpEstabResets
+                                                                                                tcpCurrEstab
+C:\Windows\Professional.xml:3:  <settings pass="offlineServicing">
+C:\xampp\catalina_service.bat:219:runas /env /savecred /user:%SERVICE_USER% "%COMSPEC% /K \"%SELF%\" %SERVICE_CMD% %SERVICE_NAME%"
+C:\xampp\passwords.txt:1:### XAMPP Default Passwords ###
+C:\xampp\passwords.txt:6:   Password:
+C:\xampp\passwords.txt:7:   (means no password!)
+C:\xampp\passwords.txt:19:   Password: wampp
+C:\xampp\passwords.txt:24:   Password: ppmax2011
+C:\xampp\passwords.txt:32:   Please do not forget to refresh the WEBDAV authentification (users and passwords).
+C:\xampp\readme_de.txt:72:* PASSWÖRTER:
+C:\xampp\readme_de.txt:77:   Passwort:
+C:\xampp\readme_de.txt:78:   (also kein Passwort!)
+C:\xampp\readme_de.txt:90:   Passwort: wampp
+C:\xampp\readme_de.txt:95:   Password: ppmax2011
+C:\xampp\readme_de.txt:123:- Der MySQL-Administrator (root) hat kein Passwort.
+C:\xampp\readme_de.txt:138:(3) Der MySQL-Server startet ohne Passwort für MySQl-Administrator "root".
+C:\xampp\readme_de.txt:143:Ein Passwort für "root" könnt ihr über den MySQL-Admin in der Eingabeaufforderung
+C:\xampp\readme_de.txt:148:Wichtig: Nach dem Einsetzen eines neuen Passwortes für Root muss auch phpMyAdmin informiert werden! Das geschieht über die Datei "config.inc.php"; zu finden als C:\xampp\phpmyadmin\config.inc.php. Dort also folgenden
+C:\xampp\readme_de.txt:154:So wird zuerst das "root"-Passwort vom MySQL-Server abgefragt, bevor phpMyAdmin zugreifen darf.
+C:\xampp\readme_en.txt:76:* PASSWORDS:
+C:\xampp\readme_en.txt:81:   Password:
+C:\xampp\readme_en.txt:82:   (means no password!)
+C:\xampp\readme_en.txt:94:   Password: wampp
+C:\xampp\readme_en.txt:99:   Password: ppmax2011
+C:\xampp\readme_en.txt:126:- The MySQL administrator (root) has no password.
+C:\xampp\readme_en.txt:141:(3) MySQL starts with standard values for the user id and the password. The preset user id is "root", the password is "" (= no password). To access MySQL via PHP with the preset values, you'll have to use the following
+syntax:
+C:\xampp\readme_en.txt:145:If you want to set a password for MySQL access, please use of MySQL Admin.
+C:\xampp\readme_en.txt:146:To set the passwort "secret" for the user "root", type the following:
+C:\xampp\readme_en.txt:150:After changing the password you'll have to reconfigure phpMyAdmin to use the new password, otherwise it won't be able to access the databases. To do that, open the file config.inc.php in \xampp\phpmyadmin\ and edit the
+following lines:
+C:\xampp\readme_en.txt:155:So first the 'root' password is queried by the MySQL server, before phpMyAdmin may access.
+C:\xampp\test_php.bat:43:echo [SUCCESS]: Test for the php.exe successfully passed. Good!
+C:\xampp\xampp-control.exe:3705:TWndMethodMessagTMessage<WA��I<WAMessage4�I\�I<�IB�I��A�@�@��B0�@P�@T�@X�@L�@��@��@��B,�BКBELoginCredentialError\�IELoginCredentialError4�I
+��ASystem.Classes��I"TLoginCredentialService.TLoginFunc�"@@System.Classes����#TLoginCredentialService.TLoginEvenSenderTObjecUsernamestrinPasswordstringDomainstringHandledBoolean�@�@�
+@�@@���@Sender�Username�Password�@Domain@Handled��-TLoginCredentialService.TLoginCredentialEvenSenderTObjecCallback#TLoginCredentialService.TLoginEventSuccessBoolean�@��I@k�I
+�@Sender��Callback@Success��I��I��I�I!�I@�@�@8�@0�@P�@T�@X�@L�@��@��@�@��HandlerU�ID��3TLoginCredentialService.TLoginCredentialEventObject:|3LCreate
+��ISelf��I
+C:\xampp\xampp-control.exe:3706:NewHandler��I3TLoginCredentialService.TLoginCredentialEventObject��I�@System.ClassesD�ID�I��IV�It�I��I
+                               @�@�@8�@0�@P�@T�@X�@L�@��@��@�@��I
+��I
+C:\xampp\xampp-control.exe:3707:FLoginFunc��ID��'TLoginCredentialService.TLoginFuncProxy:�:LCrea��ISelf
+C:\xampp\xampp-control.exe:3709:ALoginFunc��I'TLoginCredentialService.TLoginFuncProxyD�I�@System.Classes��I,�I��I��@�@�@8�@0�@P�@T�@X�@L�@��@��@�@��IA��/�IA��~�IA����IA��
+IA��c�IA����IA��TLoginCredentialServiceM�3LRegisterLoginHandler�@Context��I
+                                                                          HandlerEventO�4LUnregisterLoginHandler�@Context��I
+                    HandlerEventE�5LGetLoginCredentialEvent���@
+Context@��IX�6LGetLoginCredentials@�@Contex�@Sender�Callback7LGetLoginCredentials�@Context
+C:\xampp\xampp-control.exe:3710:��CallbackZl7LGetLoginCredentials�@Context�Username�Passwordj:LGetLoginCredentials@
+            �@Context�Username�Password�Domain,
+�ITLoginCredentialService��I�@System.Classes��U��S���S��E
+                                                         �C
+                                                           []���8�u�x�t3�ðÍ@Q�$f�<$�f�|$�t3�ZðZÐS��t9f�;t3�����f���rf����v3����������������<
+                                     t��[�P�I
+                                             �IP�I��I�I▒@�@�
+@8�@0�@P�@T�@X�@L�@��@��@@?J�J
+C:\xampp\xampp-control.exe:4404:l�h����I�b_���`���E�^[��]�U����S�؋ʡ��I���E�3�Uh\7Ld�0d� �E�Ph�:L�U����m����E�3�ZYYd�hc7L�E���K����__�����E�[YY]�U��jS3�Uh�7Ld�3d�#�]�S���3�ZYYd�h�7L�E��i����▒_�����[Y]��7L7TLoginCredentialS
+ervice.GetLoginCredentials$1253$0$Intf�"@@System.Classes��̃����D$��i����D$�釤���D$�除���!8L+8L58L8L@8L▒�7L�8LP8L�8Lx9L�8L39L99L
+�#@�@�@8�@0�@d�@p�@X�@L�@��@��@�@�@
+                                   �@�@�@
+                                         LDomain�@      LPassword�@     LUsername7TLoginCredentialService.GetLoginCredentials$1253$ActRecx9L7TLoginCredentialService.Ge
+tLoginCredentials$1253$ActRec�8L�$@System.Classes��U��QSVW������E��C���k���C���k���C
+                                                                                    ���j���E�_^[Y]�U����SVW3ۉ]��M�����3�Uh�:Ld�0d� ��t8L�H����E��օ�t���螡���օ�t����������t �ǋV�j���E��V�j����V
+                                                                                       �xj��3�ZYYd�h�:L�E��;��
+���\�����_^[YY]�SVW�������N����ڋ�3ҋ��&H���G���▒����Ǆ�t�O��d���
+                                                              ��_^[ÐU��SV��؋E
+                                                                             P�M�֋C�▒�S
+                                                                                       ��^[]�
+                                                                                             �@SV������fN���ڋ�3ҋ��G��3ɲ��I�OL�F�Ƅ�t�N��d���
+                                    ��^[Ë�SV��N���ڋ�F�G����"Ӌ��G����~���SN��^[�SV��t�֋�Q
+                                                                                        ��u3�^
+[ð^[�U��jjjjjjjSVW���ڋ�3�Uh�=Ld�0d� �E������Ⱥ�=L��������u�
+C:\xampp\xampp-control.exe:5512:igoPanInertia
+                                             igoPanGutterigoParentPassthrough
+                                                                             Vcl.Controls�Q▒TInteractiveGestureOptionsPQ QTWinControlClassX�Q<QTHintWindowClass̘QXQ
+THintInfo@�@8
+             plQ
+                HintControl8QHintWindowClass�HintPos�@
+                                                      HintMaxWidth�,A   HintColordA▒
+C:\xampp\xampp-control.exe:6169:FPasswordChar@� FReadOnly@�     FAutoSize@�
+                                                                           FAutoSelect@�FHideSelection@�
+ FOEMConvertX&A�        FCharCase@�     FCreating@�
+FModified@�FInBufferedPrintClient�mH�   FOnChange�@�
+C:\xampp\xampp-control.exe:6189:ParentFont@��pR�1ParentShowHintL@��4�S�2
+                                                                        PasswordChar^���R��3    PopupMenu@H�S\�S�ReadOnly@��LRR��ShowHinth)A�R��R��
+���TabOrder@����R�TabStop(Q�R0R�7Text�@��|�S�TextHint�FQ��4R��9Touch@i���Q-R�:VisibleTHQ�� 4R�;
+C:\xampp\xampp-control.exe:7528:x����t(�E��@
+                                            ����>���؍U���������U��E������GF�M�u��E�3�ZYYd�h@X�E��@
+                                                                                                  ��t���邈����3�ZYYd�hzX�E��˒���Eĺ�����E��n�����f�����H������E�_^[��]�
+                                                               �X�X�X�@�@�@8�@0�@P�@
+T�@X�@L�@��@��@�@XC��lXC��▒TDefaultLoginCredentials]�X
+C:\xampp\xampp-control.exe:7529:LoginEventSel�@Sender�Callback@SuccessbDXLoginEventUsrPwSel�@Sender�Callback@Success�X▒TDefaultLoginCredentials�
+X�@
+   Vcl.DialogsX.TDefaultLoginCredentials.LoginEvent$290$0$Intf�"@@
+                                                                  Vcl.Dialogs��̃���c�D$������D$��7����D$��I����qX{X�XiX�X▒
+                  XX�X�XXJXPX$
+               �#@�@�@8�@0�@d�@p�@X�@L�@��@��@�@�@
+                                   Sender��Callback.TDefaultLoginCredentials.LoginEvent$290$ActRec�X.TDefaultLoginCredentials.LoginEvent$290$ActRecX�$@
+                                                Vcl.Dialogs��SQ�$�JQ�Q�L
+Q�
+C:\xampp\xampp-control.exe:7530:�؋P
+                                   �C�S�$Z[ÐU��Q�jjIu�Q�M�SVW����3�Uh&Xd�0d� ���X��p���؍E��Ӆ�t��������s
+��C�E
+     �Cj�E����B舰�����U�\�h�▒����u���t���6�E�PNV��t���S�U�l�h������E�E�Uܡ��h������M܍E�DX�����E�E�Uء��h����
+�E؉E�U��E��q����3�ZYYd�h-X�Eغ�y����E������E�������E���B�����镃����_^[��]�����LX3TDefaultLoginCredentials.LoginEventUsrPw$292$0$Intf�"@@
+                                Vcl.Dialogs��̃���k�D$�������D$�������D$��        ���̱X�X
+�X�X�X▒HX\X�X�X\X�X�X$�#@�@�@8�@0�@d�@p�@X�@L�@��@��@�@�@
+                                                         Sender��Callback3TDefaultLoginCredentials.LoginEventUsrPw$292$ActRec�X3TDefault
+LoginCredentials.LoginEventUsrPw$292$ActRec\X�$@
+                                                Vcl.Dialogs�SQ�$�JQj�LQ�
+C:\xampp\xampp-control.exe:7656:tePasswordteBackgroundWithBorderNormalteBackgroundWithBorderHotteBackgroundWithBorderDisabledteBackgroundWithBorderFocused▒teEditBorderNoScrollNormalteEditBorderNoScrollHoteEditBorderNoScrollFocusedteEditBorde
+rNoScrollDisabledteEditBorderHScrollNormalteEditBorderHScrollHot▒teEditBorderHScrollFocusedeEditBorderHScrollDisabledteEditBorderVScrollNormalteEditBorderVScrollHot▒teEditBorderVScrollFocusedeEditBorderVScrollDisabled▒teEditBorderHVScrollNor
+malteEditBorderHVScrollHoteEditBorderHVScrollFocusedteEditBorderHVScrollDisabled   
